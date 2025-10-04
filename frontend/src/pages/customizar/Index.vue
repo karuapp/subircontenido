@@ -377,23 +377,7 @@
       </q-tab-panel>
     </q-tab-panels>
 
-    <!-- Rodapé com Botões de Ação -->
-    <div class="row justify-end q-mt-md" v-if="tab === 'colors' || tab === 'branding'">
-      <q-card flat bordered class="my-card col-12">
-        <div class="text-center q-pa-sm">
-          <div v-if="loadingBar" class="q-mb-sm">
-            <div>{{ $t('customizar.frontend.rebuildMessage') }}</div>
-            <div class="loading-bar">
-              <div class="bar"></div>
-            </div>
-          </div>
-          <q-banner class="bg-yellow text-black q-mb-sm" inline-actions>{{ $t('customizar.frontend.warning') }}</q-banner>
-          <q-btn style="margin-top: 10px; margin-bottom: 20px; margin-left:10px; margin-right: 10px" color="negative" @click="buildFrontend" :disable="loadingBar">
-            {{ $t('customizar.frontend.rebuildButton') }}
-          </q-btn>
-        </div>
-      </q-card>
-    </div>
+    
   </q-page>
 </template>
 

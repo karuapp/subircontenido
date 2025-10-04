@@ -162,10 +162,10 @@ export default defineComponent({
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
     toggleTable(tenantId) {
@@ -177,7 +177,7 @@ export default defineComponent({
     },
     formatarData(data) {
       const dataFormatada = new Date(data);
-      return dataFormatada.toLocaleDateString('pt-BR');
+      return dataFormatada.toLocaleDateString('es');
     },
     async listarPagamentos(){
       this.loading = true; 
@@ -185,7 +185,7 @@ export default defineComponent({
         const { data } = await ListarTenantsPorAsaas();
         this.pagamentos = data; // certifique-se de que esta linha está correta
       } catch (error) {
-        console.error("Erro ao carregar dados:", error);
+        console.error("Error al cargar los datos:", error);
       } finally {
         this.loading = false;
   }
@@ -236,7 +236,7 @@ export default defineComponent({
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en el localStorage');
     }
     // this.loadColors()
   },

@@ -229,7 +229,7 @@ export default {
           name: group.name
         }));
       } catch (error) {
-        console.error('Erro ao listar grupos:', error);
+        console.error('Error al enumerar grupos:', error);
         this.groupOptions = [];
       }
     },

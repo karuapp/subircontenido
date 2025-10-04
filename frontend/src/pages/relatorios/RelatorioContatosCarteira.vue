@@ -128,7 +128,7 @@
     <ccPrintModelLandscape
       id="slotTableRelatorioContatos"
       :imprimirRelatorio="imprimir"
-      title="Relatório de Contatos por Carteiras"
+      title="Reporte de Contactos por Cartera"
       :styleP="`
       table { width: 100%; font-size: 10px; border-spacing: 1; border-collapse: collapse;  }
       #tableReport tr td { border:1px solid #DDD; padding-left: 10px; padding-right: 10px;  }
@@ -233,12 +233,12 @@ export default {
           style: "width: 500px",
           format: (v) =>
             v && Array.isArray(v)
-              ? v.map((wallet) => `Carteira Usuário ID #${wallet.walletId}`).join(", ")
+              ? v.map((wallet) => `ID de usuario #${wallet.walletId}`).join(", ")
               : this.$t("relatorioContatosCarteira.noWallets"),
         },
       ],
       // columns: [
-      //   { name: 'name', label: 'Nome', field: 'name', align: 'left', style: 'width: 300px', format: v => this.replaceEmojis(v) },
+      //   { name: 'name', label: 'Nombre', field: 'name', align: 'left', style: 'width: 300px', format: v => this.replaceEmojis(v) },
       //   { name: 'number', label: 'WhatsApp', field: 'number', align: 'center', style: 'width: 300px' },
       //   { name: 'email', label: 'Email', field: 'email', style: 'width: 500px', align: 'left' },
       //   {
@@ -249,7 +249,7 @@ export default {
       //     align: 'left',
       //     format: (v) => {
       //       if (v && Array.isArray(v)) {
-      //         return v.map(wallet => `Carteira Usuário ID #${wallet.walletId}`).join(', ');
+      //         return v.map(wallet => `ID de usuario #${wallet.walletId}`).join(', ');
       //       }
       //       return 'Sem carteiras';
       //     }
@@ -308,8 +308,8 @@ export default {
     //     }
     //   }
     //   const wb = XLSX.utils.book_new()
-    //   XLSX.utils.book_append_sheet(wb, json, 'Relatório Atendimentos')
-    //   XLSX.writeFile(wb, 'Atendimentos-TESTE.xlsx')
+    //   XLSX.utils.book_append_sheet(wb, json, 'Reporte de servicio')
+    //   XLSX.writeFile(wb, 'Servicios-de-prueba.xlsx')
     // },
     async listarCarteiras() {
       const { data } = await ListarUsuarios();

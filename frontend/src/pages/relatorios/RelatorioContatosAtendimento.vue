@@ -191,7 +191,7 @@
     <ccPrintModelLandscape
       id="slotTableRelatorioTickets"
       :imprimirRelatorio="imprimir"
-      title="Relatório de Tickets"
+      title="Reporte de tickets"
       :styleP="`
       table { width: 100%; font-size: 10px; border-spacing: 1; border-collapse: collapse;  }
       #tableReport tr td { border:1px solid #DDD; padding-left: 10px; padding-right: 10px;  }
@@ -292,7 +292,7 @@ export default {
         { name: "reasons", label: this.$t("relatorioContatosAtendimento.tableHeaders.demand"), field: "reasons", align: "left" },
         { name: "queue", label: this.$t("relatorioContatosAtendimento.tableHeaders.queues"), field: "queue", align: "left", format: (v) => (v ? v.queue : "") },
         { name: "channel", label: this.$t("relatorioContatosAtendimento.tableHeaders.channel"), field: "channel", align: "left", format: this.formatCanal },
-        { name: "value", label: this.$t("relatorioContatosAtendimento.tableHeaders.value"), field: "value", align: "left", format: (v) => (v ? `R$ ${v}` : "N/A") },
+        { name: "value", label: this.$t("relatorioContatosAtendimento.tableHeaders.value"), field: "value", align: "left", format: (v) => (v ? `$ ${v}` : "N/A") },
         {
           name: 'ticketNotes',
           label: 'Notas',
@@ -304,7 +304,7 @@ export default {
               return 'Vazio';
             }
             return ticketNotes.map(note => 
-              `${note.notes} (${new Date(note.createdAt).toLocaleString('pt-BR', {
+              `${note.notes} (${new Date(note.createdAt).toLocaleString('es', {
                 day: '2-digit', month: '2-digit', year: 'numeric',
                 hour: '2-digit', minute: '2-digit'
               })})`
@@ -317,7 +317,7 @@ export default {
           label: this.$t("relatorioContatosAtendimento.tableHeaders.creationDate"),
           field: "createdAt",
           align: "center",
-          format: (v) => new Date(v).toLocaleString('pt-BR', {
+          format: (v) => new Date(v).toLocaleString('es', {
             day: '2-digit', 
             month: '2-digit', 
             year: 'numeric',
@@ -374,7 +374,7 @@ export default {
       //     } },
       //   { name: "channel", label: "Canal", field: "channel", align: "left", format: (val) => this.formatCanal(val)  },
       //   { name: "value", label: "Valor", field: "value", align: "left", format: (v) => {
-      //       return v ? 'R$ ' + v : 'N/A'
+      //       return v ? '$ ' + v : 'N/A'
       //     } },
       //   {
       //     name: "createdAt",
@@ -474,7 +474,7 @@ export default {
         }
         
       } catch (error) {
-        console.error('Erro ao trocar formato de data:', error, 'Valor:', dateValue);
+        console.error('Error al cambiar el formato de fecha:', error, 'Valor:', dateValue);
         return 'N/A';
       }
     },
@@ -526,7 +526,7 @@ export default {
         }
         
       } catch (error) {
-        console.error('Erro ao formatar data para exportação:', error, 'Valor:', dateValue);
+        console.error('Error al formatear la fecha para la exportación:', error, 'Valor:', dateValue);
         return 'N/A';
       }
     },
@@ -734,15 +734,15 @@ export default {
         
         this.$q.notify({
           color: "positive",
-          message: this.$t("relatorioContatosAtendimento.notifications.exportSuccess") || "Relatório exportado com sucesso!",
+          message: this.$t("relatorioContatosAtendimento.notifications.exportSuccess") || "Reporte exportado correctamente!",
           icon: "check"
         });
         
       } catch (error) {
-        console.error('Erro ao exportar relatório:', error);
+        console.error('Error al exportar el reporte:', error);
         this.$q.notify({
           color: "negative",
-          message: this.$t("relatorioContatosAtendimento.notifications.exportError") || "Erro ao exportar relatório. Tente novamente.",
+          message: this.$t("relatorioContatosAtendimento.notifications.exportError") || "Error al exportar el Reporte. Inténtalo de nuevo.",
           icon: "error"
         });
       }

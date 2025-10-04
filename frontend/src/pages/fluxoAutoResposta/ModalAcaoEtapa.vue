@@ -9,22 +9,22 @@
       class="q-pa-lg"
     >
       <q-card-section>
-        <div class="text-h6">{{ acaoEtapaEdicao.id ? 'Editar Ação' : 'Nova Ação' }}</div>
+        <div class="text-h6">{{ acaoEtapaEdicao.id ? 'Editar acción' : 'Nueva acción' }}</div>
       </q-card-section>
       <q-card-section>
         <q-input
           class="row col q-mt-md"
           outlined
           v-model="acao.words"
-          label="Palavras Chave"
-          hint="Para multiplas palavras, separe por vírgula. Ex: palavra1, palavra2"
+          label="Palabras clave"
+          hint="Para varias palabras, sepárelas con comas. Ejemplo: palabra1, palabra2"
         />
         <q-select
           outlined
           class="row col q-mt-md"
           v-model="acao.action"
           :options="acaoEtapa"
-          label="Ação"
+          label="Acción"
           emit-value
           map-options
         />
@@ -46,7 +46,7 @@
           :options="filas"
           option-value="id"
           option-label="queue"
-          label="Fila"
+          label="Departamento"
           emit-value
           map-options
         />
@@ -58,7 +58,7 @@
           :options="usuarios"
           option-value="id"
           option-label="name"
-          label="Usuário"
+          label="Usuario"
           emit-value
           map-options
         />
@@ -67,7 +67,7 @@
           outlined
           type="textarea"
           v-model="acao.replyDefinition"
-          label="Mensagem de retorno"
+          label="Mensaje de retorno"
         />
 
       </q-card-section>
@@ -138,8 +138,8 @@ export default {
       },
       acaoEtapa: [
         { value: '0', label: 'Próxima Etapa' },
-        { value: '1', label: 'Encaminhar para Fila' },
-        { value: '2', label: 'Ecaminhar para Usuário' }
+        { value: '1', label: 'Reenviar al departamento' },
+        { value: '2', label: 'Reenviar al usuario' }
       ]
     }
   },
@@ -197,7 +197,7 @@ export default {
             progress: true,
             position: 'top',
             textColor: 'black',
-            message: 'Ação editada com sucesso!',
+            message: '¡Acción editada correctamente!',
             actions: [{
               icon: 'close',
               round: true,
@@ -211,7 +211,7 @@ export default {
             type: 'positive',
             progress: true,
             position: 'top',
-            message: 'Ação criada com sucesso!',
+            message: '¡Acción creada correctamente!',
             actions: [{
               icon: 'close',
               round: true,
@@ -223,7 +223,7 @@ export default {
         this.showDialog = false
       } catch (error) {
         console.error(error)
-        this.$notificarErro('Ocorreu um erro ao salvar a ação', error)
+        this.$notificarErro('Se produjo un error al guardar la acción.', error)
       }
     }
   },

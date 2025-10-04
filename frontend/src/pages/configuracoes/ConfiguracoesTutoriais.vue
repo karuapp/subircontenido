@@ -81,7 +81,7 @@ import { DeletarTutorial, ListarTutoriais, CriarTutorial } from 'src/service/tut
 import ModalTutorial from './ModalTutorial.vue'
 
 export default {
-  name: 'Tutoriais',
+  name: 'Tutoriales',
   components: {
     ModalTutorial
   },

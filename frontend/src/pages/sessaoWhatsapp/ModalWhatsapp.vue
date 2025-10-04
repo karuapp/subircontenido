@@ -1963,7 +1963,7 @@ export default {
         { label: 'Telegram', value: 'telegram' },
         { label: 'Hub Notificame', value: 'hub' },
         { label: 'WebChat', value: 'webchat' },
-        { label: 'WebMail', value: 'webmail' },
+        { label: 'WebMail (BETA SOLO RECIBE E-MAIL)', value: 'webmail' },
         // { label: 'Instagram (Beta Version)', value: 'instagram' },
         // { label: 'Messenger (em breve)', value: 'messenger' }
       ],
@@ -3098,44 +3098,60 @@ export default {
     },
     
     // Aguardar callback OAuth2
-    async waitForOAuth2CallbackMethod() {
-      // Em produção, implementar WebSocket ou polling
-      // Por enquanto, mostrar instruções manuais
-      this.$q.dialog({
-        title: this.$t('sessaoModalWhatsapp.novo.configuracaoOAuth2'),
-        message: `
-          <div class="q-pa-md">
-            <p><strong>Passos para completar a configuração OAuth2:</strong></p>
-            <ol>
-              <li>Acesse a URL de autorização que foi aberta</li>
-              <li>Faça login na sua conta Google</li>
-              <li>Autorize o acesso ao Gmail</li>
-              <li>Copie o código de autorização</li>
-              <li>Cole o código no campo abaixo</li>
-            </ol>
-            <q-input
-              v-model="whatsapp.oauth2Code"
-              label="Código de Autorização"
-              placeholder="Cole o código aqui"
-              class="q-mt-md"
-            />
-          </div>
-        `,
-        html: true,
-        ok: {
-          label: this.$t('sessaoModalWhatsapp.novo.completarConfiguracao'),
-          color: 'primary'
-        },
-        cancel: {
-          label: this.$t('sessaoModalWhatsapp.novo.cancelar'),
-          color: 'negative'
-        }
-      }).onOk(async () => {
-        if (this.whatsapp.oauth2Code) {
-          await this.completeOAuth2SetupMethod(this.whatsapp.oauth2Code);
-        }
-      });
-    },
+      async waitForOAuth2CallbackMethod() {
+        this.$q.dialog({
+          title: this.$t('sessaoModalWhatsapp.novo.configuracaoOAuth2'),
+          // Mensaje informativo (puedes usar html simple)
+          message: `
+            <div>
+              <p><strong>Pasos para completar la configuración OAuth2:</strong></p>
+              <ol>
+                <li>Abrir la URL de autorización</li>
+                <li>Iniciar sesión y autorizar</li>
+                <li>Copiar el código de autorización y solo pega la autorizacion</li>
+                <li>Pegarlo abajo y confirmar</li>
+              </ol>
+            </div>
+          `,
+          html: true,
+
+          // --- Aquí viene el prompt (input funcional) ---
+          prompt: {
+            model: '',                 // valor inicial vacío
+            type: 'text',              // usa 'textarea' si el código es muy largo
+            label: 'Código de Autorización' || 'Código de Autorización',
+            isValid: val => !!val && val.trim().length > 0, // evita aceptar vacío
+            attrs: {
+              placeholder: this.$t('sessaoModalWhatsapp.novo.placeholderCodigo') || 'Cole el código aquí'
+            }
+          },
+
+          ok: {
+            label: this.$t('sessaoModalWhatsapp.novo.completarConfiguracao'),
+            color: 'primary'
+          },
+          cancel: {
+            label: this.$t('sessaoModalWhatsapp.novo.cancelar'),
+            color: 'negative'
+          },
+          persistent: true // opcional: evita cerrar al hacer clic fuera
+        })
+        .onOk(async (code) => {
+          // 'code' es lo que el usuario pegó
+          try {
+            await this.completeOAuth2SetupMethod(code)
+          } catch (err) {
+            // Maneja error si la configuración falla
+            console.error('Error completando OAuth2:', err)
+            this.$q.notify({ type: 'negative', message: 'Error completando la configuración OAuth2.' })
+          }
+        })
+        .onCancel(() => {
+          // Opcional: si el usuario canceló
+          console.log('Usuario canceló ingreso del código OAuth2')
+        })
+      },
+    
     
     // Completar configuração OAuth2
     async completeOAuth2SetupMethod(code) {
@@ -3149,23 +3165,24 @@ export default {
 
         // Completar callback OAuth2
         const response = await handleGmailOAuth2Callback(code, this.whatsapp.id);
-        
+
         if (response.data.success && response.data.tokens) {
-          // Salvar tokens no WhatsApp
+          // Garantir que oauth2 exista
           if (!this.whatsapp.smtpConfig.oauth2) {
-            this.$set(this.whatsapp.smtpConfig, 'oauth2', {});
+            this.whatsapp.smtpConfig.oauth2 = {};
           }
-          
-          this.$set(this.whatsapp.smtpConfig.oauth2, 'access_token', response.data.tokens.access_token);
-          this.$set(this.whatsapp.smtpConfig.oauth2, 'refresh_token', response.data.tokens.refresh_token);
-          this.$set(this.whatsapp.smtpConfig.oauth2, 'expires_in', response.data.tokens.expires_in);
-          
+
+          // Salvar tokens diretamente (Vue 3 já detecta mudanças)
+          this.whatsapp.smtpConfig.oauth2.access_token = response.data.tokens.access_token;
+          this.whatsapp.smtpConfig.oauth2.refresh_token = response.data.tokens.refresh_token;
+          this.whatsapp.smtpConfig.oauth2.expires_in = response.data.tokens.expires_in;
+
           this.$q.notify({
             type: 'positive',
             message: 'OAuth2 configurado com sucesso!',
             position: 'top'
           });
-          
+
           // Limpar código temporário
           this.whatsapp.oauth2Code = '';
         }

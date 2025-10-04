@@ -92,7 +92,7 @@ export default {
         this.montarIndicadores()
         this.montarEtapas()
       } catch (error) {
-        console.error('Erro ao carregar dados:', error)
+        console.error('Error al cargar datos:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.loadError')
@@ -195,7 +195,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay color almacenado en localStorage');
     }
     this.userProfile = localStorage.getItem('profile')
     const menuPermissions = JSON.parse(localStorage.getItem('menuPermissions'))

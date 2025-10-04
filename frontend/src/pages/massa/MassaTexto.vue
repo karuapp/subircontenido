@@ -422,7 +422,7 @@ export default {
           }
         }
       } catch (error) {
-        console.error('Erro ao obter contatos:', error);
+        console.error('Error al obtener contactos:', error);
       } finally {
         this.loading = false;
       }

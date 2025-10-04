@@ -92,7 +92,7 @@
 import { DeletarWhatsappTenant, DeleteWhatsappSession, StartWhatsappSession, ListarWhatsappsTenant, RequestNewQrCode, UpdateWhatsapp } from 'src/service/sessoesWhatsapp.js'
 import { SyncOldMessagesWbot } from 'src/service/tickets.js'
 import { format, parseISO } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR/index'
+import es from 'date-fns/locale/es/index'
 import ModalQrCode from './ModalQrCode.vue'
 import { mapGetters } from 'vuex'
 import ModalWhatsapp from './ModalWhatsapp.vue'
@@ -132,19 +132,19 @@ export default {
         { name: 'tenantId', label: 'Tenant', field: 'tenantId', align: 'left' },
         {
           name: 'name',
-          label: 'Nome',
+          label: 'Nombre',
           field: 'name',
           align: 'left'
         },
         {
           name: 'status',
-          label: 'Status',
+          label: 'Estado',
           field: 'status',
           align: 'center'
         },
         {
           name: 'session',
-          label: 'Sessão',
+          label: 'Sesión',
           field: 'status',
           align: 'center'
         },
@@ -156,20 +156,20 @@ export default {
         },
         {
           name: 'updatedAt',
-          label: 'Última Atualização',
+          label: 'Última actualización',
           field: 'updatedAt',
           align: 'center',
           format: d => this.formatarData(d, 'dd/MM/yyyy HH:mm')
         },
         {
           name: 'isDefault',
-          label: 'Padrão',
+          label: 'Predeterminado',
           field: 'isDefault',
           align: 'center'
         },
         {
           name: 'acoes',
-          label: 'Ações',
+          label: 'Acciones',
           field: 'acoes',
           align: 'center'
         }
@@ -218,14 +218,14 @@ export default {
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
     formatarData (data, formato) {
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     },
     handleOpenModalWhatsapp (whatsapp) {
       this.whatsappSelecionado = whatsapp
@@ -283,7 +283,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en el localStorage');
     }
     // this.loadColors()
   }

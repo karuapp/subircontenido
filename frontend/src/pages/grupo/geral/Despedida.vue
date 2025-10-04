@@ -147,7 +147,7 @@ export default {
           const response = await ListarGrupoPelaId(data)
           groupNames[groupId] = response.data.group.name || groupId;;
         } catch (error) {
-          console.error('Erro ao buscar nome do grupo para', groupId, error);
+          console.error('Error al obtener el nombre del grupo para', groupId, error);
           groupNames[groupId] = this.$t('common.errorFetchingData');
         }
       }

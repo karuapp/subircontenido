@@ -501,10 +501,10 @@ export default {
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
     filterUsers (element, index, array) {
@@ -567,7 +567,7 @@ export default {
     },
     async confirmarTransferenciaTicket () {
       if(this.usuarioSelecionado === null) {
-        this.$notificarErro('Selecione o usuário e a fila destino para os atendimentos pendentes!')
+        this.$notificarErro('Seleccione el usuario y la cola de destino para las llamadas pendientes.')
         return;
       }
       try {
@@ -578,7 +578,7 @@ export default {
         }
       } catch (error){
         console.error(error)
-        this.$notificarErro('Problema ao realizar transferência', error)
+        this.$notificarErro('Problema al realizar la transferencia.', error)
       }
       this.modalTransferirTicket = false
     },
@@ -660,7 +660,7 @@ export default {
           const batchPromises = batch.map(ticket => 
             this.atualizarTicketPendente(ticket.id, ticket.userId, ticket.queueId)
               .catch(e => {
-                console.log(ticket.id + ' não atualizado: ' + e);
+                console.log(ticket.id + ' No actualizado.: ' + e);
               })
           );
           this.$q.notify({
@@ -695,7 +695,7 @@ export default {
           const batchPromises = batch.map(ticket => 
             this.atualizarTicketPendente(ticket.id, ticket.userId, ticket.queueId)
               .catch(e => {
-                console.log(ticket.id + ' não atualizado: ' + e);
+                console.log(ticket.id + ' No actualizado: ' + e);
               })
           );
           this.$q.notify({
@@ -875,7 +875,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
     // this.loadColors()
   },

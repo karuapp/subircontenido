@@ -228,7 +228,7 @@
 
 <script>
 import { formatDistance, parseJSON } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR'
+import es from 'date-fns/locale/es'
 import mixinAtualizarStatusTicket from './mixinAtualizarStatusTicket.js'
 import { outlinedAccountCircle } from '@quasar/extras/material-icons-outlined'
 // import { GetColorName } from 'hex-color-to-color-name';
@@ -367,7 +367,7 @@ export default {
       if (timestamp) {
         data = new Date(Number(timestamp))
       }
-      return formatDistance(data, new Date(), { locale: pt })
+      return formatDistance(data, new Date(), { locale: es })
     },
     abrirChatContato (ticket) {
       // caso esteja em um tamanho mobile, fechar a drawer dos contatos

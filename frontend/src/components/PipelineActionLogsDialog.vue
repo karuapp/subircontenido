@@ -61,7 +61,7 @@
 <script>
 import { ListarPipelineActionLogs } from 'src/service/funilacao.js'
 import { format } from 'date-fns'
-import { ptBR } from 'date-fns/locale'
+import es from 'date-fns/locale/es'
 
 export default {
   name: 'PipelineActionLogsDialog',
@@ -145,7 +145,7 @@ export default {
   },
   methods: {
     formatDate(date) {
-      return format(new Date(date), 'dd/MM/yyyy HH:mm:ss', { locale: ptBR })
+      return format(new Date(date), 'dd/MM/yyyy HH:mm:ss', { locale: es })
     },
     getStatusColor(status) {
       const colors = {

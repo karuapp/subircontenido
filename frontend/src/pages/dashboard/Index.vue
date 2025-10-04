@@ -2098,7 +2098,7 @@ export default {
       }
       const theme = dashboardThemes[themeKey]
       if (!theme) {
-        console.error('Tema não encontrado:', themeKey)
+        console.error('Tema no encontrado:', themeKey)
         return
       }
 
@@ -2269,7 +2269,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
     // this.loadColors()
     this.applyTheme(this.selectedTheme)
@@ -2310,7 +2310,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
     // if (!localStorage.getItem('reloaded')) {
     //   localStorage.setItem('reloaded', 'true');
@@ -2355,7 +2355,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
     // this.loadColors()
     this.applyTheme(this.selectedTheme)

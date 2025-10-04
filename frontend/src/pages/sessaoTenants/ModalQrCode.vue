@@ -20,17 +20,17 @@
           :size="300"
           level="H" />
         <span v-else>
-          Aguardando o Qr Code
+          Esperando el código QR
         </span>
       </q-card-section>
       <q-card-section>
-        <div class="row">Caso tenha problema com a leitura, solicite um novo Qr Code </div>
+        <div class="row">Si tiene problemas para leerlo, solicite un nuevo código QR. </div>
         <div class="row col-12 justify-center">
           <q-btn color="primary"
             glossy
             ripple
             outline
-            label="Novo QR Code"
+            label="Nuevo código QR"
             @click="solicitarQrCode"
             icon="watch_later" />
         </div>

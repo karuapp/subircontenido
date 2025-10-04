@@ -134,7 +134,7 @@
                 <q-item v-for="produto in oportunidade.produtos" :key="produto.id">
                   <q-item-section>
                     <q-item-label>{{ produto.nome }}</q-item-label>
-                    <q-item-label caption>R$ {{ produto.valor.toFixed(2) }}</q-item-label>
+                    <q-item-label caption>$ {{ produto.valor.toFixed(2) }}</q-item-label>
                   </q-item-section>
                 </q-item>
               </q-list>
@@ -213,11 +213,11 @@ export default {
       const d = new Date(data)
       const offset = d.getTimezoneOffset()
       d.setMinutes(d.getMinutes() + offset)
-      return d.toLocaleDateString('pt-BR')
+      return d.toLocaleDateString('es')
     },
     formatarValor(valor) {
-      if (!valor) return 'R$ 0,00'
-      return `R$ ${Number(valor).toFixed(2).replace('.', ',')}`
+      if (!valor) return '$ 0,00'
+      return `$ ${Number(valor).toFixed(2).replace('.', ',')}`
     },
     editarOportunidade() {
       this.$emit('edit', this.oportunidade)

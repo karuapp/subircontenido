@@ -195,7 +195,7 @@ const usuario = JSON.parse(localStorage.getItem('usuario'))
 import { ListarTenantPorId, AlterarTenantMeta } from 'src/service/tenants.js'
 import { defineComponent } from 'vue'
 import { format } from 'date-fns'
-import { ptBR } from 'date-fns/locale'
+import { es } from 'date-fns/locale'
 import { VerificarBM } from 'src/service/waba.js'
 import { v4 as uuidv4 } from 'uuid'
 import ConfiguracoesMetaTemplates from './ConfiguracoesMetaTemplates.vue'
@@ -271,14 +271,14 @@ export default defineComponent({
     },
     formatarDataBrasil(data) {
       const dataObjeto = new Date(data);
-      return format(dataObjeto, 'dd/MM/yyyy HH:mm:ss', { locale: ptBR });
+      return format(dataObjeto, 'dd/MM/yyyy HH:mm:ss', { locale: es });
     },
     montarUrlIntegração() {
       return `${this.cBaseUrlIntegração}/${this.usuario.tenantId}`
     },
     formatarData(data) {
       const dataFormatada = new Date(data);
-      return dataFormatada.toLocaleDateString('pt-BR');
+      return dataFormatada.toLocaleDateString('es');
     },
     async alterarMetaToken(){
       try {

@@ -4,16 +4,16 @@
       <!-- Loading State -->
       <div v-if="loading" class="text-center">
         <q-spinner-dots size="50px" color="primary" />
-        <div class="text-h6 q-mt-md">{{ $t('gmailCallback.processing') || 'Processando autorização Gmail...' }}</div>
-        <div class="text-body2 q-mt-sm">{{ $t('gmailCallback.waitMessage') || 'Aguarde enquanto processamos sua autorização Gmail OAuth2.' }}</div>
+        <div class="text-h6 q-mt-md">{{ $t('gmailCallback.processing') || 'Procesando autorización de Gmail...' }}</div>
+        <div class="text-body2 q-mt-sm">{{ $t('gmailCallback.waitMessage') || 'Espere mientras procesamos su autorización de Gmail OAuth2.' }}</div>
       </div>
 
       <!-- Success State -->
       <div v-else-if="success" class="text-center">
         <q-icon name="check_circle" size="80px" color="positive" />
-        <div class="text-h5 text-positive q-mt-md">{{ $t('gmailCallback.title') || '✅ Autorização Gmail Concluída!' }}</div>
+        <div class="text-h5 text-positive q-mt-md">{{ $t('gmailCallback.title') || '✅ ¡Autorización de Gmail completada!' }}</div>
         <div class="text-body1 q-mt-sm">
-          {{ $t('gmailCallback.message') || 'Sua conta Gmail foi configurada com sucesso para OAuth2.' }}
+          {{ $t('gmailCallback.message') || 'Su cuenta de Gmail se ha configurado correctamente para OAuth2..' }}
         </div>
         
         <div class="q-mt-lg">
@@ -21,8 +21,8 @@
             <div class="text-subtitle1 q-mb-sm">{{ $t('gmailCallback.infoSession') }}</div>
             <div class="text-body2">
               <div><strong>{{ $t('gmailCallback.whatsappId') || 'WhatsApp ID:' }}</strong> {{ whatsappId }}</div>
-              <div><strong>{{ $t('gmailCallback.status') || 'Status:' }}</strong> <span class="text-positive">✅ Configurado</span></div>
-              <div><strong>{{ $t('gmailCallback.data') || 'Data:' }}</strong> {{ currentDate }}</div>
+              <div><strong>{{ $t('gmailCallback.status') || 'Estado:' }}</strong> <span class="text-positive">✅ Configurado</span></div>
+              <div><strong>{{ $t('gmailCallback.data') || 'Fecha:' }}</strong> {{ currentDate }}</div>
             </div>
           </q-card>
         </div>
@@ -30,7 +30,7 @@
         <div class="q-mt-lg">
           <q-btn 
             color="primary" 
-            :label="$t('gmailCallback.closeWindow') || 'Fechar Janela'" 
+            :label="$t('gmailCallback.closeWindow') || 'Cerrar ventana'" 
             @click="closeWindow"
             icon="close"
             size="lg"
@@ -41,17 +41,17 @@
       <!-- Error State -->
       <div v-else-if="error" class="text-center">
         <q-icon name="error" size="80px" color="negative" />
-        <div class="text-h5 text-negative q-mt-md">{{ $t('gmailCallback.errorTitle') || '❌ Erro na Autorização' }}</div>
+        <div class="text-h5 text-negative q-mt-md">{{ $t('gmailCallback.errorTitle') || '❌ Error de autorización' }}</div>
         <div class="text-body1 q-mt-sm">
           {{ errorMessage }}
         </div>
         
         <div class="q-mt-lg">
           <q-card class="q-pa-md">
-            <div class="text-subtitle1 q-mb-sm">{{ $t('gmailCallback.debugInfo') || 'Informações de Debug:' }}</div>
+            <div class="text-subtitle1 q-mb-sm">{{ $t('gmailCallback.debugInfo') || 'Información de depuración:' }}</div>
             <div class="text-body2">
-              <div><strong>{{ $t('gmailCallback.fullUrl') || 'URL Completa:' }}</strong> {{ currentUrl }}</div>
-              <div><strong>{{ $t('gmailCallback.parameters') || 'Parâmetros:' }}</strong> {{ urlParams }}</div>
+              <div><strong>{{ $t('gmailCallback.fullUrl') || 'URL completa:' }}</strong> {{ currentUrl }}</div>
+              <div><strong>{{ $t('gmailCallback.parameters') || 'Parámetros:' }}</strong> {{ urlParams }}</div>
             </div>
           </q-card>
         </div>
@@ -59,14 +59,14 @@
         <div class="q-mt-lg">
           <q-btn 
             color="negative" 
-            :label="$t('gmailCallback.retry') || 'Tentar Novamente'" 
+            :label="$t('gmailCallback.retry') || 'Inténtelo de nuevo'" 
             @click="retryAuth"
             icon="refresh"
             size="lg"
           />
           <q-btn 
             color="secondary" 
-            :label="$t('gmailCallback.closeWindow') || 'Fechar Janela'" 
+            :label="$t('gmailCallback.closeWindow') || 'Cerrar ventana'" 
             @click="closeWindow"
             icon="close"
             class="q-ml-sm"
@@ -78,9 +78,9 @@
       <!-- Default State -->
       <div v-else class="text-center">
         <q-icon name="help" size="80px" color="grey" />
-        <div class="text-h5 q-mt-md">{{ $t('gmailCallback.callbackTitle') || 'Callback Gmail' }}</div>
+        <div class="text-h5 q-mt-md">{{ $t('gmailCallback.callbackTitle') || 'Devolución de llamada de Gmail' }}</div>
         <div class="text-body1 q-mt-sm">
-          {{ $t('gmailCallback.waitingMessage') || 'Aguardando processamento da autorização...' }}
+          {{ $t('gmailCallback.waitingMessage') || 'Esperando el procesamiento de la autorización...' }}
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@ export default {
         
         if (queryIndex === -1) {
           console.warn('No parameters found in URL')
-          this.errorMessage = this.$t('gmailCallback.noParametersFound') || 'Nenhum parâmetro encontrado na URL'
+          this.errorMessage = this.$t('gmailCallback.noParametersFound') || 'No se encontraron parámetros en la URL'
           this.error = true
           this.loading = false
           return
@@ -137,7 +137,7 @@ export default {
         
         if (error) {
           console.error(this.$t('gmailCallback.authorizationError'), error)
-          this.errorMessage = this.$t('gmailCallback.authorizationError') || `Erro na autorização: ${error}`
+          this.errorMessage = this.$t('gmailCallback.authorizationError') || `Error de autorización: ${error}`
           this.error = true
           this.loading = false
           return
@@ -145,7 +145,7 @@ export default {
         
         if (!code) {
           console.warn(this.$t('gmailCallback.codeNotFound'))
-          this.errorMessage = this.$t('gmailCallback.codeNotFound') || 'Código de autorização não encontrado'
+          this.errorMessage = this.$t('gmailCallback.codeNotFound') || 'Código de autorización no encontrado'
           this.error = true
           this.loading = false
           return
@@ -153,7 +153,7 @@ export default {
         
         if (!state) {
           console.warn(this.$t('gmailCallback.whatsappIdNotFound'))
-          this.errorMessage = this.$t('gmailCallback.whatsappIdNotFound') || 'ID do WhatsApp não encontrado'
+          this.errorMessage = this.$t('gmailCallback.whatsappIdNotFound') || 'ID de WhatsApp no encontrado'
           this.error = true
           this.loading = false
           return
@@ -182,7 +182,7 @@ export default {
           try {
             const testResponse = await fetch(`${backendUrl}/health`, { method: 'GET' });
           } catch (testError) {
-            console.warn('Backend não respondeu ao teste de conectividade:', testError.message);
+            console.warn('El backend no respondió a la prueba de conectividad:', testError.message);
           }
           
           const response = await fetch(`${backendUrl}/gauth/gmail/save-tokens`, {
@@ -208,21 +208,21 @@ export default {
             this.loading = false
           } else {
             console.error('Erro ao salvar tokens:', saveError)
-            this.errorMessage = this.$t('gmailCallback.saveTokensError') || `Erro ao salvar tokens: ${result.message}`
+            this.errorMessage = this.$t('gmailCallback.saveTokensError') || `Error al guardar tokens: ${result.message}`
             this.error = true
             this.loading = false
           }
           
         } catch (saveError) {
           console.error('Erro ao salvar tokens:', saveError)
-          this.errorMessage = this.$t('gmailCallback.saveTokensError') || `Erro ao salvar tokens: ${saveError.message}`
+          this.errorMessage = this.$t('gmailCallback.saveTokensError') || `Error al guardar tokens: ${saveError.message}`
           this.error = true
           this.loading = false
         }
         
       } catch (error) {
         console.error('Error processing authorization:', error)
-        this.errorMessage = this.$t('gmailCallback.processAuthorizationError') || `Erro ao processar autorização: ${error.message}`
+        this.errorMessage = this.$t('gmailCallback.processAuthorizationError') || `Error al procesar la autorización: ${error.message}`
         this.error = true
         this.loading = false
       }

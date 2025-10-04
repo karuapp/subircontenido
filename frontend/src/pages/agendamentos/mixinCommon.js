@@ -1,5 +1,5 @@
 import { format, parseISO, parseJSON } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR'
+import es from 'date-fns/locale/es'
 import { mapGetters } from 'vuex'
 import eventBus from 'src/utils/eventBus.js'
 
@@ -19,7 +19,7 @@ export default {
       }, 200)
     },
     dataInWords (date) {
-      return format(parseJSON(date), 'HH:mm', { locale: pt })
+      return format(parseJSON(date), 'HH:mm', { locale: es })
     },
     formatarMensagemWhatsapp (body) {
       if (!body) return
@@ -223,7 +223,7 @@ export default {
       return `${header}${bodyText}${buttonText}${sectionsHtml}${footer}`;
     },
     formatarData (data, formato = this.$t('mixinCommonAgendamento.dateFormat')) {
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     }
   }
 }

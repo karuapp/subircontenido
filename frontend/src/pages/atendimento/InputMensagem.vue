@@ -4217,7 +4217,7 @@ export default defineComponent({
       });
 
       // console.log(payload);
-      // console.log("::: Z-PRO ::: ZDG ::: Frontend - Components being sent:", JSON.stringify(payload.components));
+      // console.log("::: WhaTitan ::: WhaTitan ::: Frontend - Components being sent:", JSON.stringify(payload.components));
 
       try {
         const response = await EnviarTemplateComponenteWaba({ ...payload, dataJson: JSON.stringify(payload.components) });
@@ -4426,7 +4426,7 @@ export default defineComponent({
           console.log('Uso de plantillas de la caché')
           this.templates = templates
           this.cacheStatus = {
-            ultimaAtualizacao: new Date(timestamp).toLocaleString('pt-BR'),
+            ultimaAtualizacao: new Date(timestamp).toLocaleString('es'),
             tempoRestante: Math.ceil((fiveMinutes - (now - timestamp)) / 1000),
             usandoCache: true
           }
@@ -4451,7 +4451,7 @@ export default defineComponent({
       
       this.templates = templatesAprovados
       this.cacheStatus = {
-        ultimaAtualizacao: new Date().toLocaleString('pt-BR'),
+        ultimaAtualizacao: new Date().toLocaleString('es'),
         tempoRestante: 300, // 5 minutos em segundos
         usandoCache: false
       }

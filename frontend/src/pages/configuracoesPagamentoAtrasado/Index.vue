@@ -119,7 +119,7 @@ export default defineComponent({
     },
     formatarData(data) {
       const dataFormatada = new Date(data);
-      return dataFormatada.toLocaleDateString('pt-BR');
+      return dataFormatada.toLocaleDateString('es');
     },
     async listarTenantPorId(){
       this.loading = true; 

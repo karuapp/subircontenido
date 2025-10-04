@@ -29,7 +29,7 @@ export default {
       const queryIndex = url.indexOf('?', hashIndex)
       
       if (queryIndex === -1) {
-        console.warn('No parameters found in URL')
+        console.warn('No se encontraron parámetros en la URL')
         this.redirectToGoogleCalendar()
         return
       }
@@ -44,7 +44,7 @@ export default {
       const error = params.get('error')
       const state = params.get('state') // Nome da configuração
       
-      console.log('GoogleCallback - Parâmetros recebidos:', { code, error, state })
+      console.log('GoogleCallback - Parámetros recibidos:', { code, error, state })
       
       if (error) {
         console.error('Authorization error:', error)
@@ -57,7 +57,7 @@ export default {
       }
       
       if (!code) {
-        console.warn('Authorization code not found')
+        console.warn('Código de autorización no encontrado')
         this.$q.notify({
           type: 'warning',
           message: this.$t('googleCallback.errors.codeNotFound')
@@ -67,7 +67,7 @@ export default {
       }
       
       if (!state) {
-        console.warn('State (nome da configuração) não encontrado')
+        console.warn('Estado (nombre de la configuración) no encontrado')
         this.$q.notify({
           type: 'warning',
           message: this.$t('googleCallback.errors.configNameNotFound')
@@ -77,11 +77,11 @@ export default {
       }
       
       // Buscar a configuração pelo nome (state)
-      console.log('Buscando configuração com nome:', state)
+      console.log('Buscando configuración con nombre:', state)
       const configResponse = await ListarConfiguracoesGoogleCalendar()
       
       if (!configResponse.data || !configResponse.data.configs || configResponse.data.configs.length === 0) {
-        console.error('Nenhuma configuração encontrada')
+        console.error('No se encontró ninguna configuración')
         this.$q.notify({
           type: 'negative',
           message: this.$t('googleCallback.errors.noConfigFound')
@@ -93,7 +93,7 @@ export default {
       const currentConfig = configResponse.data.configs.find(config => config.name === state)
       
       if (!currentConfig) {
-        console.error('Configuração não encontrada para o nome:', state)
+        console.error('Configuración no encontrada para el nombre:', state)
         this.$q.notify({
           type: 'negative',
           message: this.$t('googleCallback.errors.configNotFoundForName', { name: state })
@@ -102,7 +102,7 @@ export default {
         return
       }
       
-      console.log('Configuração encontrada:', currentConfig)
+      console.log('Configuración encontrada:', currentConfig)
       
       // Trocar código por tokens
       const tokenResponse = await TrocarCodigoPorTokens({
@@ -111,10 +111,10 @@ export default {
         clientSecret: currentConfig.googleClientSecret
       })
       
-      console.log('Tokens obtidos:', tokenResponse.data)
+      console.log('Tokens obtenidos:', tokenResponse.data)
       
       if (!tokenResponse.data || !tokenResponse.data.accessToken || !tokenResponse.data.refreshToken) {
-        console.error('Tokens inválidos na resposta')
+        console.error('Tokens no válidos en la respuesta')
         this.$q.notify({
           type: 'negative',
           message: this.$t('googleCallback.errors.invalidTokens')
@@ -124,7 +124,7 @@ export default {
       }
       
       // Atualizar a configuração no banco com os tokens
-      console.log('Atualizando configuração no banco...')
+      console.log('Actualizando configuración en la base de datos...')
       try {
         await AtualizarConfiguracaoGoogleCalendar(currentConfig.id, {
           name: currentConfig.name,
@@ -135,7 +135,7 @@ export default {
           isActive: true
         })
         
-        console.log('Configuração atualizada com sucesso!')
+        console.log('¡Configuración actualizada correctamente!')
         
         this.$q.notify({
           type: 'positive',
@@ -143,10 +143,10 @@ export default {
         })
         
         // Redirecionar para Google Calendar
-        console.log('Redirecionando para /google-calendar...')
+        console.log('Redireccionando a /google-calendar...')
         this.redirectToGoogleCalendar()
       } catch (updateError) {
-        console.error('Erro ao atualizar configuração:', updateError)
+        console.error('Error al actualizar la configuración:', updateError)
         this.$q.notify({
           type: 'negative',
           message: this.$t('googleCallback.errors.saveTokensError', { 
@@ -157,7 +157,7 @@ export default {
       }
       
     } catch (error) {
-      console.error('Error processing authorization:', error)
+      console.error('Error al procesar la autorización:', error)
       this.$q.notify({
         type: 'negative',
         message: this.$t('googleCallback.errors.processAuthorizationError', { 

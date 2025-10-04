@@ -1,10 +1,10 @@
 <template>
-  <q-dialog
-    persistent
-    :value="modalTutorial"
-    @hide="fecharModal"
-    @show="abrirModal"
-  >
+    <q-dialog
+      persistent
+      v-model="internalModal"
+      @hide="fecharModal"
+      @show="abrirModal"
+    >
     <q-card
       style="width: 500px"
       class="q-pa-lg"
@@ -100,13 +100,13 @@ export default {
     },
     tutorialEdicao: {
       type: Object,
-      default: () => {
-        return { id: null }
-      }
+      default: () => ({ id: null })
     }
   },
+  emits: ['update:modalTutorial', 'update:tutorialEdicao', 'modal-tutorial:criada', 'modal-tutorial:editada'],
   data () {
     return {
+      internalModal: this.modalTutorial, // estado local para el q-dialog
       tutorial: {
         id: null,
         title: null,
@@ -116,6 +116,14 @@ export default {
         isActive: false
       },
       thumbnail: null
+    }
+  },
+  watch: {
+    modalTutorial (val) {
+      this.internalModal = val
+    },
+    internalModal (val) {
+      this.$emit('update:modalTutorial', val)
     }
   },
   methods: {
@@ -133,7 +141,7 @@ export default {
     fecharModal () {
       this.resetarTutorial()
       this.$emit('update:tutorialEdicao', { id: null })
-      this.$emit('update:modalTutorial', false)
+      this.internalModal = false
     },
     abrirModal () {
       if (this.tutorialEdicao.id) {
@@ -142,14 +150,17 @@ export default {
         this.resetarTutorial()
       }
     },
-    handleThumbnailChange (file) {
-      if (file) {
-        this.tutorial.thumbnail = file
+    handleThumbnailChange (files) {
+      if (files && files.length > 0) {
+        this.thumbnail = files[0]           // tomamos el primer archivo
+        this.tutorial.thumbnail = files[0]  // asignamos también a tutorial
+      } else {
+        this.thumbnail = null
+        this.tutorial.thumbnail = null
       }
     },
     async handleTutorial () {
       try {
-        this.loading = true
         const formData = new FormData()
         formData.append('title', this.tutorial.title)
         formData.append('description', this.tutorial.description)
@@ -162,34 +173,13 @@ export default {
         if (this.tutorial.id) {
           const { data } = await AtualizarTutorial(this.tutorial.id, formData)
           this.$emit('modal-tutorial:editada', data)
-          this.$q.notify({
-            type: 'info',
-            progress: true,
-            position: 'top',
-            textColor: 'black',
-            message: this.$t('common.updated'),
-            actions: [{
-              icon: 'close',
-              round: true,
-              color: 'white'
-            }]
-          })
+          this.$q.notify({ type: 'info', message: this.$t('common.updated') })
         } else {
           const { data } = await CriarTutorial(formData)
           this.$emit('modal-tutorial:criada', data)
-          this.$q.notify({
-            type: 'positive',
-            progress: true,
-            position: 'top',
-            message: this.$t('configuracaoTutoriais.notifications.created'),
-            actions: [{
-              icon: 'close',
-              round: true,
-              color: 'white'
-            }]
-          })
+          this.$q.notify({ type: 'positive', message: this.$t('configuracaoTutoriais.notifications.created') })
         }
-        this.loading = false
+
         this.fecharModal()
       } catch (error) {
         console.error(error)
@@ -198,6 +188,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style lang="scss" scoped>

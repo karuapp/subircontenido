@@ -93,7 +93,7 @@ export default {
           lista.push({
             id: opp.id + '-valor-alto',
             titulo: this.$t('funil.valorAlto'),
-            mensagem: `${opp.name} ${this.$t('funil.comValorDe')} R$ ${opp.value.toFixed(2)}`,
+            mensagem: `${opp.name} ${this.$t('funil.comValorDe')} $ ${opp.value.toFixed(2)}`,
             color: 'info',
             icon: 'mdi-cash-multiple',
             type: 'info',

@@ -114,9 +114,9 @@
               {{ $t('massaTemplate.notifications.uploadingMessages') }}
             </div>
             <!-- <div v-if="sending">
-              Mensagens enviadas: {{ sentCount }} de {{ contatosImportar ? selectedContacts.length : numberInput.split(',').length }}
+              Mensajes enviados: {{ sentCount }} de {{ contatosImportar ? selectedContacts.length : numberInput.split(',').length }}
               <br>
-              Aguarde, enviando as mensagens... Não feche essa página até a conclusão do envio.
+              Por favor, espere. Enviando mensajes.... No cierre esta página hasta que se complete el envío..
             </div> -->
             <div v-if="sending" class="loading-bar" style="margin-bottom: 10px;">
               <div class="bar"></div>
@@ -166,7 +166,7 @@
             flat
             :rows="templateDetails"
             :columns="[
-              { name: 'label', align: 'left', label: 'Variável', field: 'label' },
+              { name: 'label', align: 'left', label: 'Variable', field: 'label' },
               { name: 'value', align: 'left', label: 'Valor', field: 'value' }
             ]"
             row-key="label"
@@ -214,17 +214,17 @@ export default {
       pageAllowed: true,
       sentCount: 0, 
       templateDetails: [
-        { label: 'Nome', value: '{{name}}' },
-        { label: 'Saudação', value: '{{greeting}}' },
+        { label: 'Nombre', value: '{{name}}' },
+        { label: 'Saludo', value: '{{greeting}}' },
         { label: 'Protocolo', value: '{{protocol}}' },
-        { label: 'E-mail (se existir)', value: '{{email}}' },
-        { label: 'Telefone', value: '{{phoneNumber}}' },
-        { label: 'Kanban (se existir)', value: '{{kanban}}' },
-        { label: 'Atendente (se em atendimento)', value: '{{user}}' },
-        { label: 'E-mail Atendente (se em atendimento)', value: '{{userEmail}}' },
-        { label: 'Primeiro Nome (se existir)', value: '{{firstName}}' },
-        { label: 'Sobrenome (se existir)', value: '{{lastName}}' },
-        { label: 'Empresa (se existir)', value: '{{businessName}}' }
+        { label: 'E-mail (si está disponible)', value: '{{email}}' },
+        { label: 'Teléfono', value: '{{phoneNumber}}' },
+        { label: 'Kanban (si está disponible)', value: '{{kanban}}' },
+        { label: 'Agente (si está disponible)', value: '{{user}}' },
+        { label: 'E-mail Agente (si está disponible)', value: '{{userEmail}}' },
+        { label: 'Nombre (si está disponible)', value: '{{firstName}}' },
+        { label: 'Apellido (si está disponible)', value: '{{lastName}}' },
+        { label: 'Empresa (si está disponible)', value: '{{businessName}}' }
       ],
       useTags: false,
       selectedTag: null,
@@ -348,7 +348,7 @@ export default {
           }
         }
       } catch (error) {
-        console.error('Erro ao obter contatos:', error);
+        console.error('Error al obtener los contactos:', error);
       } finally {
         this.loading = false;
       }
@@ -566,7 +566,7 @@ export default {
           if (this.selectedTemplateComponents && this.selectedTemplateComponents.length) {
             this.selectedTemplateComponents.forEach(input => {
               if (input.value == null) {
-                console.error(`O valor do componente ${input.key} é nulo ou indefinido. Pulando esse componente.`);
+                console.error(`El valor del componente ${input.key} es nulo o indefinido. Se omite este componente.`);
                 return;
               }
               
@@ -658,11 +658,11 @@ export default {
           try {
             console.log('payload', payload)
             const response = await EnviarTemplateMassaComponenteWaba(payload);
-            console.log('Template enviado com sucesso para:', phoneNumber, response.data);
+            console.log('Plantilla enviada correctamente a:', phoneNumber, response.data);
             this.sentCount++;
             await delay(randomDelay);
           } catch (error) {
-            console.error('Erro ao enviar template para:', phoneNumber, error);
+            console.error('Error al enviar la plantilla a:', phoneNumber, error);
           }
         }
 
@@ -750,7 +750,7 @@ export default {
           if (this.selectedTemplateComponents && this.selectedTemplateComponents.length) {
             this.selectedTemplateComponents.forEach(input => {
               if (input.value == null) {
-                console.error(`O valor do componente ${input.key} é nulo ou indefinido. Pulando esse componente.`);
+                console.error(`El valor del componente ${input.key} es nulo o indefinido. Se omite este componente.`);
                 return;
               }
               
@@ -809,11 +809,11 @@ export default {
           }
           try {
             const response = await EnviarTemplateMassaComponenteWaba(payload);
-            console.log('Template enviado com sucesso para:', phoneNumber, response.data);
+            console.log('Plantilla enviada correctamente a:', phoneNumber, response.data);
             this.sentCount++;
             await delay(randomDelay);
           } catch (error) {
-            console.error('Erro ao enviar template para:', phoneNumber, error);
+            console.error('Error al enviar la plantilla a:', phoneNumber, error);
           }
         }
 
@@ -853,10 +853,10 @@ export default {
         
         // Se o cache ainda é válido (menos de 5 minutos), usar dados em cache
         if (now - timestamp < fiveMinutes) {
-          console.log('Usando templates do cache')
+          console.log('Uso de plantillas de la caché')
           this.templates = templates
           this.cacheStatus = {
-            ultimaAtualizacao: new Date(timestamp).toLocaleString('pt-BR'),
+            ultimaAtualizacao: new Date(timestamp).toLocaleString('es'),
             tempoRestante: Math.ceil((fiveMinutes - (now - timestamp)) / 1000),
             usandoCache: true
           }
@@ -866,7 +866,7 @@ export default {
       }
       
       // Se não há cache válido, fazer chamada à API
-      console.log('Buscando templates da API')
+      console.log('Obtención de plantillas de la API')
       const response = await BuscarTemplates(tokenApi);
       
       // Filtrar templates aprovados
@@ -881,7 +881,7 @@ export default {
       
       this.templates = templatesAprovados
       this.cacheStatus = {
-        ultimaAtualizacao: new Date().toLocaleString('pt-BR'),
+        ultimaAtualizacao: new Date().toLocaleString('es'),
         tempoRestante: 300, // 5 minutos em segundos
         usandoCache: false
       }
@@ -897,14 +897,14 @@ export default {
           localStorage.removeItem(key)
         }
       })
-      console.log('Cache de templates limpo')
+      console.log('Caché de plantillas borrada')
     },
     
     limparCacheTemplateEspecifico(tokenApi) {
       // Limpar cache de um token específico
       const cacheKey = `templates_cache_${tokenApi}`
       localStorage.removeItem(cacheKey)
-      console.log(`Cache de templates limpo para token: ${tokenApi}`)
+      console.log(`Caché de plantillas borrada para token: ${tokenApi}`)
     },
     
     verificarStatusCache(tokenApi) {

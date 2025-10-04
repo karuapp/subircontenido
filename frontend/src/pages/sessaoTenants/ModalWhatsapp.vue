@@ -47,7 +47,7 @@
           </div>
           <div class="col-12 q-my-sm">
             <c-input outlined
-              label="Nome"
+              label="Nombre"
               v-model="whatsapp.name"
               :validator="v$.whatsapp.name"
               @blur="v$.whatsapp.name.$touch" />
@@ -90,7 +90,7 @@
                     color="info"
                     class="bg-padrao"
                     icon="edit"
-                    label="Nova senha"
+                    label="Nueva contraseña"
                     @click="isEdit = !isEdit">
                     <q-tooltip>
                       Alterar senha
@@ -100,10 +100,10 @@
                 <div class="col-12"
                   v-if="whatsapp.type === 'instagram' && isEdit">
                   <c-input filled
-                    label="Senha"
+                    label="Contraseña"
                     :type="isPwd ? 'password' : 'text'"
                     v-model="whatsapp.instagramKey"
-                    hint="Senha utilizada para logar no Instagram"
+                    hint="Contraseña utilizada para iniciar sesión en Instagram"
                     placeholder="*************"
                     :disable="!isEdit">
                     <template v-slot:after>
@@ -114,7 +114,7 @@
                         icon="mdi-close"
                         @click="isEdit = !isEdit">
                         <q-tooltip>
-                          Cancelar alteração de senha
+                          Cancelar cambio de contraseña
                         </q-tooltip>
 
                       </q-btn>
@@ -140,7 +140,7 @@
 
         <!-- <div class="row q-my-md">
           <div class="col-12">
-            <label class="text-caption">Mensagem de Despedida do Atendimento:</label>
+            <label class="text-caption">Mensaje de fin de servicio:</label>
             <textarea ref="inputFarewellMessage"
               style="min-height: 15vh; max-height: 15vh;"
               class="q-pa-sm bg-white full-width"
@@ -255,17 +255,17 @@ export default {
       //  { label: 'WABA', value: 'waba' }
       ],
       variaveis: [
-        { label: 'Nome', value: '{{name}}' },
-        { label: 'Saudação', value: '{{greeting}}' },
+        { label: 'Nombre', value: '{{name}}' },
+        { label: 'Saludo', value: '{{greeting}}' },
         { label: 'Protocolo', value: '{{protocol}}' },
-        { label: 'E-mail (se existir)', value: '{{email}}' },
-        { label: 'Telefone', value: '{{phoneNumber}}' },
-        { label: 'Kanban (se existir)', value: '{{kanban}}' },
-        { label: 'Atendente (se em atendimento)', value: '{{user}}' },
-        { label: 'E-mail Atendente (se em atendimento)', value: '{{userEmail}}' },
-        { label: 'Primeiro Nome (se existir)', value: '{{firstName}}' },
-        { label: 'Sobrenome (se existir)', value: '{{lastName}}' },
-        { label: 'Empresa (se existir)', value: '{{businessName}}' }
+        { label: 'E-mail (si está disponible)', value: '{{email}}' },
+        { label: 'Teléfono', value: '{{phoneNumber}}' },
+        { label: 'Kanban (si está disponible)', value: '{{kanban}}' },
+        { label: 'Agente (si está disponible)', value: '{{user}}' },
+        { label: 'E-mail Agente (si está disponible)', value: '{{userEmail}}' },
+        { label: 'Nombre (si está disponible)', value: '{{firstName}}' },
+        { label: 'Apellidos (si está disponible)', value: '{{lastName}}' },
+        { label: 'Empresa (si está disponible)', value: '{{businessName}}' }
       ],
       // Sistema de gerenciamento de memória
       timers: []
@@ -326,7 +326,7 @@ export default {
     },
     copy (text) {
       copyToClipboard(text)
-        .then(this.$notificarSucesso('URL de integração copiada!'))
+        .then(this.$notificarSucesso('¡URL de integración copiada!'))
         .catch()
     },
     onInsertSelectVariable (variable) {
@@ -373,7 +373,7 @@ export default {
           type: 'warning',
           progress: true,
           position: 'top',
-          message: 'Ops! Verifique os erros...',
+          message: '¡Ups! Revisar errores...',
           actions: [{
             icon: 'close',
             round: true,
@@ -391,7 +391,7 @@ export default {
           type: 'positive',
           progress: true,
           position: 'top',
-          message: `Whatsapp ${this.whatsAppEdit.id ? 'editado' : 'criado'} com sucesso!`,
+          message: `Whatsapp ${this.whatsAppEdit.id ? 'Editado' : 'Creado'} ¡con exito!`,
           actions: [{
             icon: 'close',
             round: true,
@@ -416,7 +416,7 @@ export default {
             type: 'error',
             progress: true,
             position: 'top',
-            message: 'Ops! Verifique os erros... O nome da conexão não pode existir na plataforma, é um identificador único.',
+            message: '¡Ups! Verifique si hay errores... El nombre de la conexión no puede existir en la plataforma; es un identificador único.',
             actions: [{
               icon: 'close',
               round: true,

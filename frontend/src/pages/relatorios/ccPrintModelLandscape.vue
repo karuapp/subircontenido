@@ -34,7 +34,7 @@
               <div style="background: black; margin-top: -4px; width: 110px; height: 80px;">
                 <img
                   class="logo"
-                  src="https://agenciabrave.com.br/wp-content/uploads/2016/03/logomarca-clinica.jpg"
+                  src="https://agenciabrave.com/wp-content/uploads/2016/03/logomarca-clinica.jpg"
                   alt="logo"
                   width="110"
                   height="80"

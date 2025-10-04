@@ -469,7 +469,7 @@ export default {
         dataLabels: { 
           enabled: true,
           formatter: function (val) {
-            return Number(val).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+            return Number(val).toLocaleString('es', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
           }
         },
         animations: {
@@ -498,7 +498,7 @@ export default {
           },
           y: {
             formatter: function (val) {
-              return Number(val).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+              return Number(val).toLocaleString('es', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
             }
           }
         }
@@ -518,9 +518,9 @@ export default {
       const valores = this.oportunidadesFiltradas.map(o => o.value || 0)
       if (!valores.length) return '0'
       const media = valores.reduce((a, b) => a + b, 0) / valores.length
-      return media.toLocaleString('pt-BR', { 
+      return media.toLocaleString('es', { 
         style: 'currency', 
-        currency: 'BRL',
+        currency: 'USD',
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
       })
@@ -597,7 +597,7 @@ export default {
       this.chartColors = chartColors;
       this.pieColors = pieColors;
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
   },
 }

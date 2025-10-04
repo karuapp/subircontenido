@@ -9,14 +9,14 @@
       class="q-pa-lg"
     >
       <q-card-section>
-        <div class="text-h6">{{ autoRespostaEdicao.id ? 'Editar Auto Resposta' : 'Nova Auto Resposta' }}</div>
+        <div class="text-h6">{{ autoRespostaEdicao.id ? 'Editar respuesta automática' : 'Nueva respuesta automática' }}</div>
       </q-card-section>
       <q-card-section>
         <q-input
           class="row col"
           outlined
           v-model="autoResposta.name"
-          label="Nome"
+          label="Nombre"
         />
         <q-select
           outlined
@@ -31,8 +31,8 @@
           class="row col q-mt-md"
           outlined
           v-model="autoResposta.celularTeste"
-          label="Celular para Teste"
-          placeholder="5531999999999"
+          label="Teléfono de prueba"
+          placeholder="0031999999999"
         />
         <q-toggle
           class="q-mt-md"
@@ -91,8 +91,8 @@ export default {
         isActive: true
       },
       tipoAutoResposta: [
-        { value: '0', label: 'Entrada (Criação do Ticket)' },
-        { value: '1', label: 'Encerramento (Resolução Ticket)' }
+        { value: '0', label: 'Entrada (Creación de ticket)' },
+        { value: '1', label: 'Cierre (Resolución de ticket)' }
       ]
     }
   },
@@ -137,7 +137,7 @@ export default {
             progress: true,
             position: 'top',
             textColor: 'black',
-            message: 'Auto Resposta editada com sucesso!',
+            message: 'Respuesta automática editada correctamente.',
             actions: [{
               icon: 'close',
               round: true,
@@ -151,7 +151,7 @@ export default {
             type: 'positive',
             progress: true,
             position: 'top',
-            message: 'Auto Resposta criada com sucesso!',
+            message: 'Respuesta automática creada correctamente.',
             actions: [{
               icon: 'close',
               round: true,
@@ -163,7 +163,7 @@ export default {
         this.showDialog = false
       } catch (error) {
         console.error(error)
-        this.$notificarErro('Ocorreu um erro ao salvar a auto resposta', error)
+        this.$notificarErro('Se produjo un error al guardar la respuesta automática.', error)
       }
     }
   },

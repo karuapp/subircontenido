@@ -26,7 +26,7 @@
           <q-route-tab
             to="/funil/acao"
             name="acao"
-            :label="$t('funil.acao')"
+            :label="$t('funil.acoes')"
           />
         </q-tabs>
       </template>
@@ -118,7 +118,7 @@ export default {
           position: 'top'
         });
       } catch (error) {
-        console.error('Erro ao atualizar dados:', error);
+        console.error('Error al actualizar los datos:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('common.erroAtualizacao'),
@@ -175,7 +175,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay color almacenado en localStorage');
     }
     this.userProfile = localStorage.getItem('profile')
     const menuPermissions = JSON.parse(localStorage.getItem('menuPermissions'))

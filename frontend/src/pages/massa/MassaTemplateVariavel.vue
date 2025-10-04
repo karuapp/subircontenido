@@ -49,7 +49,7 @@
                       {{ variable }}
                     </li>
                   </ul>
-                  <!-- <p>Formato esperado para cada linha: número,{{ templateVariables.join(',') }}</p> -->
+                  <!-- <p>Formato esperado para cada línea: número,{{ templateVariables.join(',') }}</p> -->
                   <p>{{ $t('massaTemplateVariavel.variables.expectedFormat', { variables: templateVariables.join(',') }) }}</p>
                 </div>
               </q-banner>
@@ -79,9 +79,9 @@
               {{ $t('massaTemplateVariavel.notifications.uploadingMessages') }}
             </div>
             <!-- <div v-if="sending">
-              Mensagens enviadas: {{ sentCount }} de {{ numberInput.trim().split('\n').filter(line => line.trim() !== '').length }}
+              Mensajes enviados: {{ sentCount }} de {{ numberInput.trim().split('\n').filter(line => line.trim() !== '').length }}
               <br>
-              Aguarde, enviando as mensagens... Não feche essa página até a conclusão do envio.
+              Por favor, espere, enviando mensajes... No cierre esta página hasta que se complete el envío..
             </div> -->
             <div v-if="sending" class="loading-bar" style="margin-bottom: 10px;">
               <div class="bar"></div>
@@ -176,10 +176,10 @@ export default {
         
         // Se o cache ainda é válido (menos de 5 minutos), usar dados em cache
         if (now - timestamp < fiveMinutes) {
-          console.log('Usando templates do cache')
+          console.log('Usando plantillas de la caché.')
           this.templates = templates
           this.cacheStatus = {
-            ultimaAtualizacao: new Date(timestamp).toLocaleString('pt-BR'),
+            ultimaAtualizacao: new Date(timestamp).toLocaleString('es'),
             tempoRestante: Math.ceil((fiveMinutes - (now - timestamp)) / 1000),
             usandoCache: true
           }
@@ -188,8 +188,8 @@ export default {
         }
       }
       
-      // Se não há cache válido, fazer chamada à API
-      console.log('Buscando templates da API')
+      // Si no hay una caché válida, realice una llamada a la API.
+      console.log('Obteniendo plantillas de la API')
       try {
         const response = await BuscarTemplates(tokenApi);
         
@@ -205,7 +205,7 @@ export default {
           
           this.templates = templatesAprovados
           this.cacheStatus = {
-            ultimaAtualizacao: new Date().toLocaleString('pt-BR'),
+            ultimaAtualizacao: new Date().toLocaleString('es'),
             tempoRestante: 300, // 5 minutos em segundos
             usandoCache: false
           }
@@ -216,7 +216,7 @@ export default {
           });
         }
       } catch (error) {
-        console.error('Erro ao buscar templates:', error);
+        console.error('Error al obtener las plantillas:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('massaTemplateVariavel.notifications.errorFetchingTemplates'),
@@ -235,14 +235,14 @@ export default {
           localStorage.removeItem(key)
         }
       })
-      console.log('Cache de templates limpo')
+      console.log('Caché de plantillas borrado')
     },
     
     limparCacheTemplateEspecifico(tokenApi) {
       // Limpar cache de um token específico
       const cacheKey = `templates_cache_${tokenApi}`
       localStorage.removeItem(cacheKey)
-      console.log(`Cache de templates limpo para token: ${tokenApi}`)
+      console.log(`Caché de plantillas borrado para el token: ${tokenApi}`)
     },
     
     verificarStatusCache(tokenApi) {
@@ -440,10 +440,10 @@ export default {
           console.log('payload', payload)
           const response = await EnviarTemplateMassaComponenteWaba(payload);
           this.sentCount++;
-          console.log('Template enviado com sucesso para:', contato.numero, response.data);
+          console.log('Plantilla enviada correctamente a:', contato.numero, response.data);
           await delay(randomDelay);
         } catch (error) {
-          console.error(`Erro ao enviar para o número ${contato.numero}:`, error);
+          console.error(`Error al enviar al número ${contato.numero}:`, error);
         }
       }
 

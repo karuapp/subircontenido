@@ -1,7 +1,7 @@
 <template>
   <q-card bordered>
     <q-card-section>
-      <div class="text-h6 q-px-sm">Gráficos do Relatório</div>
+      <div class="text-h6 q-px-sm">Gráficos de Reportes</div>
     </q-card-section>
     <q-card-section>
       <apexchart
@@ -39,15 +39,15 @@ export default {
           },
         },
         title: {
-          text: "Relatório de Tickets",
+          text: "Reportes de Tickets",
           align: "center",
         },
         xaxis: {
-          categories: this.chartData.series.map((serie) => serie.categories).flat(), // Combina todos os rótulos
+          categories: this.chartData.series.map((serie) => serie.categories).flat(), // Combina todas las etiquetas
         },
         yaxis: {
           title: {
-            text: "Quantidade de Tickets",
+            text: "Número de tickets",
           },
         },
         legend: {

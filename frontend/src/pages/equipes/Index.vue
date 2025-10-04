@@ -127,10 +127,10 @@ export default {
             if (this.colors[k]) root.style.setProperty(`--q-${k}`, this.colors[k])
           })
         } else {
-          console.error('Erro ao carregar as cores')
+          console.error('Error al cargar los colores')
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error)
+        console.error('Error al cargar los colores:', error)
       }
     },
 
@@ -224,10 +224,10 @@ export default {
         const root = document.documentElement
         Object.keys(colors).forEach(k => root.style.setProperty(`--q-${k}`, colors[k]))
       } catch (e) {
-        console.warn('Falha ao aplicar storedColors do localStorage', e)
+        console.warn('No se pudieron aplicar los colores almacenados desde localStorage', e)
       }
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage')
+      console.warn('No hay colores almacenados en localStorage')
     }
     // Caso queira sempre buscar do backend:
     // this.loadColors()

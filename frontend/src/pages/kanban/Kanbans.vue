@@ -210,7 +210,7 @@ export default {
 
         localStorage.setItem('storedColors', JSON.stringify(list))
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error)
+        console.error('Error al cargar colores:', error)
         this.colors = {} 
       }
     },

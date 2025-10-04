@@ -360,10 +360,10 @@ export default {
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
     onInsertSelectEmoji (emoji) {
@@ -403,7 +403,7 @@ export default {
           message: this.$t('horarioAtendimento.notifications.scheduleUpdated'),
         });
       } catch(e){
-        console.log('Horário de funcionamento erro :' + e)
+        console.log('Error en el horario de apertura :' + e)
       }
     },
     async salvarMensagemAusencia () {
@@ -418,7 +418,7 @@ export default {
           message: this.$t('horarioAtendimento.notifications.absenceMessageUpdated'),
         });
       } catch(e){
-        console.log('Mensagem de ausência erro :' + e)
+        console.log('Error de fuera de oficina :' + e)
       }
     },
     async listarFeriados() {
@@ -426,7 +426,7 @@ export default {
         const { data } = await MostrarHorariosAtendiemento()
         this.holidays = data[0].holidays || []
       } catch (e) {
-        console.log('Erro ao carregar feriados:', e)
+        console.log('Error al cargar los días festivos:', e)
       }
     },
     async salvarFeriados() {
@@ -439,7 +439,7 @@ export default {
           message: this.$t('horarioAtendimento.notifications.holidaysUpdated'),
         })
       } catch (e) {
-        console.log('Erro ao salvar feriados:', e)
+        console.log('Error al guardar los días festivos:', e)
       }
     },
     adicionarFeriado() {
@@ -487,7 +487,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en el localStorage');
     }
     // this.loadColors()
   },

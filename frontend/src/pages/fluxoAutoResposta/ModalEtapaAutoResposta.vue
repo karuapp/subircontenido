@@ -9,7 +9,7 @@
       class="q-pa-lg"
     >
       <q-card-section>
-        <div class="text-h6">{{ etapaAutoRespostaEdicao.id ? 'Editar Etapa' : 'Nova Etapa' }}</div>
+        <div class="text-h6">{{ etapaAutoRespostaEdicao.id ? 'Editar Etapa' : 'Nuevo Etapa' }}</div>
       </q-card-section>
       <q-card-section>
         <q-input
@@ -17,7 +17,7 @@
           outlined
           type="textarea"
           v-model="etapaAutoResposta.reply"
-          label="Mensagem"
+          label="Mensaje"
         />
         <q-toggle
           class="q-mt-md"
@@ -122,7 +122,7 @@ export default {
             progress: true,
             position: 'top',
             textColor: 'black',
-            message: 'Etapa editada com sucesso!',
+            message: '¡Etapa editada Creado correctamente!',
             actions: [{
               icon: 'close',
               round: true,
@@ -136,7 +136,7 @@ export default {
             type: 'positive',
             progress: true,
             position: 'top',
-            message: 'Etapa criada com sucesso!',
+            message: '¡Etapa Creado correctamente!',
             actions: [{
               icon: 'close',
               round: true,
@@ -148,7 +148,7 @@ export default {
         this.showDialog = false
       } catch (error) {
         console.error(error)
-        this.$notificarErro('Ocorreu um erro ao salvar a etapa', error)
+        this.$notificarErro('Se produjo un error al guardar la etapa', error)
       }
     }
   },

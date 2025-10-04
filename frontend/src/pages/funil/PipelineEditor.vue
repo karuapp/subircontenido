@@ -172,7 +172,7 @@ export default {
         try {
           await DeletarStage(stage.id)
         } catch (error) {
-          console.error('Erro ao excluir etapa:', error.data.error)
+          console.error('Error al eliminar la etapa:', error.data.error)
           this.$q.notify({
               type: 'negative',
               message: this.$t('funil.erroAoDeletarFunil') + ': ' + error.data.error
@@ -189,7 +189,7 @@ export default {
             await CriarStage({ ...stage, name: stage.nome, color: stage.cor, order: idx, pipelineId })
           }
         } catch (error) {
-          console.error('Erro ao salvar etapa:', error)
+          console.error('Error al guardar la etapa:', error)
         }
       }
       

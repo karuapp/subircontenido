@@ -94,7 +94,7 @@
     <ccPrintModelLandscape
       id="slotTableRelatorioResumoAtendimentosUsuarios"
       :imprimirRelatorio="imprimir"
-      title="Relatório de Resumo Atendimentos Usuários"
+      title="Reporte resumido del servicio de agente"
       :styleP="`
       table { width: 100%; font-size: 10px; border-spacing: 1; border-collapse: collapse;  }
       #tableReport tr td { border:1px solid #DDD; padding-left: 10px; padding-right: 10px;  }

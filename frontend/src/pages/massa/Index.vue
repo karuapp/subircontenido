@@ -155,10 +155,10 @@ export default defineComponent({
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
   },
@@ -197,7 +197,7 @@ export default defineComponent({
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en el localStorage');
     }
     const showModalDisparo = JSON.parse(localStorage.getItem('showWarningModalDisparo'))
     // this.loadColors()

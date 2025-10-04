@@ -1237,7 +1237,7 @@ export default {
         this.actions = response.data.data
         this.pagination.rowsNumber = response.data.pagination.total
       } catch (error) {
-        console.error('Erro ao carregar ações:', error)
+        console.error('Error al cargar acciones:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroCarregarDados')
@@ -1252,7 +1252,7 @@ export default {
         const response = await ListarPipelines()
         this.pipelines = response.data.data || []
       } catch (error) {
-        console.error('Erro ao carregar pipelines:', error)
+        console.error('Error al cargar pipelines:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroCarregarDados')
@@ -1265,7 +1265,7 @@ export default {
         const response = await ListarStages()
         this.stages = response.data.data || []
       } catch (error) {
-        console.error('Erro ao carregar etapas:', error)
+        console.error('Error al cargar etapas:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroCarregarDados')
@@ -1330,7 +1330,7 @@ export default {
               }
               
               if (!actionType) {
-                console.error('Não foi possível inferir o tipo da ação:', action)
+                console.error('No se puede inferir el tipo de acción:', action)
                 return null
               }
 
@@ -1364,7 +1364,7 @@ export default {
             }).filter(action => action !== null)
             this.updateRelativeDays()
           } catch (e) {
-            console.error('Erro ao parsear actionContent:', e)
+            console.error('Error al analizar actionContent:', e)
             this.flowForm.actions = []
           }
         }
@@ -1437,7 +1437,7 @@ export default {
           message: this.$t('funilacao.salvoComSucesso')
         })
       } catch (error) {
-        console.error('Erro ao salvar ação:', error)
+        console.error('Error al guardar la acción:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroSalvar')
@@ -1478,7 +1478,7 @@ export default {
             message: this.$t('funilacao.excluidoComSucesso')
           })
         } catch (error) {
-          console.error('Erro ao excluir ação:', error)
+          console.error('Error al eliminar la acción:', error)
           this.$q.notify({
             type: 'negative',
             message: this.$t('funilacao.erroExcluir')
@@ -1519,7 +1519,7 @@ export default {
           this.tags = data || []
         })
       } catch (error) {
-        console.error('Erro ao buscar tags:', error)
+        console.error('Error al obtener las etiquetas:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroCarregarDados')
@@ -1538,7 +1538,7 @@ export default {
           this.usuarios = data.users || []
         })
       } catch (error) {
-        console.error('Erro ao buscar usuários:', error)
+        console.error('Error al buscar usuarios:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroCarregarDados')
@@ -1637,7 +1637,7 @@ export default {
       // console.log('Tipo da ação:', actionType)
       
       if (!actionType) {
-        console.error('Não foi possível inferir o tipo da ação:', action)
+        console.error('No se puede inferir el tipo de acción:', action)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroAcaoSemTipo')
@@ -1688,7 +1688,7 @@ export default {
           this.openDialog('showWalletConfig')
           break
         default:
-          console.error('Tipo de ação não reconhecido:', actionType)
+          console.error('Tipo de acción no reconocido:', actionType)
           this.$q.notify({
             type: 'negative',
             message: this.$t('funilacao.tipoAcaoNaoReconhecido')
@@ -1954,7 +1954,7 @@ export default {
           message: this.$t('funilacao.fluxoSalvoComSucesso')
         })
       } catch (error) {
-        console.error('Erro ao salvar fluxo:', error)
+        console.error('Error al guardar el flujo:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funilacao.erroSalvarFluxo')

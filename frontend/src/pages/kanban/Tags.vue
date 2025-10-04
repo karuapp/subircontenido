@@ -157,7 +157,7 @@ export default {
 
         localStorage.setItem('storedColors', JSON.stringify(list))
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error)
+        console.error('Error al cargar los colores:', error)
         this.colors = {}
       }
     },
@@ -389,7 +389,7 @@ export default {
         });
       } catch (error) {
         console.error(error);
-        this.$notificarErro('Ocorreu um erro ao editar os contatos', error);
+        this.$notificarErro('Se produjo un error al editar los contactos', error);
       } finally {
         this.loading = false;
       }

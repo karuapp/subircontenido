@@ -48,7 +48,7 @@ export default {
         const response = await ListarCallLogs();
         this.callLogs = response.data.data;
       } catch (error) {
-        console.error('Erro ao buscar logs de chamadas:', error);
+        console.error('Error al obtener los registros de llamadas:', error);
       }
     },
     formatDate(date) {
@@ -76,7 +76,7 @@ export default {
         ].join(',');
       }).join('\n');
 
-      const csvHeader = 'ID,Número de Origem,Número de Destino,Status da Chamada,Duração,Data de Criação\n';
+      const csvHeader = 'ID,Número de origen,Número de destino,Estado de la llamada,Duración,Fecha de creación\n';
       const csvData = '\uFEFF' + csvHeader + csvContent;
 
       const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8;' });

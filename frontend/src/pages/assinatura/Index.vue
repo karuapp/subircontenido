@@ -204,10 +204,10 @@ export default {
       localStorage.setItem('versionInfoTimestamp', new Date().getTime()?.toString());
     },
     formatarDataBR(dataISO) {
-      if (!dataISO) return "Sen una fecha establecida";
+      if (!dataISO) return "Sin una fecha establecida";
 
       const data = new Date(dataISO);
-      return data.toLocaleString("pt-BR", {
+      return data.toLocaleString("es", {
         day: "2-digit",
         month: "2-digit",
         year: "numeric",

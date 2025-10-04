@@ -471,7 +471,7 @@ export default {
             value: user.id
           }));
       } catch (error) {
-        console.error('Erro ao carregar dados:', error);
+        console.error('Error al cargar datos:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.loadError')
@@ -519,16 +519,16 @@ export default {
           if (configsAtivas.length > 0) {
             // Perguntar se quer criar evento no Google Calendar
             this.$q.dialog({
-              title: 'Criar Evento no Google Calendar?',
-              message: 'Deseja criar um evento no Google Calendar para esta oportunidade?',
+              title: '¿Crear evento en Google Calendar?',
+              message: '¿Quieres crear un evento en Google Calendar para esta oportunidad?',
               cancel: true,
               persistent: true,
               ok: {
-                label: 'Sim, criar evento',
+                label: 'Sí, crear evento.',
                 color: 'positive'
               },
               cancel: {
-                label: 'Não, apenas salvar',
+                label: 'No, solo guardar.',
                 color: 'grey'
               }
             }).onOk(() => {
@@ -537,7 +537,7 @@ export default {
                 summary: this.form.name,
                 startDateTime: this.form.closingForecast ? new Date(this.form.closingForecast).toISOString().slice(0, 16) : '',
                 endDateTime: this.form.closingForecast ? new Date(new Date(this.form.closingForecast).getTime() + 60 * 60 * 1000).toISOString().slice(0, 16) : '', // 1 hora depois
-                description: this.form.description || `Oportunidade: ${this.form.name}`,
+                description: this.form.description || `Oportunidad: ${this.form.name}`,
                 location: '',
                 attendees: this.contatoSelecionado?.email || ''
               }
@@ -562,7 +562,7 @@ export default {
           }
         }
       } catch (error) {
-        console.error('Erro ao salvar oportunidade:', error)
+        console.error('Error al guardar la oportunidad:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.erroSalvar')
@@ -594,7 +594,7 @@ export default {
           }
         })
       } catch (error) {
-        console.error('Erro ao buscar contatos:', error)
+        console.error('Error al obtener los contactos:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.contactError')
@@ -618,7 +618,7 @@ export default {
           this.contatosLocal = [data];
         }
       } catch (error) {
-        console.error('Erro ao carregar dados do contato:', error);
+        console.error('Error al cargar los datos de contacto:', error);
       }
     },
     async carregarConfiguracoesGoogleCalendar() {
@@ -626,7 +626,7 @@ export default {
         const response = await ListarConfiguracoesGoogleCalendar();
         this.calendarConfigs = response.data.configs || [];
       } catch (error) {
-        console.error('Erro ao carregar configurações do Google Calendar:', error);
+        console.error('Error al cargar la configuración de Google Calendar:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.calendarConfigError')
@@ -680,7 +680,7 @@ export default {
         this.$emit('saved')
         this.show = false
       } catch (error) {
-        console.error('Erro ao criar evento no Google Calendar:', error);
+        console.error('Error al crear un evento en Google Calendar:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.eventError') + ' ' + (error.response?.data?.error || error.message)
@@ -692,10 +692,10 @@ export default {
     openCalendarModal() {
       // Preparar dados do evento baseado na oportunidade
       this.calendarEvent = {
-        summary: this.form.name || 'Nova Oportunidade',
+        summary: this.form.name || 'Nueva oportunidad',
         startDateTime: this.form.closingForecast ? new Date(this.form.closingForecast).toISOString().slice(0, 16) : '',
         endDateTime: this.form.closingForecast ? new Date(new Date(this.form.closingForecast).getTime() + 60 * 60 * 1000).toISOString().slice(0, 16) : '', // 1 hora depois
-        description: this.form.description || `Oportunidade: ${this.form.name || 'Nova Oportunidade'}`,
+        description: this.form.description || `Oportunidad: ${this.form.name || 'Nueva oportunidad'}`,
         location: '',
         attendees: this.contatoSelecionado?.email || ''
       }

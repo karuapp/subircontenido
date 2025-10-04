@@ -85,7 +85,7 @@ export default {
         this.pipelines = response.data.data
         this.pagination.rowsNumber = response.data.pagination.total
       } catch (error) {
-        console.error('Erro ao carregar pipelines:', error)
+        console.error('Error al cargar pipelines:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.erroAoCarregar')
@@ -132,7 +132,7 @@ export default {
               message: this.$t('funil.funilDeletado')
             });
           } catch (error) {
-            console.error('Erro ao excluir funil:', error.data.error)
+            console.error('Error al eliminar el funnel:', error.data.error)
             this.$q.notify({
               type: 'negative',
               message: this.$t('funil.erroAoDeletarFunil') + ': ' + error.data.error
@@ -188,7 +188,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en localStorage');
     }
     this.userProfile = localStorage.getItem('profile')
     const menuPermissions = JSON.parse(localStorage.getItem('menuPermissions'))

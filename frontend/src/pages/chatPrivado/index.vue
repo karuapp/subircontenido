@@ -362,7 +362,7 @@
 import { uid } from 'quasar'
 import { mapGetters } from 'vuex'
 import { ListarUsuariosChatPrivado, DadosUsuario } from 'src/service/user.js'
-import pt from 'date-fns/locale/pt-BR'
+import es from 'date-fns/locale/es'
 import { ListarTenantPorId } from 'src/service/tenants.js'
 import { format, formatDistance, parseJSON } from 'date-fns'
 import { ListarUsersPrivadosPorGrupo } from 'src/service/equipes.js'
@@ -1274,13 +1274,13 @@ export default {
     },
     dataInWords(timestamp) {
       if (timestamp) {
-        return formatDistance(new Date(Number(timestamp)), new Date(), { locale: pt })
+        return formatDistance(new Date(Number(timestamp)), new Date(), { locale: es })
       } else {
         return null
       }
     },
     dataInWordsMessage(date) {
-      return format(parseJSON(new Date(date)), 'HH:mm', { locale: pt })
+      return format(parseJSON(new Date(date)), 'HH:mm', { locale: es })
     },
     onInsertSelectEmoji(emoji) {
       if (!emoji || !emoji.data) return
@@ -1376,7 +1376,7 @@ export default {
     formatarData(data, formato) {
       const dt = new Date(Number(data))
       const fmt = formato || 'dd/MM/yyyy'
-      return format(dt, fmt, { locale: pt })
+      return format(dt, fmt, { locale: es })
     },
     async handlePaste(event) {
       const items = (event.clipboardData || event.originalEvent.clipboardData).items;

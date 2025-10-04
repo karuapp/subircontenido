@@ -1289,7 +1289,7 @@ export default {
       if (!dateString) return '';
       try {
         const date = new Date(dateString);
-        return date.toLocaleString('pt-br', {
+        return date.toLocaleString('es', {
           year: 'numeric',
           month: 'numeric',
           day: 'numeric',
@@ -1306,7 +1306,7 @@ export default {
       if (!dateString) return '';
       try {
         const date = new Date(dateString);
-        return date.toLocaleDateString('pt-br');
+        return date.toLocaleDateString('es');
       } catch (e) {
         console.error('Erro ao formatar data:', e);
         return dateString;

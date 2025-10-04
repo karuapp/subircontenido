@@ -122,7 +122,7 @@
 import bus from 'src/utils/eventBus'
 
 import { format, parseISO } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR/index'
+import es from 'date-fns/locale/es/index'
 import { RemoverFotoNula } from 'src/service/sessoesWhatsapp.js'
 
 export default {
@@ -139,7 +139,7 @@ export default {
       await RemoverFotoNula(item.id)
     },
     formatarData (data, formato) {
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     }
   }
 }

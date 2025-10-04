@@ -6,12 +6,12 @@ import DatePick from 'src/components/cDatePick.vue'
 import cDateTimePick from 'src/components/cDateTimePick.vue'
 
 import { format, parseISO } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR'
+import es from 'date-fns/locale/es'
 import { UpdateConfiguracoesUsuarios } from 'src/service/user.js'
 
 const formatarValorMoeda = (num, black = false, intl = {}) => {
   const config = {
-    language: 'pt-br',
+    language: 'es',
     options: {
       // style: 'currency',
       // currency: 'BRL',
@@ -72,7 +72,7 @@ const iniciaisString = nomecompleto => {
 const formatarData = (data, formato = 'dd/MM/yyyy') => {
   if (!data) return 'dd/MM/yyyy'
   try {
-    return format(parseISO(data), formato, { locale: pt })
+    return format(parseISO(data), formato, { locale: es })
   } catch (error) {
     console.error('Error al formatear la fecha:', error)
     return 'dd/MM/yyyy'

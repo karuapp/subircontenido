@@ -1,5 +1,5 @@
 import { format, parseISO, parseJSON } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR'
+import es from 'date-fns/locale/es'
 import { mapGetters } from 'vuex'
 import eventBus from 'src/utils/eventBus.js'
 
@@ -49,7 +49,7 @@ export default {
             dateObj = new Date(num * 1000);
           }
           if (!isNaN(dateObj.getTime())) {
-            return format(dateObj, 'HH:mm', { locale: pt });
+            return format(dateObj, 'HH:mm', { locale: es });
           }
         }
 
@@ -57,7 +57,7 @@ export default {
         if (typeof date === 'string') {
           const parsedDate = parseJSON(date);
           if (!isNaN(parsedDate.getTime())) {
-            return format(parsedDate, 'HH:mm', { locale: pt });
+            return format(parsedDate, 'HH:mm', { locale: es });
           }
         }
 
@@ -68,7 +68,7 @@ export default {
       }
     },
     dataInWords (date) {
-      return format(parseJSON(date), 'HH:mm', { locale: pt })
+      return format(parseJSON(date), 'HH:mm', { locale: es })
     },
     formatarMensagemWhatsapp (body) {
       if (!body) return
@@ -912,7 +912,7 @@ export default {
         html += '<span style="font-size: 24px; color: white;">🛒</span>';
         html += '</div>';
         html += '<div>';
-        html += '<div style="font-weight: bold; font-size: 18px; color: #495057; margin-bottom: 4px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);">Pedido Recebido</div>';
+        html += '<div style="font-weight: bold; font-size: 18px; color: #495057; margin-bottom: 4px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);">Pedido recibido</div>';
         html += '<div style="font-size: 13px; color: #6c757d; font-weight: 500;">Detalles del pedido</div>';
         html += '</div>';
         html += '</div>';
@@ -1068,7 +1068,7 @@ export default {
           html += `<div style="text-align: center; margin: 20px 0;">
                     <div style="background: linear-gradient(135deg, #e53e3e, #c53030); color: white; border-radius: 12px; padding: 15px; display: inline-block; box-shadow: 0 4px 8px rgba(229,62,62,0.3);">
                       <div style="font-size: 12px; opacity: 0.8; margin-bottom: 5px;">Precio</div>
-                      <div style="font-weight: bold; font-size: 24px;">R$ ${precoEmReais}</div>
+                      <div style="font-weight: bold; font-size: 24px;">$ ${precoEmReais}</div>
                     </div>
                   </div>`;
         }
@@ -1214,7 +1214,7 @@ export default {
     },
     formatarData (data, formato = 'dd/MM/yyyy') {
       if (!data) return 'dd/MM/yyyy'
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     }
   },
   

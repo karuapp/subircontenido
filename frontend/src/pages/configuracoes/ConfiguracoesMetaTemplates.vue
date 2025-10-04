@@ -3441,8 +3441,8 @@ export default defineComponent({
         this.verificationStep = 'verify'
         
       } catch (error) {
-        console.error('::: Z-PRO ::: ZDG ::: Erro ao solicitar código:', error)
-        console.error('::: Z-PRO ::: ZDG ::: Detalhes do erro:', {
+        console.error('::: WhaTitan ::: WhaTitan ::: Erro ao solicitar código:', error)
+        console.error('::: WhaTitan ::: WhaTitan ::: Detalhes do erro:', {
           message: error.message,
           response: error.response?.data,
           status: error.response?.status
@@ -3587,8 +3587,8 @@ export default defineComponent({
         this.showWebhookModal = false
         
       } catch (error) {
-        console.error('::: Z-PRO ::: ZDG ::: Erro ao sobrescrever webhook:', error)
-        console.error('::: Z-PRO ::: ZDG ::: Detalhes do erro:', {
+        console.error('::: WhaTitan ::: WhaTitan ::: Erro ao sobrescrever webhook:', error)
+        console.error('::: WhaTitan ::: WhaTitan ::: Detalhes do erro:', {
           message: error.message,
           response: error.response?.data,
           status: error.response?.status

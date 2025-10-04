@@ -101,6 +101,6 @@ module.exports = configure((ctx) => {
         ]
       }
     },
-    boot: ['lame-shim', 'i18n', 'vuelidate', 'ccComponents']
+    boot: ['lame-shim', 'i18n', 'vuelidate', 'ccComponents', 'widget-inject']
   }
 })

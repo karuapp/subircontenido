@@ -635,7 +635,7 @@ import bus from 'src/utils/eventBus'
 import { FecharTodosPendente, FecharTodosAbertos, DefinirPadrao, DeletarWhatsapp, DeleteWhatsappSession, StartWhatsappSession, ListarWhatsapps, RequestNewQrCode, UpdateWhatsapp } from 'src/service/sessoesWhatsapp.js'
 import { SyncOldMessagesWbot, AtualizarMensagensSyncTime } from 'src/service/tickets.js'
 import { format, parseISO } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR/index'
+import es from 'date-fns/locale/es/index'
 import ModalQrCode from './ModalQrCode.vue'
 import { mapGetters } from 'vuex'
 import ModalWhatsapp from './ModalWhatsapp.vue'
@@ -861,7 +861,7 @@ export default {
       }
     },
     formatarData (data, formato) {
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     },
     handleSdkInit ({ FB }) {
       this.FB = FB

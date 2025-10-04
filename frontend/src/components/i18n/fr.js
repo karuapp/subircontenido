@@ -5878,7 +5878,7 @@ export default {
     diasSemMovimentacao: "jours sans mouvement",
     atualizar: "Pour mettre à jour",
     valorAlto: "Haute valeur",
-    comValorDe: "d'une valeur de R$ ",
+    comValorDe: "d'une valeur de $ ",
     etapaEstagnada: "Stade stagnant",
     diasNaEtapa: "jours sur scène",
     avancarEtapa: "Prochaine étape",

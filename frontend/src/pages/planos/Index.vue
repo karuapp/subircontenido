@@ -105,7 +105,7 @@ export default {
       loading: false,
       columns: [
         { name: 'id', label: this.$t('planos.columns.id'), field: 'id', align: 'left' },
-        { name: 'value', label: this.$t('planos.columns.value'), field: 'value', align: 'left', format: val => ('R$ ' + val) },
+        { name: 'value', label: this.$t('planos.columns.value'), field: 'value', align: 'left', format: val => ('$ ' + val) },
         { name: 'connections', label: this.$t('planos.columns.connections'), field: 'connections', align: 'center' },
         { name: 'users', label: this.$t('planos.columns.users'), field: 'users', align: 'center' },
         { name: 'trial', label: this.$t('planos.columns.trial'), field: 'trial', align: 'center' },
@@ -181,10 +181,10 @@ export default {
           
 
         } else {
-          console.error('Erro ao carregar as cores');
+          console.error('Error al cargar los colores');
         }
       } catch (error) {
-        console.error('Erro ao carregar as cores:', error);
+        console.error('Error al cargar los colores:', error);
       }
     },
     async listarPlanos () {
@@ -285,7 +285,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay colores almacenados en el localStorage');
     }
     // this.loadColors()
   }

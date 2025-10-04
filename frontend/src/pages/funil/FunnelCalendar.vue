@@ -141,7 +141,7 @@
             
             <q-input
               v-model="calendarFiltros.dataInicio"
-              label="Data de Início"
+              label="Fecha de inicio"
               outlined
               dense
               type="date"
@@ -150,7 +150,7 @@
             
             <q-input
               v-model="calendarFiltros.dataFim"
-              label="Data de Fim"
+              label="Fecha de finalización"
               outlined
               dense
               type="date"
@@ -159,7 +159,7 @@
             
             <q-input
               v-model.number="calendarFiltros.maxResults"
-              label="Número de Resultados"
+              label="Número de resultados"
               outlined
               dense
               type="number"
@@ -446,10 +446,10 @@ export default {
   },
   computed: {
     diasSemana() {
-      return ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb']
+      return ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb']
     },
     mesAtualFormatado() {
-      return this.dataAtual.toLocaleDateString('pt-BR', {
+      return this.dataAtual.toLocaleDateString('es', {
         month: 'long',
         year: 'numeric'
       })
@@ -630,7 +630,7 @@ export default {
             value: user.id
           }))
       } catch (error) {
-        console.error('Erro ao carregar dados:', error)
+        console.error('Error al cargar datos:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.loadError')
@@ -649,7 +649,7 @@ export default {
       this.dialogAberto = true
     },
     formatarData(data) {
-      return data.toLocaleDateString('pt-BR', {
+      return data.toLocaleDateString('es', {
         weekday: 'long',
         day: 'numeric',
         month: 'long',
@@ -774,7 +774,7 @@ export default {
         this.calendarEvents = response.data.events || []
         
       } catch (error) {
-        console.error('Erro ao carregar eventos:', error)
+        console.error('Error al cargar eventos:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.eventError') + ': ' + (error.response?.data?.error || error.message)
@@ -785,7 +785,7 @@ export default {
     },
     formatDateTime(dateString) {
       const date = new Date(dateString);
-      return date.toLocaleDateString('pt-BR', {
+      return date.toLocaleDateString('es', {
         hour: 'numeric',
         minute: 'numeric'
       });
@@ -810,7 +810,7 @@ export default {
         const response = await ListarConfiguracoesGoogleCalendar();
         this.calendarConfigs = response.data.configs || [];
       } catch (error) {
-        console.error('Erro ao carregar configurações do Google Calendar:', error);
+        console.error('Error al cargar la configuración de Google Calendar:', error);
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.calendarConfigError')
@@ -868,7 +868,7 @@ export default {
         await this.loadCalendarEvents()
         
       } catch (error) {
-        console.error('Erro ao atualizar evento:', error)
+        console.error('Error al actualizar el evento:', error)
         this.$q.notify({
           type: 'negative',
           message: this.$t('funil.eventUpdateError') + ': ' + (error.response?.data?.error || error.message)
@@ -891,7 +891,7 @@ export default {
           }
           startDateTime = startDate.toISOString().slice(0, 16)
         } catch (e) {
-          console.error('Erro ao converter data de início:', e)
+          console.error('Error al convertir la fecha de inicio:', e)
         }
       }
       
@@ -904,7 +904,7 @@ export default {
           }
           endDateTime = endDate.toISOString().slice(0, 16)
         } catch (e) {
-          console.error('Erro ao converter data de fim:', e)
+          console.error('Error al convertir la fecha de finalización:', e)
         }
       }
       
@@ -963,7 +963,7 @@ export default {
         root.style.setProperty(`--q-${key}`, colors[key]);
       });
     } else {
-      console.warn('Nenhuma cor armazenada no localStorage');
+      console.warn('No hay color almacenado en localStorage');
     }
     this.userProfile = localStorage.getItem('profile')
     const menuPermissions = JSON.parse(localStorage.getItem('menuPermissions'))

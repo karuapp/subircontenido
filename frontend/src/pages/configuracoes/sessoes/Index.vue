@@ -173,7 +173,7 @@ import bus from 'src/utils/eventBus'
 
 import { DefinirPadrao, DeletarWhatsapp, DeleteWhatsappSession, ListarWhatsapps, ResetBaileysConnection } from 'src/service/sessoesWhatsapp.js'
 import { format, parseISO } from 'date-fns'
-import pt from 'date-fns/locale/pt-BR/index'
+import es from 'date-fns/locale/es/index'
 import { mapGetters } from 'vuex'
 import ItemStatusChannel from './ItemStatusChannel.vue'
 import { MostrarCores } from 'src/service/empresas.js';
@@ -329,7 +329,7 @@ export default {
       }
     },
     formatarData (data, formato) {
-      return format(parseISO(data), formato, { locale: pt })
+      return format(parseISO(data), formato, { locale: es })
     },
     async setDefault(whatsapp){
       const data = {

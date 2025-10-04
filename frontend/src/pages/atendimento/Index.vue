@@ -2028,7 +2028,7 @@
                   <q-item-section>
                     <q-item-label class="text-bold">{{ oportunidade.name }}</q-item-label>
                     <q-item-label caption>
-                      {{ $t('generalSupport.value') }}: R$ {{ oportunidade.value }}
+                      {{ $t('generalSupport.value') }}: $ {{ oportunidade.value }}
                     </q-item-label>
                     <q-item-label caption>
                       {{ $t('generalSupport.status') }}: {{ oportunidade.status }}
@@ -3602,7 +3602,7 @@ export default {
           // Data e Hora
           doc.setFont("helvetica", "normal");
           doc.setFontSize(10);
-          const dataHora = new Date(mensagem.createdAt).toLocaleString("pt-BR", {
+          const dataHora = new Date(mensagem.createdAt).toLocaleString("es", {
             dateStyle: "long",
             timeStyle: "short",
           });
@@ -3717,7 +3717,7 @@ export default {
     //       // Data e Hora
     //       doc.setFont("helvetica", "normal");
     //       doc.setFontSize(10);
-    //       const dataHora = new Date(mensagem.createdAt).toLocaleString("pt-BR", {
+    //       const dataHora = new Date(mensagem.createdAt).toLocaleString("es", {
     //         dateStyle: "long",
     //         timeStyle: "short",
     //       });

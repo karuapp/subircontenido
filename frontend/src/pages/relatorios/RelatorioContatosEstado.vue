@@ -123,7 +123,7 @@
     <ccPrintModelLandscape
       id="slotTableRelatorioContatos"
       :imprimirRelatorio="imprimir"
-      title="Relatório de Contatos por Estado"
+      title="Reporte de Contactos por Estado"
       :styleP="`
       table { width: 100%; font-size: 10px; border-spacing: 1; border-collapse: collapse;  }
       #tableReport tr td { border:1px solid #DDD; padding-left: 10px; padding-right: 10px;  }

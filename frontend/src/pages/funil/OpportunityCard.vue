@@ -35,7 +35,7 @@
     <div class="opportunity-card__info">
       <div class="opportunity-card__contact-info blur-effect" v-if="oportunidade.contact">
         <q-avatar size="40px" v-if="oportunidade.contact.profilePicUrl">
-          <img :src="oportunidade.contact.profilePicUrl" alt="Foto do contato">
+          <img :src="oportunidade.contact.profilePicUrl" alt="Foto de contacto">
         </q-avatar>
         <q-avatar size="40px" color="primary" text-color="white" v-else>
           {{ oportunidade.contact.name ? oportunidade.contact.name.charAt(0).toUpperCase() : '?' }}
@@ -435,11 +435,11 @@ export default {
     formatarData(data) {
       if (!data) return ''
       const d = new Date(data)
-      return d.toLocaleDateString('pt-BR')
+      return d.toLocaleDateString('es')
     },
     formatarValor(valor) {
-      if (!valor) return 'R$ 0,00'
-      return `R$ ${Number(valor).toFixed(2).replace('.', ',')}`
+      if (!valor) return '$ 0,00'
+      return `$ ${Number(valor).toFixed(2).replace('.', ',')}`
     },
     isDataUrgente(data) {
       if (!data) return false
@@ -518,7 +518,7 @@ export default {
         })
         this.modalEmail = false
       } catch (error) {
-        console.error('Erro ao enviar email:', error)
+        console.error('Error al enviar el correo electrónico:', error)
         let mensagemErro = this.$t('funil.erroEnvioEmail')
         let detalhes = ''
         
