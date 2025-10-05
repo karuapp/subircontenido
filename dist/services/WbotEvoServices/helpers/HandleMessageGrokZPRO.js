@@ -1,0 +1,1071 @@
+'use strict';
+const _0x52b405 = _0x2301;
+(function (_0x4d3df8, _0x30da5f) {
+    const _0x584822 = _0x2301, _0x8bee18 = _0x4d3df8();
+    while (!![]) {
+        try {
+            const _0x2bde81 = -parseInt(_0x584822(0x281)) / (-0x177f * 0x1 + 0x2 * -0x12bf + -0x4a * -0xd3) * (parseInt(_0x584822(0x2c5)) / (0x1 * -0x1361 + -0x1cc0 * 0x1 + 0x3023)) + parseInt(_0x584822(0x209)) / (-0x1fa * -0x12 + -0x66 * 0xb + -0xa65 * 0x3) * (parseInt(_0x584822(0x21c)) / (-0x44 * -0x3b + -0x2 * -0xb0d + 0x1 * -0x25c2)) + parseInt(_0x584822(0x319)) / (0xca + 0xc2 * -0x1b + 0x13b1) * (-parseInt(_0x584822(0x2cb)) / (0x17e4 + 0xddb + 0x431 * -0x9)) + -parseInt(_0x584822(0x1d6)) / (-0xe42 * -0x2 + 0x2 * 0x9aa + -0x2fd1) + -parseInt(_0x584822(0x291)) / (-0xab * -0x1 + -0x15bc + 0x1519) + -parseInt(_0x584822(0x232)) / (0x2b * -0xe5 + 0xac * -0x2 + -0x3fc * -0xa) * (parseInt(_0x584822(0x244)) / (0x16d4 + 0x166d + -0x2d37)) + parseInt(_0x584822(0x2f5)) / (0x1e6e + 0xdad + -0x2c10) * (parseInt(_0x584822(0x24b)) / (0x9 * -0x3c0 + 0x17 * -0x1ac + 0x4840));
+            if (_0x2bde81 === _0x30da5f)
+                break;
+            else
+                _0x8bee18['push'](_0x8bee18['shift']());
+        } catch (_0x4f4a7e) {
+            _0x8bee18['push'](_0x8bee18['shift']());
+        }
+    }
+}(_0x4aa1, 0xcbf29 + 0xc6ba * -0x13 + -0x1 * -0xaa6f9));
+var __createBinding = this && this[_0x52b405(0x1fd) + _0x52b405(0x22e)] || (Object[_0x52b405(0x2e0)] ? function (_0x245b76, _0x578519, _0x246b35, _0x23ab3f) {
+        const _0x2f677b = _0x52b405, _0x8dd519 = {};
+        _0x8dd519[_0x2f677b(0x1ff)] = function (_0x2fc7af, _0x58cb7e) {
+            return _0x2fc7af === _0x58cb7e;
+        }, _0x8dd519[_0x2f677b(0x25f)] = function (_0x516ec1, _0x4b903e) {
+            return _0x516ec1 in _0x4b903e;
+        }, _0x8dd519[_0x2f677b(0x1fb)] = _0x2f677b(0x245);
+        const _0x400e05 = _0x8dd519;
+        if (_0x400e05[_0x2f677b(0x1ff)](_0x23ab3f, undefined))
+            _0x23ab3f = _0x246b35;
+        var _0x375b91 = Object[_0x2f677b(0x305) + _0x2f677b(0x231) + _0x2f677b(0x203)](_0x578519, _0x246b35);
+        if (!_0x375b91 || (_0x400e05[_0x2f677b(0x25f)](_0x400e05[_0x2f677b(0x1fb)], _0x375b91) ? !_0x578519[_0x2f677b(0x293)] : _0x375b91[_0x2f677b(0x2fe)] || _0x375b91[_0x2f677b(0x267) + 'le'])) {
+            const _0xc71648 = {};
+            _0xc71648[_0x2f677b(0x22b)] = !![], _0xc71648[_0x2f677b(0x245)] = function () {
+                return _0x578519[_0x246b35];
+            }, _0x375b91 = _0xc71648;
+        }
+        Object[_0x2f677b(0x221) + _0x2f677b(0x218)](_0x245b76, _0x23ab3f, _0x375b91);
+    } : function (_0x5907c7, _0x9faba0, _0x57e268, _0xa823b6) {
+        const _0xa3b121 = _0x52b405, _0x2ce387 = {};
+        _0x2ce387[_0xa3b121(0x2ef)] = function (_0x544b54, _0x49a64f) {
+            return _0x544b54 === _0x49a64f;
+        };
+        const _0x20b496 = _0x2ce387;
+        if (_0x20b496[_0xa3b121(0x2ef)](_0xa823b6, undefined))
+            _0xa823b6 = _0x57e268;
+        _0x5907c7[_0xa823b6] = _0x9faba0[_0x57e268];
+    }), __setModuleDefault = this && this[_0x52b405(0x2f4) + _0x52b405(0x275)] || (Object[_0x52b405(0x2e0)] ? function (_0x238fb1, _0x410694) {
+        const _0x4a3387 = _0x52b405, _0x2dc3a5 = {};
+        _0x2dc3a5[_0x4a3387(0x1dc)] = _0x4a3387(0x297);
+        const _0x306dc8 = _0x2dc3a5, _0x597b0d = {};
+        _0x597b0d[_0x4a3387(0x22b)] = !![], _0x597b0d[_0x4a3387(0x2e1)] = _0x410694, Object[_0x4a3387(0x221) + _0x4a3387(0x218)](_0x238fb1, _0x306dc8[_0x4a3387(0x1dc)], _0x597b0d);
+    } : function (_0x58d341, _0x15845c) {
+        const _0x4248af = _0x52b405, _0x5a98b5 = {};
+        _0x5a98b5[_0x4248af(0x270)] = _0x4248af(0x297);
+        const _0x1c748e = _0x5a98b5;
+        _0x58d341[_0x1c748e[_0x4248af(0x270)]] = _0x15845c;
+    }), __importStar = this && this[_0x52b405(0x304) + 'ar'] || function (_0x2354f1) {
+        const _0x31234a = _0x52b405, _0x1fe90d = {
+                'UpygV': _0x31234a(0x27f),
+                'UBfaK': function (_0x1c11dc, _0x1c12a9, _0x129f2d) {
+                    return _0x1c11dc(_0x1c12a9, _0x129f2d);
+                },
+                'WzRjL': function (_0x19e99f, _0xf775e7) {
+                    return _0x19e99f != _0xf775e7;
+                },
+                'xPsDw': function (_0x12ebae, _0x526420) {
+                    return _0x12ebae !== _0x526420;
+                },
+                'FkngT': _0x31234a(0x297),
+                'vmlVr': function (_0xd5d3c4, _0x4817be, _0x1d2030, _0x5b5052) {
+                    return _0xd5d3c4(_0x4817be, _0x1d2030, _0x5b5052);
+                }
+            }, _0x1dd91a = _0x1fe90d[_0x31234a(0x239)][_0x31234a(0x258)]('|');
+        let _0x2dbd22 = 0x75d * 0x5 + -0x1fcb + -0x506;
+        while (!![]) {
+            switch (_0x1dd91a[_0x2dbd22++]) {
+            case '0':
+                var _0x9514db = {};
+                continue;
+            case '1':
+                if (_0x2354f1 && _0x2354f1[_0x31234a(0x293)])
+                    return _0x2354f1;
+                continue;
+            case '2':
+                _0x1fe90d[_0x31234a(0x233)](__setModuleDefault, _0x9514db, _0x2354f1);
+                continue;
+            case '3':
+                if (_0x1fe90d[_0x31234a(0x21d)](_0x2354f1, null)) {
+                    for (var _0x5de7d7 in _0x2354f1)
+                        if (_0x1fe90d[_0x31234a(0x1dd)](_0x5de7d7, _0x1fe90d[_0x31234a(0x28e)]) && Object[_0x31234a(0x23e)][_0x31234a(0x2b0) + _0x31234a(0x218)][_0x31234a(0x30b)](_0x2354f1, _0x5de7d7))
+                            _0x1fe90d[_0x31234a(0x2e3)](__createBinding, _0x9514db, _0x2354f1, _0x5de7d7);
+                }
+                continue;
+            case '4':
+                return _0x9514db;
+            }
+            break;
+        }
+    }, __awaiter = this && this[_0x52b405(0x299)] || function (_0x32efc9, _0x523f70, _0x1684d8, _0x11c4b6) {
+        const _0x2478cf = _0x52b405, _0x3334b9 = {
+                'qEgfF': function (_0x3f9595, _0x3f491b) {
+                    return _0x3f9595(_0x3f491b);
+                },
+                'oyGty': function (_0x3d87a7, _0x18380d) {
+                    return _0x3d87a7 instanceof _0x18380d;
+                },
+                'PwmaH': function (_0x342f7e, _0x206711) {
+                    return _0x342f7e(_0x206711);
+                },
+                'zDnfr': _0x2478cf(0x2f1),
+                'TGdFV': function (_0x13ab49, _0x57ac0c) {
+                    return _0x13ab49(_0x57ac0c);
+                }
+            };
+        function _0x23c126(_0x2df0ea) {
+            const _0x1e4a67 = _0x2478cf, _0x1693b7 = {
+                    'xfDrF': function (_0xf7c451, _0xd0eeba) {
+                        const _0x5088d4 = _0x2301;
+                        return _0x3334b9[_0x5088d4(0x2db)](_0xf7c451, _0xd0eeba);
+                    }
+                };
+            return _0x3334b9[_0x1e4a67(0x2a6)](_0x2df0ea, _0x1684d8) ? _0x2df0ea : new _0x1684d8(function (_0xccfe80) {
+                const _0x5240d8 = _0x1e4a67;
+                _0x1693b7[_0x5240d8(0x24e)](_0xccfe80, _0x2df0ea);
+            });
+        }
+        return new (_0x1684d8 || (_0x1684d8 = Promise))(function (_0x1bd8b5, _0x5b7047) {
+            const _0x5ec647 = _0x2478cf, _0x2e548a = {
+                    'anBIt': function (_0x985a49, _0x43cb22) {
+                        const _0x8c8e82 = _0x2301;
+                        return _0x3334b9[_0x8c8e82(0x294)](_0x985a49, _0x43cb22);
+                    },
+                    'UdQeL': _0x3334b9[_0x5ec647(0x2d2)]
+                };
+            function _0x92cbe3(_0x1b012d) {
+                const _0x164563 = _0x5ec647;
+                try {
+                    _0x3334b9[_0x164563(0x2db)](_0x2c2805, _0x11c4b6[_0x164563(0x26b)](_0x1b012d));
+                } catch (_0x162100) {
+                    _0x3334b9[_0x164563(0x2db)](_0x5b7047, _0x162100);
+                }
+            }
+            function _0x2bb020(_0x1b3d6d) {
+                const _0x3c1c92 = _0x5ec647;
+                try {
+                    _0x2e548a[_0x3c1c92(0x1e8)](_0x2c2805, _0x11c4b6[_0x2e548a[_0x3c1c92(0x28a)]](_0x1b3d6d));
+                } catch (_0xf233b0) {
+                    _0x2e548a[_0x3c1c92(0x1e8)](_0x5b7047, _0xf233b0);
+                }
+            }
+            function _0x2c2805(_0x5c7c89) {
+                const _0x332eee = _0x5ec647;
+                _0x5c7c89[_0x332eee(0x2e5)] ? _0x3334b9[_0x332eee(0x2db)](_0x1bd8b5, _0x5c7c89[_0x332eee(0x2e1)]) : _0x3334b9[_0x332eee(0x2db)](_0x23c126, _0x5c7c89[_0x332eee(0x2e1)])[_0x332eee(0x277)](_0x92cbe3, _0x2bb020);
+            }
+            _0x3334b9[_0x5ec647(0x1f0)](_0x2c2805, (_0x11c4b6 = _0x11c4b6[_0x5ec647(0x208)](_0x32efc9, _0x523f70 || []))[_0x5ec647(0x26b)]());
+        });
+    }, __importDefault = this && this[_0x52b405(0x25b) + _0x52b405(0x2d0)] || function (_0x1c87bc) {
+        const _0x2a209d = _0x52b405;
+        return _0x1c87bc && _0x1c87bc[_0x2a209d(0x293)] ? _0x1c87bc : { 'default': _0x1c87bc };
+    };
+const _0x265e4e = {};
+_0x265e4e[_0x52b405(0x2e1)] = !![], Object[_0x52b405(0x221) + _0x52b405(0x218)](exports, _0x52b405(0x293), _0x265e4e);
+const TicketZPRO_1 = __importDefault(require(_0x52b405(0x2cc) + _0x52b405(0x2c3) + _0x52b405(0x272))), WhatsappZPRO_1 = __importDefault(require(_0x52b405(0x2cc) + _0x52b405(0x1e4) + _0x52b405(0x1ed))), MessageZPRO_1 = __importDefault(require(_0x52b405(0x2cc) + _0x52b405(0x2e7) + _0x52b405(0x2a3))), ye0esz516_zpro_1 = require(_0x52b405(0x27e) + _0x52b405(0x313) + _0x52b405(0x23a) + _0x52b405(0x200)), waposxjtgen_zpro_1 = __importDefault(require(_0x52b405(0x2dd) + _0x52b405(0x315) + _0x52b405(0x1ef) + _0x52b405(0x329))), openai_1 = require(_0x52b405(0x32f)), ShowTicketServiceZPRO_1 = __importDefault(require(_0x52b405(0x2b8) + _0x52b405(0x253) + _0x52b405(0x242) + _0x52b405(0x2f9) + 'RO')), node_cache_1 = __importDefault(require(_0x52b405(0x30f))), pdf_parse_1 = __importDefault(require(_0x52b405(0x2b4))), docxParser = __importStar(require(_0x52b405(0x223) + 'r')), exceljs_1 = __importDefault(require(_0x52b405(0x1d4))), tesseract_js_1 = __importDefault(require(_0x52b405(0x317) + 'js')), fs_1 = __importDefault(require('fs')), path_1 = __importDefault(require(_0x52b405(0x219))), SendTextMessageServiceZPRO_1 = require(_0x52b405(0x2b1) + _0x52b405(0x1d3) + _0x52b405(0x261)), _0xd2032a = {};
+_0xd2032a[_0x52b405(0x2e9)] = 0x3c, _0xd2032a[_0x52b405(0x250) + 'd'] = 0x1e;
+const cache = new node_cache_1[(_0x52b405(0x297))](_0xd2032a), timer = _0x40380c => new Promise(_0x491587 => setTimeout(_0x491587, _0x40380c));
+function randomIntFromInterval(_0x1d4e13, _0x1136b7) {
+    const _0x35aaf0 = _0x52b405, _0x2570a2 = {};
+    _0x2570a2[_0x35aaf0(0x295)] = function (_0xaef1ef, _0xc8926b) {
+        return _0xaef1ef + _0xc8926b;
+    }, _0x2570a2[_0x35aaf0(0x2cf)] = function (_0x2028b8, _0x1b18bd) {
+        return _0x2028b8 * _0x1b18bd;
+    }, _0x2570a2[_0x35aaf0(0x2bb)] = function (_0xf6c546, _0x1160dc) {
+        return _0xf6c546 - _0x1160dc;
+    };
+    const _0x192869 = _0x2570a2;
+    return Math[_0x35aaf0(0x326)](_0x192869[_0x35aaf0(0x295)](_0x192869[_0x35aaf0(0x2cf)](Math[_0x35aaf0(0x21f)](), _0x192869[_0x35aaf0(0x295)](_0x192869[_0x35aaf0(0x2bb)](_0x1136b7, _0x1d4e13), -0x24f0 + -0x192f + 0x3e20)), _0x1d4e13));
+}
+const rndInt = randomIntFromInterval(-0xeca * -0x2 + 0x449 * -0x1 + -0x53 * 0x4e, 0x10a8 + -0x60f * -0x3 + -0x22d3);
+function _0x2301(_0x2f5247, _0x27abd8) {
+    const _0x4b6cb3 = _0x4aa1();
+    return _0x2301 = function (_0x52da0f, _0x2be82d) {
+        _0x52da0f = _0x52da0f - (-0x122f * -0x1 + 0x1154 + -0x45 * 0x7d);
+        let _0xfff420 = _0x4b6cb3[_0x52da0f];
+        return _0xfff420;
+    }, _0x2301(_0x2f5247, _0x27abd8);
+}
+function wait(_0x16858f, _0x162bcc) {
+    const _0x3e4260 = {
+        'lsePT': function (_0x216e65, _0xe09f29, _0x329608) {
+            return _0x216e65(_0xe09f29, _0x329608);
+        }
+    };
+    return new Promise(function (_0x55d203) {
+        const _0x1a8aa0 = _0x2301;
+        _0x3e4260[_0x1a8aa0(0x2fb)](setTimeout, _0x55d203[_0x1a8aa0(0x259)](null, _0x162bcc), _0x16858f);
+    });
+}
+function transcribeAudio(_0x11e92e, _0x37bbe3) {
+    const _0x2545af = _0x52b405, _0xa2dfcf = {
+            'rHCoD': _0x2545af(0x2fa),
+            'CZxfW': _0x2545af(0x1eb),
+            'LMYAC': function (_0x3b48d2, _0x90387b, _0x4e273e, _0xa4da5d, _0x1c20ad) {
+                return _0x3b48d2(_0x90387b, _0x4e273e, _0xa4da5d, _0x1c20ad);
+            }
+        };
+    return _0xa2dfcf[_0x2545af(0x2aa)](__awaiter, this, void (-0x1bca + 0xb3e * 0x3 + -0x5f0), void (-0x1664 + 0xe26 + -0x83e * -0x1), function* () {
+        const _0x20c61e = _0x2545af, _0x3363ed = yield _0x11e92e[_0x20c61e(0x2d6)][_0x20c61e(0x32a) + _0x20c61e(0x2a0)][_0x20c61e(0x2e0)]({
+                'model': _0xa2dfcf[_0x20c61e(0x298)],
+                'file': new File([_0x37bbe3], _0xa2dfcf[_0x20c61e(0x25d)])
+            });
+        return _0x3363ed[_0x20c61e(0x2df)];
+    });
+}
+function readPDF(_0x218927) {
+    const _0x170e48 = _0x52b405, _0x195af8 = {
+            'LSaiG': function (_0x4aed86, _0x2a0212, _0x322050, _0x2319ca, _0x4325d4) {
+                return _0x4aed86(_0x2a0212, _0x322050, _0x2319ca, _0x4325d4);
+            }
+        };
+    return _0x195af8[_0x170e48(0x234)](__awaiter, this, void (0x2 * -0x242 + -0x1dbb + 0xb * 0x31d), void (-0x3e8 + 0x2 * -0x22 + 0x42c), function* () {
+        const _0x3a15d3 = _0x170e48, _0x5a9e4f = yield (-0x1 * 0xd4f + 0x1929 + -0xbda, pdf_parse_1[_0x3a15d3(0x297)])(_0x218927);
+        return _0x5a9e4f[_0x3a15d3(0x2df)];
+    });
+}
+function readDOCX(_0x363184) {
+    const _0x59d2dc = _0x52b405, _0x5a4bfe = {
+            'EsTKQ': function (_0x1e2e17, _0x32671a) {
+                return _0x1e2e17(_0x32671a);
+            },
+            'PMGeb': _0x59d2dc(0x2c4) + _0x59d2dc(0x226) + _0x59d2dc(0x1d7) + _0x59d2dc(0x312),
+            'TcZzn': function (_0x5db9ef, _0x5c3bda, _0x41c6f5, _0x2242dd, _0x303b7b) {
+                return _0x5db9ef(_0x5c3bda, _0x41c6f5, _0x2242dd, _0x303b7b);
+            }
+        };
+    return _0x5a4bfe[_0x59d2dc(0x306)](__awaiter, this, void (-0x12b4 + 0x1ab3 + 0x17 * -0x59), void (0x7 * 0x337 + 0x6d1 + -0xea9 * 0x2), function* () {
+        const _0x3efe43 = _0x59d2dc, _0x2805ef = {
+                'OoGKW': function (_0x2c7436, _0x2e4d05) {
+                    const _0x3041ba = _0x2301;
+                    return _0x5a4bfe[_0x3041ba(0x2b3)](_0x2c7436, _0x2e4d05);
+                },
+                'NfESA': _0x5a4bfe[_0x3efe43(0x243)]
+            };
+        return new Promise((_0x580d3b, _0x57606e) => {
+            const _0x275599 = _0x3efe43, _0x4728be = {
+                    'EYdNk': function (_0x125c89, _0x13d482) {
+                        const _0x21afdd = _0x2301;
+                        return _0x2805ef[_0x21afdd(0x269)](_0x125c89, _0x13d482);
+                    },
+                    'vwUve': function (_0x4618ae, _0x35c818) {
+                        const _0xa89721 = _0x2301;
+                        return _0x2805ef[_0xa89721(0x269)](_0x4618ae, _0x35c818);
+                    },
+                    'EYRcn': _0x2805ef[_0x275599(0x217)]
+                };
+            docxParser[_0x275599(0x240)](_0x363184, _0x33008d => {
+                const _0x3a850f = _0x275599;
+                _0x33008d ? _0x4728be[_0x3a850f(0x24d)](_0x580d3b, _0x33008d) : _0x4728be[_0x3a850f(0x263)](_0x57606e, _0x4728be[_0x3a850f(0x2d1)]);
+            });
+        });
+    });
+}
+function readXLSX(_0x1b2f53) {
+    const _0x52049c = _0x52b405, _0x5c7caa = {
+            'mMWLp': function (_0x5b8430, _0x1c6526) {
+                return _0x5b8430 > _0x1c6526;
+            },
+            'ihATr': _0x52049c(0x31e) + _0x52049c(0x1ec) + _0x52049c(0x2da) + _0x52049c(0x241) + _0x52049c(0x28b),
+            'VRpED': _0x52049c(0x222) + _0x52049c(0x32b) + _0x52049c(0x2ce) + _0x52049c(0x247) + _0x52049c(0x310),
+            'Ylzri': function (_0x37b838, _0x3ef67f, _0x2f57ac, _0x2d7f8d, _0x1b5a5b) {
+                return _0x37b838(_0x3ef67f, _0x2f57ac, _0x2d7f8d, _0x1b5a5b);
+            }
+        };
+    return _0x5c7caa[_0x52049c(0x22a)](__awaiter, this, void (-0xf28 + 0xa83 + -0x29 * -0x1d), void (-0x3a * -0x1 + -0x5 * 0x2c0 + 0x2 * 0x6c3), function* () {
+        const _0x2581c3 = _0x52049c;
+        try {
+            const _0x3a4edd = new exceljs_1[(_0x2581c3(0x297))][(_0x2581c3(0x1f5))]();
+            yield _0x3a4edd[_0x2581c3(0x32d)][_0x2581c3(0x1ea)](_0x1b2f53);
+            let _0x2f3e43 = '';
+            return _0x3a4edd[_0x2581c3(0x26c)]((_0x4f03cd, _0x4b621f) => {
+                const _0x2e5dec = _0x2581c3, _0x1d74d3 = {
+                        'FKbjU': function (_0x1943c8, _0xfbdad8) {
+                            const _0x5e4461 = _0x2301;
+                            return _0x5c7caa[_0x5e4461(0x271)](_0x1943c8, _0xfbdad8);
+                        }
+                    };
+                _0x2f3e43 += _0x2e5dec(0x1f4) + _0x2e5dec(0x1fe) + _0x4f03cd[_0x2e5dec(0x30c)] + _0x2e5dec(0x2cd), _0x4f03cd[_0x2e5dec(0x1fa)]((_0x27a817, _0x51d0e3) => {
+                    const _0x4c8516 = _0x2e5dec;
+                    let _0x45eee0 = '';
+                    _0x27a817[_0x4c8516(0x2ff)]((_0x12c4f3, _0x2a5af4) => {
+                        const _0x55dc94 = _0x4c8516;
+                        _0x1d74d3[_0x55dc94(0x2a4)](_0x2a5af4, -0xa05 + 0x16 * 0x5 + 0x998) && (_0x45eee0 += '\x09'), _0x45eee0 += _0x12c4f3[_0x55dc94(0x2e1)] || '';
+                    }), _0x2f3e43 += _0x45eee0 + '\x0a';
+                });
+            }), _0x2f3e43[_0x2581c3(0x236)]();
+        } catch (_0x269499) {
+            return ye0esz516_zpro_1[_0x2581c3(0x311)][_0x2581c3(0x2f0)](_0x5c7caa[_0x2581c3(0x2e8)], _0x269499), _0x5c7caa[_0x2581c3(0x2f3)];
+        }
+    });
+}
+function readImage(_0x47ba3e) {
+    const _0x36f1a3 = _0x52b405, _0xac55f0 = {
+            'LKwHC': function (_0x38ed3e, _0x167acc, _0xc421c0, _0x44c1ca, _0x490dca) {
+                return _0x38ed3e(_0x167acc, _0xc421c0, _0x44c1ca, _0x490dca);
+            }
+        };
+    return _0xac55f0[_0x36f1a3(0x301)](__awaiter, this, void (0x2141 + 0x1736 * -0x1 + -0xa0b), void (-0x2 * 0xeca + -0x2546 + -0x216d * -0x2), function* () {
+        const _0xca065d = _0x36f1a3, {
+                data: {text: _0x2476a}
+            } = yield tesseract_js_1[_0xca065d(0x297)][_0xca065d(0x29d)](_0x47ba3e);
+        return _0x2476a;
+    });
+}
+function _0x4aa1() {
+    const _0xdd50ed = [
+        'grokUrl',
+        'en_zpro',
+        'transcript',
+        'ível\x20proce',
+        'oNoun',
+        'xlsx',
+        'IeSKe',
+        'openai',
+        'remoteJid\x20',
+        'jfYNg',
+        'ticket:upd',
+        'toLowerCas',
+        'tMessageSe',
+        'exceljs',
+        'whatsappId',
+        '5643085KtgvlN',
+        'documento\x20',
+        'aGlNR',
+        'Ncwnt',
+        'push',
+        'jcWAp',
+        'vBekX',
+        'xPsDw',
+        'izpnH',
+        ':\x20Grok\x20mes',
+        'VGImX',
+        '\x20Grok\x20mess',
+        'till\x20being',
+        ':\x20Skipping',
+        'odels/What',
+        'contact',
+        'payload',
+        'KSKmu',
+        'anBIt',
+        'nteraction',
+        'load',
+        'audio.ogg',
+        ':::\x20WhaTitan\x20::',
+        'sappZPRO',
+        'sffjv',
+        '/waposxjtg',
+        'TGdFV',
+        'HOmic',
+        'ghCkl',
+        'HQsIn',
+        '\x0a===\x20Plani',
+        'Workbook',
+        'update',
+        'wYsJN',
+        'ning:\x20',
+        'warn',
+        'eachRow',
+        'gecyI',
+        'includes',
+        '__createBi',
+        'lha:\x20',
+        'FSAqi',
+        '516_zpro',
+        'BsxFk',
+        'fXKeY',
+        'ptor',
+        'ZNQxA',
+        'eWtmO',
+        'save',
+        'fACaw',
+        'apply',
+        '3347736cbSBTb',
+        'conversati',
+        'Mxdeq',
+        'fOPek',
+        'qjhgA',
+        'XcgFa',
+        'grokOff',
+        ':\x20Configur',
+        'Dauzi',
+        'vyEhQ',
+        'rvice',
+        'has',
+        'completion',
+        'waitProces',
+        'NfESA',
+        'erty',
+        'path',
+        'a\x20ou\x20no\x20e',
+        'tenantId',
+        '4VLNCAx',
+        'WzRjL',
+        'del',
+        'random',
+        'rocessing\x20',
+        'defineProp',
+        'no\x20é\x20poss',
+        'docx-parse',
+        'KVdMi',
+        'SnMvF',
+        'ocessar\x20o\x20',
+        '_grok_',
+        '\x20undefined',
+        'SendTextEv',
+        'Ylzri',
+        'enumerable',
+        '.xls',
+        'SfRRn',
+        'nding',
+        'hecJV',
+        ':\x20Starting',
+        'ertyDescri',
+        '11862YxlRSr',
+        'UBfaK',
+        'LSaiG',
+        'JZzFI',
+        'trim',
+        'enabled',
+        'for\x20ticket',
+        'UpygV',
+        'pro/ye0esz',
+        'message',
+        'um\x20erro\x2056',
+        'nmTrs',
+        'prototype',
+        'BnJpo',
+        'parseDocx',
+        'ler\x20arquiv',
+        '/ShowTicke',
+        'PMGeb',
+        '4670gBqGnT',
+        'get',
+        'gnThI',
+        'tipo\x20de\x20ar',
+        'KaggI',
+        'KXIvA',
+        'SWUCL',
+        '12RsWROH',
+        'ate',
+        'EYdNk',
+        'xfDrF',
+        '.doc',
+        'checkperio',
+        'siEfR',
+        'sgjWn',
+        'etServices',
+        'attributes',
+        'XAWmJ',
+        'grokHistor',
+        'JNeZS',
+        'split',
+        'bind',
+        ',\x20previous',
+        '__importDe',
+        'set',
+        'CZxfW',
+        'est',
+        'VnWSP',
+        'KIUgT',
+        'rviceZPRO',
+        'cxRnZ',
+        'vwUve',
+        'rexsc',
+        'ycHRM',
+        'where',
+        'configurab',
+        'qIqnX',
+        'OoGKW',
+        'length',
+        'next',
+        'eachSheet',
+        ':\x20Grok\x20war',
+        '123',
+        'applicatio',
+        'EHvrZ',
+        'mMWLp',
+        'etZPRO',
+        'mediaType',
+        'wsCIR',
+        'eDefault',
+        'choices',
+        'then',
+        'info',
+        'image',
+        '.pdf',
+        'xbYCc',
+        'Cghtz',
+        'YaOsR',
+        '../../../x',
+        '1|0|3|2|4',
+        'fDbTR',
+        '307KfZvRC',
+        'assistant',
+        'eeGlw',
+        'hqIaq',
+        'content',
+        'grokPrompt',
+        'eWzAe',
+        'NHFqD',
+        'oMessageSe',
+        'UdQeL',
+        'o\x20XLSX:',
+        'sExternalI',
+        'tPqIh',
+        'FkngT',
+        'messageTyp',
+        'lNmwo',
+        '8760704KAMdXr',
+        'processing',
+        '__esModule',
+        'PwmaH',
+        'rbvwu',
+        'join',
+        'default',
+        'rHCoD',
+        '__awaiter',
+        '\x20processed',
+        'readFileSy',
+        'SxIbd',
+        'recognize',
+        'UYMtY',
+        'age\x20for\x20',
+        'ions',
+        'YGHad',
+        'i.x.ai/v1',
+        'ageZPRO',
+        'FKbjU',
+        '\x20habilitad',
+        'oyGty',
+        'rNlLE',
+        'hjEbt',
+        'kQaZR',
+        'LMYAC',
+        '\x20message\x20p',
+        'Xhfvy',
+        'public',
+        'is\x20null\x20or',
+        'jyYln',
+        'hasOwnProp',
+        '../SendTex',
+        'bSGwA',
+        'EsTKQ',
+        'pdf-parse',
+        '\x27\x20no\x20está',
+        'GFfkf',
+        'AHkvD',
+        '../../Tick',
+        'mIxOb',
+        'lVrpd',
+        'qeZHd',
+        'fFjTw',
+        'grok-2-lat',
+        'messageId',
+        'xJfPc',
+        'system',
+        'SpjTU',
+        'qfhJC',
+        'odels/Tick',
+        'Erro\x20ao\x20pr',
+        '4314DonScH',
+        'chat',
+        'user',
+        'https://ap',
+        'body',
+        'BFRcK',
+        '6MXkuyq',
+        '../../../m',
+        '\x20===\x0a',
+        'ssar\x20este\x20',
+        'sGftF',
+        'fault',
+        'EYRcn',
+        'zDnfr',
+        'BnXcM',
+        'NOliX',
+        'jeLsu',
+        'audio',
+        'grokStatus',
+        'toString',
+        'wabaId',
+        ':\x20Erro\x20ao\x20',
+        'qEgfF',
+        'qrMAP',
+        '../../../l',
+        'AyvJW',
+        'text',
+        'create',
+        'value',
+        'eQaPZ',
+        'vmlVr',
+        'yspEz',
+        'done',
+        'SfKqv',
+        'odels/Mess',
+        'ihATr',
+        'stdTTL',
+        'oXoWx',
+        'XZoDZ',
+        'gLmCH',
+        'HnngR',
+        'data',
+        'txiag',
+        'error',
+        'throw',
+        'sage',
+        'VRpED',
+        '__setModul',
+        '29078918toePbn',
+        'JgOnP',
+        'gDBBp',
+        'xgBff',
+        'tServiceZP',
+        'whisper-1',
+        'lsePT',
+        'qDYon',
+        'VrHxl',
+        'writable',
+        'eachCell',
+        'OpenAI',
+        'LKwHC',
+        '.xlsx',
+        'TOmAt',
+        '__importSt',
+        'getOwnProp',
+        'TcZzn',
+        'Faetw',
+        '\x20message\x20s',
+        'KaCsP',
+        'type',
+        'call',
+        'name',
+        'findOne',
+        '.docx',
+        'node-cache',
+        'quivo.',
+        'logger',
+        'DOCX',
+        'wsp3s0z5_z',
+        ':\x20Ocorreu\x20',
+        'udpc8_zpro',
+        'sLFQu',
+        'tesseract.',
+        'bRLtT',
+        '68170AYNaIq',
+        'role',
+        'ZzEde',
+        'bwwYC',
+        'EpCYf',
+        ':::\x20WhaTitan\x20',
+        'grokModel',
+        'mediaUrl',
+        'ação\x20\x27grok',
+        'Uxgip',
+        'ncontrada.',
+        'CWpKL',
+        'NpVZu',
+        'floor',
+        '\x20(cacheKey'
+    ];
+    _0x4aa1 = function () {
+        return _0xdd50ed;
+    };
+    return _0x4aa1();
+}
+function HandleMessageGrokEVO(_0x55c9cb, _0x138114, _0x21a359) {
+    const _0x26fb6b = _0x52b405, _0x558dec = {
+            'gnThI': function (_0x5908bd) {
+                return _0x5908bd();
+            },
+            'eWzAe': _0x26fb6b(0x2c0),
+            'eeGlw': _0x26fb6b(0x2c7),
+            'CWpKL': function (_0x4a6763, _0x1d4f22) {
+                return _0x4a6763(_0x1d4f22);
+            },
+            'XAWmJ': function (_0x1fa35e, _0x3276a2) {
+                return _0x1fa35e === _0x3276a2;
+            },
+            'jcWAp': _0x26fb6b(0x2bd) + _0x26fb6b(0x25e),
+            'HnngR': function (_0x200158, _0x36de8f) {
+                return _0x200158 || _0x36de8f;
+            },
+            'qDYon': _0x26fb6b(0x26e),
+            'SpjTU': function (_0xe714dd, _0x49bb6c) {
+                return _0xe714dd && _0x49bb6c;
+            },
+            'JZzFI': function (_0x41cc4f, _0x5c61eb) {
+                return _0x41cc4f > _0x5c61eb;
+            },
+            'JNeZS': _0x26fb6b(0x282),
+            'wYsJN': function (_0x297035, _0x5b595e, _0x236d86, _0x2cadbb, _0x3ab38a) {
+                return _0x297035(_0x5b595e, _0x236d86, _0x2cadbb, _0x3ab38a);
+            },
+            'gLmCH': _0x26fb6b(0x256) + 'y',
+            'jeLsu': function (_0x40eb62, _0x140020, _0x2d77ed, _0x186f88, _0x5c6d33) {
+                return _0x40eb62(_0x140020, _0x2d77ed, _0x186f88, _0x5c6d33);
+            },
+            'BFRcK': function (_0x5c695a, _0x2db74a) {
+                return _0x5c695a === _0x2db74a;
+            },
+            'NOliX': _0x26fb6b(0x279),
+            'aGlNR': function (_0x4a9813, _0x359e6c) {
+                return _0x4a9813 - _0x359e6c;
+            },
+            'Faetw': _0x26fb6b(0x2ad),
+            'VGImX': function (_0x3ada33, _0x37f616) {
+                return _0x3ada33(_0x37f616);
+            },
+            'NHFqD': function (_0x5bfaa9, _0x2459c7) {
+                return _0x5bfaa9 === _0x2459c7;
+            },
+            'KVdMi': function (_0x427c27, _0x500f3b) {
+                return _0x427c27 === _0x500f3b;
+            },
+            'ghCkl': _0x26fb6b(0x26f) + 'n',
+            'bSGwA': _0x26fb6b(0x27a),
+            'ZNQxA': _0x26fb6b(0x30e),
+            'BnJpo': _0x26fb6b(0x24f),
+            'jfYNg': function (_0xb72b5, _0x50591a) {
+                return _0xb72b5(_0x50591a);
+            },
+            'TOmAt': _0x26fb6b(0x302),
+            'cxRnZ': _0x26fb6b(0x22c),
+            'nmTrs': _0x26fb6b(0x222) + _0x26fb6b(0x32b) + _0x26fb6b(0x2ce) + _0x26fb6b(0x247) + _0x26fb6b(0x310),
+            'NpVZu': function (_0x443d26, _0xab126c) {
+                return _0x443d26 !== _0xab126c;
+            },
+            'qfhJC': function (_0x49f99c, _0x4ae982, _0x12e5d9, _0x1fb048) {
+                return _0x49f99c(_0x4ae982, _0x12e5d9, _0x1fb048);
+            },
+            'rNlLE': function (_0x2fc6df, _0x1d79df) {
+                return _0x2fc6df(_0x1d79df);
+            },
+            'Cghtz': function (_0x3a9045, _0x1b63a8) {
+                return _0x3a9045 * _0x1b63a8;
+            },
+            'BnXcM': _0x26fb6b(0x330) + _0x26fb6b(0x2ae) + _0x26fb6b(0x228),
+            'lNmwo': _0x26fb6b(0x31e) + _0x26fb6b(0x1ec) + _0x26fb6b(0x210) + _0x26fb6b(0x321) + _0x26fb6b(0x2b5) + _0x26fb6b(0x2a5) + _0x26fb6b(0x21a) + _0x26fb6b(0x323),
+            'JgOnP': _0x26fb6b(0x31e) + _0x26fb6b(0x1ec) + _0x26fb6b(0x314) + _0x26fb6b(0x23c) + ':',
+            'izpnH': _0x26fb6b(0x21b),
+            'jyYln': _0x26fb6b(0x2d9),
+            'GFfkf': function (_0x1b0650, _0x15df20) {
+                return _0x1b0650 === _0x15df20;
+            },
+            'SfKqv': function (_0x1c63ff, _0x412b29) {
+                return _0x1c63ff === _0x412b29;
+            },
+            'kQaZR': function (_0x531067, _0x1faa06) {
+                return _0x531067 === _0x1faa06;
+            },
+            'hecJV': _0x26fb6b(0x20a) + 'on',
+            'fACaw': _0x26fb6b(0x328),
+            'UYMtY': _0x26fb6b(0x31f),
+            'fXKeY': _0x26fb6b(0x286),
+            'AHkvD': _0x26fb6b(0x20f),
+            'oXoWx': _0x26fb6b(0x216) + _0x26fb6b(0x28c) + _0x26fb6b(0x1e9),
+            'KIUgT': function (_0x2ec1e5, _0x3ec5b5) {
+                return _0x2ec1e5(_0x3ec5b5);
+            },
+            'lVrpd': _0x26fb6b(0x237),
+            'KSKmu': _0x26fb6b(0x31e) + _0x26fb6b(0x1ec) + _0x26fb6b(0x1df) + _0x26fb6b(0x2f2),
+            'xgBff': function (_0x6f370, _0x1542db) {
+                return _0x6f370 === _0x1542db;
+            },
+            'bRLtT': function (_0x1c04c8, _0x5eeaa0) {
+                return _0x1c04c8 === _0x5eeaa0;
+            },
+            'ycHRM': _0x26fb6b(0x2c8) + _0x26fb6b(0x2a2),
+            'tPqIh': function (_0x1197a7, _0x506d71) {
+                return _0x1197a7 === _0x506d71;
+            },
+            'BsxFk': function (_0x376fbb, _0x431352) {
+                return _0x376fbb === _0x431352;
+            },
+            'HQsIn': function (_0x443d6c, _0x17a1d9) {
+                return _0x443d6c === _0x17a1d9;
+            },
+            'YGHad': function (_0x20b456, _0x60f9b8) {
+                return _0x20b456 === _0x60f9b8;
+            },
+            'hjEbt': function (_0x3c6d3f, _0x4abaeb) {
+                return _0x3c6d3f !== _0x4abaeb;
+            },
+            'HOmic': _0x26fb6b(0x332) + _0x26fb6b(0x24c),
+            'eQaPZ': function (_0x9956d9, _0x28c752, _0x480f0a) {
+                return _0x9956d9(_0x28c752, _0x480f0a);
+            },
+            'qIqnX': _0x26fb6b(0x31e) + _0x26fb6b(0x1ec) + _0x26fb6b(0x26d) + _0x26fb6b(0x1f8)
+        };
+    var _0x3119a8, _0xf95405, _0x408bb8;
+    return _0x558dec[_0x26fb6b(0x2d5)](__awaiter, this, void (0x613 + -0x511 + 0x102 * -0x1), void (-0x2 * -0x3d4 + 0xcc + -0x874), function* () {
+        const _0x4a7e98 = _0x26fb6b, _0x3e1cb2 = {
+                'vyEhQ': _0x558dec[_0x4a7e98(0x2ec)],
+                'bwwYC': function (_0x17f996, _0x5d950a, _0x1e72fd, _0x35ce32, _0x356316) {
+                    const _0xef35ae = _0x4a7e98;
+                    return _0x558dec[_0xef35ae(0x2d5)](_0x17f996, _0x5d950a, _0x1e72fd, _0x35ce32, _0x356316);
+                },
+                'SfRRn': function (_0x366228, _0x2cea82, _0x197272, _0x1c0f61, _0xfadd2b) {
+                    const _0x563aaf = _0x4a7e98;
+                    return _0x558dec[_0x563aaf(0x2d5)](_0x366228, _0x2cea82, _0x197272, _0x1c0f61, _0xfadd2b);
+                },
+                'xbYCc': function (_0x568a36, _0x6b685e) {
+                    const _0x55ec2d = _0x4a7e98;
+                    return _0x558dec[_0x55ec2d(0x2ca)](_0x568a36, _0x6b685e);
+                },
+                'wsCIR': function (_0x495d8c, _0x41bc4f) {
+                    const _0x56ec2a = _0x4a7e98;
+                    return _0x558dec[_0x56ec2a(0x255)](_0x495d8c, _0x41bc4f);
+                },
+                'sLFQu': function (_0x3d2cbe, _0x5a1658) {
+                    const _0x26e9f6 = _0x4a7e98;
+                    return _0x558dec[_0x26e9f6(0x255)](_0x3d2cbe, _0x5a1658);
+                },
+                'SnMvF': _0x558dec[_0x4a7e98(0x2d4)],
+                'sffjv': function (_0x3420f1, _0x5c61ea) {
+                    const _0x4d2a74 = _0x4a7e98;
+                    return _0x558dec[_0x4d2a74(0x1d8)](_0x3420f1, _0x5c61ea);
+                },
+                'hqIaq': _0x558dec[_0x4a7e98(0x307)],
+                'Mxdeq': function (_0x32b606, _0x2e3134) {
+                    const _0x3b8fc1 = _0x4a7e98;
+                    return _0x558dec[_0x3b8fc1(0x1e0)](_0x32b606, _0x2e3134);
+                },
+                'ZzEde': function (_0x5c8e3a, _0x256a4b) {
+                    const _0x5e430a = _0x4a7e98;
+                    return _0x558dec[_0x5e430a(0x288)](_0x5c8e3a, _0x256a4b);
+                },
+                'Xhfvy': function (_0xf95362, _0x1d8ca4) {
+                    const _0x531aa4 = _0x4a7e98;
+                    return _0x558dec[_0x531aa4(0x224)](_0xf95362, _0x1d8ca4);
+                },
+                'rexsc': _0x558dec[_0x4a7e98(0x1f2)],
+                'eWtmO': _0x558dec[_0x4a7e98(0x2b2)],
+                'Uxgip': function (_0x146602, _0x41ff85) {
+                    const _0x4d260e = _0x4a7e98;
+                    return _0x558dec[_0x4d260e(0x1d8)](_0x146602, _0x41ff85);
+                },
+                'SxIbd': _0x558dec[_0x4a7e98(0x204)],
+                'IeSKe': _0x558dec[_0x4a7e98(0x23f)],
+                'fDbTR': function (_0xe90f45, _0x1ce9de) {
+                    const _0x555dbb = _0x4a7e98;
+                    return _0x558dec[_0x555dbb(0x1d8)](_0xe90f45, _0x1ce9de);
+                },
+                'mIxOb': function (_0x3be101, _0x21cc9c) {
+                    const _0x4a2eb7 = _0x4a7e98;
+                    return _0x558dec[_0x4a2eb7(0x331)](_0x3be101, _0x21cc9c);
+                },
+                'AyvJW': _0x558dec[_0x4a7e98(0x303)],
+                'Dauzi': _0x558dec[_0x4a7e98(0x262)],
+                'fFjTw': _0x558dec[_0x4a7e98(0x23d)],
+                'XZoDZ': function (_0x169aeb, _0x2e8304) {
+                    const _0x5815b4 = _0x4a7e98;
+                    return _0x558dec[_0x5815b4(0x325)](_0x169aeb, _0x2e8304);
+                },
+                'xJfPc': function (_0x3ed36f, _0x14efe1, _0x4d12af, _0x54b5b6) {
+                    const _0x5394d9 = _0x4a7e98;
+                    return _0x558dec[_0x5394d9(0x2c2)](_0x3ed36f, _0x14efe1, _0x4d12af, _0x54b5b6);
+                },
+                'SWUCL': function (_0x55a868, _0x1782c2) {
+                    const _0x5f43ae = _0x4a7e98;
+                    return _0x558dec[_0x5f43ae(0x2a7)](_0x55a868, _0x1782c2);
+                },
+                'qrMAP': function (_0x4fc743, _0x53f148) {
+                    const _0x12ff75 = _0x4a7e98;
+                    return _0x558dec[_0x12ff75(0x27c)](_0x4fc743, _0x53f148);
+                },
+                'XcgFa': _0x558dec[_0x4a7e98(0x2d3)],
+                'EpCYf': _0x558dec[_0x4a7e98(0x290)],
+                'gDBBp': _0x558dec[_0x4a7e98(0x2f6)]
+            };
+        let _0x4339fc = !![];
+        const _0x4a6d67 = {};
+        _0x4a6d67['id'] = _0x21a359[_0x4a7e98(0x1d5)];
+        const _0x5ae8e4 = {};
+        _0x5ae8e4[_0x4a7e98(0x266)] = _0x4a6d67, _0x5ae8e4[_0x4a7e98(0x254)] = [
+            'id',
+            _0x558dec[_0x4a7e98(0x1de)],
+            _0x558dec[_0x4a7e98(0x2af)]
+        ];
+        const _0x43f327 = yield WhatsappZPRO_1[_0x4a7e98(0x297)][_0x4a7e98(0x30d)](_0x5ae8e4);
+        _0x558dec[_0x4a7e98(0x224)](_0x558dec[_0x4a7e98(0x2b6)](_0x3119a8 = _0x558dec[_0x4a7e98(0x2b6)](_0x138114, null) || _0x558dec[_0x4a7e98(0x2e6)](_0x138114, void (-0x1b8 + -0xc33 + 0xdeb)) ? void (0x101 * -0x9 + -0x1 * -0x473 + 0x496) : _0x138114[_0x4a7e98(0x2ee)], null) || _0x558dec[_0x4a7e98(0x2a9)](_0x3119a8, void (-0x5 * -0x713 + -0x484 + -0x1edb)) ? void (0x1ce8 + 0x1f5f + -0x3c47) : _0x3119a8[_0x4a7e98(0x28f) + 'e'], _0x558dec[_0x4a7e98(0x22f)]) && (_0x4339fc = ![]);
+        if (_0x21a359[_0x4a7e98(0x2d7)]) {
+            const _0x58b313 = {};
+            _0x58b313['id'] = _0x55c9cb['id'];
+            const _0x4e8bdd = {};
+            _0x4e8bdd[_0x4a7e98(0x266)] = _0x58b313, _0x4e8bdd[_0x4a7e98(0x254)] = [
+                'id',
+                _0x558dec[_0x4a7e98(0x207)],
+                _0x558dec[_0x4a7e98(0x29e)],
+                _0x558dec[_0x4a7e98(0x202)],
+                _0x558dec[_0x4a7e98(0x2b7)],
+                _0x558dec[_0x4a7e98(0x2ea)]
+            ];
+            const _0x485c00 = yield WhatsappZPRO_1[_0x4a7e98(0x297)][_0x4a7e98(0x30d)](_0x4e8bdd), _0x33e028 = _0x4a7e98(0x292) + _0x4a7e98(0x227) + _0x21a359['id'];
+            if (cache[_0x4a7e98(0x214)](_0x33e028) && _0x485c00 && _0x558dec[_0x4a7e98(0x2ca)](_0x558dec[_0x4a7e98(0x260)](String, _0x485c00[_0x4a7e98(0x216) + _0x4a7e98(0x28c) + _0x4a7e98(0x1e9)]), _0x558dec[_0x4a7e98(0x2ba)])) {
+                ye0esz516_zpro_1[_0x4a7e98(0x311)][_0x4a7e98(0x278)](_0x4a7e98(0x31e) + _0x4a7e98(0x1ec) + _0x4a7e98(0x1e3) + _0x4a7e98(0x1e1) + _0x4a7e98(0x29f) + _0x21a359['id'] + (_0x4a7e98(0x25a) + _0x4a7e98(0x308) + _0x4a7e98(0x1e2) + _0x4a7e98(0x29a) + _0x4a7e98(0x327) + ':\x20') + _0x33e028 + ')');
+                return;
+            }
+            ye0esz516_zpro_1[_0x4a7e98(0x311)][_0x4a7e98(0x278)](_0x4a7e98(0x31e) + _0x4a7e98(0x1ec) + _0x4a7e98(0x230) + _0x4a7e98(0x2ab) + _0x4a7e98(0x220) + _0x4a7e98(0x238) + '\x20' + _0x21a359['id'] + (_0x4a7e98(0x327) + ':\x20') + _0x33e028 + ')'), cache[_0x4a7e98(0x25c)](_0x33e028, !![]), ye0esz516_zpro_1[_0x4a7e98(0x311)][_0x4a7e98(0x278)](_0x558dec[_0x4a7e98(0x1e7)]);
+            let _0x2dea17;
+            const _0x2f11c5 = new openai_1[(_0x4a7e98(0x300))]({
+                'apiKey': _0x558dec[_0x4a7e98(0x2f8)](_0x485c00, null) || _0x558dec[_0x4a7e98(0x318)](_0x485c00, void (0x26b9 * 0x1 + -0x2129 + 0x2 * -0x2c8)) ? void (-0x21e5 * -0x1 + -0x4 * -0x5e5 + -0x3979 * 0x1) : _0x485c00[_0x4a7e98(0x328)],
+                'baseURL': _0x558dec[_0x4a7e98(0x265)]
+            });
+            function _0x55271c(_0x4a62a6) {
+                const _0x4076db = _0x4a7e98;
+                return _0x3e1cb2[_0x4076db(0x31c)](__awaiter, this, void (-0x1a4f + 0x2295 + 0x1 * -0x846), void (0x1 * -0x1043 + -0xfae + 0xd * 0x275), function* () {
+                    const _0xb19019 = _0x4076db, _0x3b6ddb = {};
+                    _0x3b6ddb['id'] = _0x21a359['id'];
+                    const _0x208ac9 = {};
+                    _0x208ac9[_0xb19019(0x266)] = _0x3b6ddb, _0x208ac9[_0xb19019(0x254)] = [
+                        'id',
+                        _0x3e1cb2[_0xb19019(0x212)]
+                    ];
+                    let _0x23ac1e = yield TicketZPRO_1[_0xb19019(0x297)][_0xb19019(0x30d)](_0x208ac9);
+                    if (!_0x23ac1e) {
+                        const _0x12b73b = {};
+                        _0x12b73b['id'] = _0x21a359['id'], _0x12b73b[_0xb19019(0x256) + 'y'] = _0x4a62a6, _0x23ac1e = yield TicketZPRO_1[_0xb19019(0x297)][_0xb19019(0x2e0)](_0x12b73b);
+                    } else
+                        _0x23ac1e[_0xb19019(0x256) + 'y'] = _0x4a62a6, yield _0x23ac1e[_0xb19019(0x206)]();
+                });
+            }
+            function _0x50fef8() {
+                const _0x12b026 = _0x4a7e98, _0x1e2332 = {};
+                _0x1e2332[_0x12b026(0x20c)] = _0x3e1cb2[_0x12b026(0x212)];
+                const _0x2df76d = _0x1e2332;
+                return _0x3e1cb2[_0x12b026(0x22d)](__awaiter, this, void (-0x20af + -0x437 + 0x24e6), void (-0x436 + -0xe5 * -0x3 + -0x11 * -0x17), function* () {
+                    const _0x1a6b09 = _0x12b026, _0x46d9b7 = {};
+                    _0x46d9b7['id'] = _0x21a359['id'];
+                    const _0x39ee54 = {};
+                    _0x39ee54[_0x1a6b09(0x266)] = _0x46d9b7, _0x39ee54[_0x1a6b09(0x254)] = [
+                        'id',
+                        _0x2df76d[_0x1a6b09(0x20c)]
+                    ];
+                    const _0x596783 = yield TicketZPRO_1[_0x1a6b09(0x297)][_0x1a6b09(0x30d)](_0x39ee54);
+                    return _0x596783 ? _0x596783[_0x1a6b09(0x256) + 'y'] : {};
+                });
+            }
+            function _0x38c0c5(_0x4008f0, _0x1ea33e, _0x5d0b25) {
+                const _0x35e4fc = _0x4a7e98, _0x4e3d50 = {
+                        'Ncwnt': function (_0x50f61f) {
+                            const _0x3a7351 = _0x2301;
+                            return _0x558dec[_0x3a7351(0x246)](_0x50f61f);
+                        },
+                        'VrHxl': _0x558dec[_0x35e4fc(0x287)],
+                        'YaOsR': _0x558dec[_0x35e4fc(0x283)],
+                        'KXIvA': function (_0x39798b, _0x1830ca) {
+                            const _0x346ec9 = _0x35e4fc;
+                            return _0x558dec[_0x346ec9(0x324)](_0x39798b, _0x1830ca);
+                        },
+                        'qjhgA': function (_0x4d42f8, _0x183edb) {
+                            const _0x275351 = _0x35e4fc;
+                            return _0x558dec[_0x275351(0x255)](_0x4d42f8, _0x183edb);
+                        },
+                        'sgjWn': _0x558dec[_0x35e4fc(0x1db)],
+                        'oNoun': function (_0x55cef1, _0x2b076b) {
+                            const _0x358a1b = _0x35e4fc;
+                            return _0x558dec[_0x358a1b(0x2ed)](_0x55cef1, _0x2b076b);
+                        },
+                        'KaggI': _0x558dec[_0x35e4fc(0x2fc)],
+                        'siEfR': function (_0x4bd9dc, _0x10474f) {
+                            const _0x271a5f = _0x35e4fc;
+                            return _0x558dec[_0x271a5f(0x2c1)](_0x4bd9dc, _0x10474f);
+                        },
+                        'yspEz': function (_0x10c352, _0x51abec) {
+                            const _0x129c79 = _0x35e4fc;
+                            return _0x558dec[_0x129c79(0x235)](_0x10c352, _0x51abec);
+                        },
+                        'KaCsP': _0x558dec[_0x35e4fc(0x257)]
+                    };
+                return _0x558dec[_0x35e4fc(0x1f7)](__awaiter, this, void (0x1 * 0x103b + 0x6b9 * 0x1 + 0x1c4 * -0xd), void (-0x132 + 0xa91 + -0x1 * 0x95f), function* () {
+                    const _0x3199a3 = _0x35e4fc;
+                    let _0x3fb2a9 = yield _0x4e3d50[_0x3199a3(0x1d9)](_0x50fef8);
+                    if (!_0x3fb2a9) {
+                        const _0x158cfc = {};
+                        _0x158cfc[_0x3199a3(0x31a)] = _0x4e3d50[_0x3199a3(0x2fd)], _0x158cfc[_0x3199a3(0x285)] = _0x485c00 && _0x485c00[_0x3199a3(0x286)], _0x3fb2a9 = [_0x158cfc];
+                    }
+                    if (_0x5d0b25) {
+                        const _0xa136b2 = {};
+                        _0xa136b2[_0x3199a3(0x31a)] = _0x4e3d50[_0x3199a3(0x27d)], _0xa136b2[_0x3199a3(0x285)] = _0x1ea33e, _0x3fb2a9[_0x3199a3(0x1da)](_0xa136b2);
+                    } else
+                        _0x3fb2a9[_0x3199a3(0x1da)]({
+                            'role': _0x4e3d50[_0x3199a3(0x27d)],
+                            'content': _0x4008f0[_0x3199a3(0x2c9)][_0x3199a3(0x2d8)]()
+                        });
+                    yield _0x4e3d50[_0x3199a3(0x249)](_0x55271c, _0x3fb2a9);
+                    const _0x35e66f = yield _0x2f11c5[_0x3199a3(0x2c6)][_0x3199a3(0x215) + 's'][_0x3199a3(0x2e0)]({
+                        'model': (_0x4e3d50[_0x3199a3(0x20d)](_0x485c00, null) || _0x4e3d50[_0x3199a3(0x20d)](_0x485c00, void (0x1007 + 0x224b * 0x1 + 0x39 * -0xe2)) ? void (-0x2 * 0x629 + -0x1a62 + 0x26b4) : _0x485c00[_0x3199a3(0x31f)]) || _0x4e3d50[_0x3199a3(0x252)],
+                        'messages': _0x4e3d50[_0x3199a3(0x32c)](_0x3fb2a9, _0x4e3d50[_0x3199a3(0x248)]),
+                        'max_tokens': 0xfa0
+                    });
+                    if (_0x4e3d50[_0x3199a3(0x251)](_0x3fb2a9, _0x35e66f) && _0x35e66f[_0x3199a3(0x276)] && _0x4e3d50[_0x3199a3(0x2e4)](_0x35e66f[_0x3199a3(0x276)][_0x3199a3(0x26a)], 0x7fc + -0x1364 + 0xa * 0x124) && _0x35e66f[_0x3199a3(0x276)][-0xfd1 * 0x1 + -0x1c38 + 0x2c09][_0x3199a3(0x23b)]) {
+                        const _0x232f91 = {};
+                        _0x232f91[_0x3199a3(0x31a)] = _0x4e3d50[_0x3199a3(0x309)], _0x232f91[_0x3199a3(0x285)] = _0x35e66f[_0x3199a3(0x276)][0x2b * 0xa4 + 0x1 * -0xad9 + -0x10b3][_0x3199a3(0x23b)][_0x3199a3(0x285)], _0x3fb2a9[_0x3199a3(0x1da)](_0x232f91);
+                    }
+                    yield _0x4e3d50[_0x3199a3(0x249)](_0x55271c, _0x3fb2a9);
+                    if (_0x4e3d50[_0x3199a3(0x251)](_0x3fb2a9, _0x35e66f) && _0x35e66f[_0x3199a3(0x276)] && _0x4e3d50[_0x3199a3(0x2e4)](_0x35e66f[_0x3199a3(0x276)][_0x3199a3(0x26a)], -0xea2 + 0x35 * 0xa6 + -0x34a * 0x6) && _0x35e66f[_0x3199a3(0x276)][-0x15 * 0xed + -0x464 * -0x7 + -0xb4b][_0x3199a3(0x23b)])
+                        return _0x35e66f[_0x3199a3(0x276)][0x7 * -0xff + 0x19 * -0x115 + 0x86 * 0x41][_0x3199a3(0x23b)][_0x3199a3(0x285)];
+                });
+            }
+            if ((_0x558dec[_0x4a7e98(0x28d)](_0x138114, null) || _0x558dec[_0x4a7e98(0x2a9)](_0x138114, void (-0x138e + -0x1a * 0x16a + 0x6 * 0x963)) ? void (-0x70 * 0x16 + -0x26a6 + 0x3046 * 0x1) : _0x138114[_0x4a7e98(0x2c9)]) && (_0x485c00 && _0x558dec[_0x4a7e98(0x201)](_0x558dec[_0x4a7e98(0x1f3)](_0xf95405 = _0x558dec[_0x4a7e98(0x28d)](_0x138114, null) || _0x558dec[_0x4a7e98(0x255)](_0x138114, void (-0x22 * -0xb + -0x1 * 0x811 + 0x69b)) ? void (0x1 * -0x92b + -0x922 + 0x124d * 0x1) : _0x138114[_0x4a7e98(0x2c9)], null) || _0x558dec[_0x4a7e98(0x201)](_0xf95405, void (0x291 + 0xf0b + -0x119c)) ? void (-0x275 + 0xfa9 * 0x1 + -0xd34) : _0xf95405[_0x4a7e98(0x1d2) + 'e'](), _0x558dec[_0x4a7e98(0x1f3)](_0x408bb8 = _0x485c00[_0x4a7e98(0x20f)], null) || _0x558dec[_0x4a7e98(0x2a1)](_0x408bb8, void (-0xe1 * -0x1 + -0x136b + 0x128a)) ? void (-0x198 * -0x10 + -0x26b5 + -0x1 * -0xd35) : _0x408bb8[_0x4a7e98(0x1d2) + 'e']()) && _0x558dec[_0x4a7e98(0x2a8)](_0x485c00[_0x4a7e98(0x20f)], ''))) {
+                const _0x314a0f = {};
+                _0x314a0f[_0x4a7e98(0x2d7)] = ![], yield _0x21a359[_0x4a7e98(0x1f6)](_0x314a0f);
+                const _0x495cdf = {};
+                _0x495cdf['id'] = _0x21a359['id'], _0x495cdf[_0x4a7e98(0x21b)] = _0x21a359[_0x4a7e98(0x21b)];
+                const _0x36bf07 = yield (0x8fd + 0x1092 + -0x198f, ShowTicketServiceZPRO_1[_0x4a7e98(0x297)])(_0x495cdf), _0x5a00df = {};
+                _0x5a00df[_0x4a7e98(0x21b)] = _0x21a359[_0x4a7e98(0x21b)], _0x5a00df[_0x4a7e98(0x30a)] = _0x558dec[_0x4a7e98(0x1f1)], _0x5a00df[_0x4a7e98(0x1e6)] = _0x36bf07, (-0xa * -0x368 + 0x10e8 + -0x32f8, waposxjtgen_zpro_1[_0x4a7e98(0x297)])(_0x5a00df);
+            }
+            try {
+                _0x558dec[_0x4a7e98(0x2e2)](wait, 0x1fc7 * -0x1 + -0x1a60 + 0x3e0f, null)[_0x4a7e98(0x277)](function () {
+                    const _0x1d8fc5 = _0x4a7e98;
+                    return _0x558dec[_0x1d8fc5(0x1f7)](__awaiter, this, void (-0x1a5f + -0x9a3 * 0x4 + 0x40eb), void (-0x3bb + -0x2132 + 0x24ed), function* () {
+                        const _0x52fbe9 = _0x1d8fc5;
+                        if (_0x21a359[_0x52fbe9(0x2d7)]) {
+                            let _0x21b7f0 = '';
+                            if (_0x4339fc) {
+                                if (_0x138114) {
+                                    const _0x42a0e4 = {};
+                                    _0x42a0e4[_0x52fbe9(0x2be)] = _0x138114['id'], _0x42a0e4[_0x52fbe9(0x21b)] = _0x21a359[_0x52fbe9(0x21b)];
+                                    const _0x16a221 = {};
+                                    _0x16a221[_0x52fbe9(0x266)] = _0x42a0e4;
+                                    const _0x52cf33 = yield MessageZPRO_1[_0x52fbe9(0x297)][_0x52fbe9(0x30d)](_0x16a221);
+                                    if (_0x3e1cb2[_0x52fbe9(0x27b)](_0x3e1cb2[_0x52fbe9(0x274)](_0x52cf33, null) || _0x3e1cb2[_0x52fbe9(0x316)](_0x52cf33, void (0x10 * -0x40 + 0x361 * 0x7 + -0x13a7)) ? void (0x23a4 + -0x228b + -0x119) : _0x52cf33[_0x52fbe9(0x273)], _0x3e1cb2[_0x52fbe9(0x225)]) && _0x52cf33[_0x52fbe9(0x320)]) {
+                                        const _0x3e6840 = _0x52cf33[_0x52fbe9(0x320)][_0x52fbe9(0x258)]('/'), _0x2821c6 = _0x3e6840[_0x3e1cb2[_0x52fbe9(0x1ee)](_0x3e6840[_0x52fbe9(0x26a)], 0x1264 + 0x1ad5 + 0x5a7 * -0x8)], _0xa04fa9 = path_1[_0x52fbe9(0x297)][_0x52fbe9(0x296)](__dirname, '..', '..', '..', '..', _0x3e1cb2[_0x52fbe9(0x284)], _0x21a359[_0x52fbe9(0x21b)][_0x52fbe9(0x2d8)](), _0x2821c6), _0x46660a = fs_1[_0x52fbe9(0x297)][_0x52fbe9(0x29b) + 'nc'](_0xa04fa9);
+                                        _0x21b7f0 = yield _0x3e1cb2[_0x52fbe9(0x20b)](readImage, _0x46660a);
+                                    } else {
+                                        if (_0x3e1cb2[_0x52fbe9(0x31b)](_0x3e1cb2[_0x52fbe9(0x2ac)](_0x52cf33, null) || _0x3e1cb2[_0x52fbe9(0x2ac)](_0x52cf33, void (-0x12f * -0x1d + 0x14a6 + -0x36f9)) ? void (-0x1b12 + -0x21c1 + 0x3cd3) : _0x52cf33[_0x52fbe9(0x273)], _0x3e1cb2[_0x52fbe9(0x264)]) && _0x52cf33[_0x52fbe9(0x320)]) {
+                                            if (_0x52cf33[_0x52fbe9(0x2c9)][_0x52fbe9(0x1fc)](_0x3e1cb2[_0x52fbe9(0x205)])) {
+                                                const _0x36b66a = _0x52cf33[_0x52fbe9(0x320)][_0x52fbe9(0x258)]('/'), _0x50d111 = _0x36b66a[_0x3e1cb2[_0x52fbe9(0x322)](_0x36b66a[_0x52fbe9(0x26a)], 0xd0 * 0x24 + -0x3 * 0x9ad + -0x38)], _0x5cb572 = path_1[_0x52fbe9(0x297)][_0x52fbe9(0x296)](__dirname, '..', '..', '..', '..', _0x3e1cb2[_0x52fbe9(0x284)], _0x21a359[_0x52fbe9(0x21b)][_0x52fbe9(0x2d8)](), _0x50d111), _0x315d3a = fs_1[_0x52fbe9(0x297)][_0x52fbe9(0x29b) + 'nc'](_0x5cb572);
+                                                _0x21b7f0 = yield _0x3e1cb2[_0x52fbe9(0x20b)](readPDF, _0x315d3a);
+                                            }
+                                            if ((_0x52cf33[_0x52fbe9(0x2c9)][_0x52fbe9(0x1fc)](_0x3e1cb2[_0x52fbe9(0x29c)]) || _0x52cf33[_0x52fbe9(0x2c9)][_0x52fbe9(0x1fc)](_0x3e1cb2[_0x52fbe9(0x32e)])) && _0x52cf33[_0x52fbe9(0x320)]) {
+                                                const _0x43961f = _0x52cf33[_0x52fbe9(0x320)][_0x52fbe9(0x258)]('/'), _0x1af528 = _0x43961f[_0x3e1cb2[_0x52fbe9(0x280)](_0x43961f[_0x52fbe9(0x26a)], 0x2526 + -0x106b + -0x14ba)], _0x2d6042 = path_1[_0x52fbe9(0x297)][_0x52fbe9(0x296)](__dirname, '..', '..', '..', '..', _0x3e1cb2[_0x52fbe9(0x284)], _0x21a359[_0x52fbe9(0x21b)][_0x52fbe9(0x2d8)](), _0x1af528), _0x66cd6d = fs_1[_0x52fbe9(0x297)][_0x52fbe9(0x29b) + 'nc'](_0x2d6042);
+                                                _0x21b7f0 = yield _0x3e1cb2[_0x52fbe9(0x2b9)](readDOCX, _0x66cd6d);
+                                            }
+                                            if ((_0x52cf33[_0x52fbe9(0x2c9)][_0x52fbe9(0x1fc)](_0x3e1cb2[_0x52fbe9(0x2de)]) || _0x52cf33[_0x52fbe9(0x2c9)][_0x52fbe9(0x1fc)](_0x3e1cb2[_0x52fbe9(0x211)])) && _0x52cf33[_0x52fbe9(0x320)]) {
+                                                const _0x9cc5c2 = _0x52cf33[_0x52fbe9(0x320)][_0x52fbe9(0x258)]('/'), _0x2fcf82 = _0x9cc5c2[_0x3e1cb2[_0x52fbe9(0x322)](_0x9cc5c2[_0x52fbe9(0x26a)], 0x1978 * -0x1 + -0x5 * 0x7be + 0x402f)], _0x59e9ce = path_1[_0x52fbe9(0x297)][_0x52fbe9(0x296)](__dirname, '..', '..', '..', '..', _0x3e1cb2[_0x52fbe9(0x284)], _0x21a359[_0x52fbe9(0x21b)][_0x52fbe9(0x2d8)](), _0x2fcf82), _0x4e4193 = fs_1[_0x52fbe9(0x297)][_0x52fbe9(0x29b) + 'nc'](_0x59e9ce);
+                                                _0x21b7f0 = yield _0x3e1cb2[_0x52fbe9(0x2b9)](readXLSX, _0x4e4193);
+                                            }
+                                        } else
+                                            _0x21b7f0 = _0x3e1cb2[_0x52fbe9(0x2bc)];
+                                    }
+                                }
+                            }
+                            try {
+                                if (_0x3e1cb2[_0x52fbe9(0x2eb)](_0x138114[_0x52fbe9(0x2c9)], null) || _0x21b7f0) {
+                                    const _0x32d524 = yield _0x3e1cb2[_0x52fbe9(0x2bf)](_0x38c0c5, _0x138114, _0x21b7f0, _0x4339fc);
+                                    yield _0x3e1cb2[_0x52fbe9(0x24a)](timer, _0x3e1cb2[_0x52fbe9(0x2dc)](rndInt, -0x1dea + 0x325 * 0x5 + -0x29 * -0x71));
+                                    if (_0x32d524)
+                                        _0x138114 ? _0x2dea17 = yield (-0x1754 * 0x1 + -0x1c4f + 0x33a3 * 0x1, SendTextMessageServiceZPRO_1[_0x52fbe9(0x229) + _0x52fbe9(0x289) + _0x52fbe9(0x213)])(_0x32d524, undefined, _0x21a359['id'], _0x21a359[_0x52fbe9(0x1e5)], _0x43f327) : ye0esz516_zpro_1[_0x52fbe9(0x311)][_0x52fbe9(0x278)](_0x3e1cb2[_0x52fbe9(0x20e)]);
+                                } else
+                                    ye0esz516_zpro_1[_0x52fbe9(0x311)][_0x52fbe9(0x278)](_0x3e1cb2[_0x52fbe9(0x31d)]);
+                            } catch (_0xe32246) {
+                                ye0esz516_zpro_1[_0x52fbe9(0x311)][_0x52fbe9(0x278)](_0x3e1cb2[_0x52fbe9(0x2f7)], _0xe32246);
+                            }
+                            cache[_0x52fbe9(0x21e)](_0x33e028);
+                        }
+                    });
+                });
+            } catch (_0x57fe18) {
+                ye0esz516_zpro_1[_0x4a7e98(0x311)][_0x4a7e98(0x1f9)](_0x558dec[_0x4a7e98(0x268)], _0x57fe18);
+            }
+        }
+    });
+}
+exports[_0x52b405(0x297)] = HandleMessageGrokEVO;
