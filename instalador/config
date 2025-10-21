@@ -1,0 +1,12 @@
+deploy_password=grupoproesa
+pg_pass=grupoproesa
+redis_pass=grupoproesa
+deploy_email=grupoproesa@gmail.com
+time_zone=America/Guatemala
+deploy_name=grupoproesa
+redis_port=6789
+pg_port=6450
+portainer_port=9500
+portainer_port2=9853
+backend_port=3000
+frontend_port=4444
