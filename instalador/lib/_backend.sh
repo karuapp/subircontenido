@@ -11,43 +11,53 @@
 source "${PROJECT_ROOT}/config"
 backend_db_create() {
   print_banner
-  printf "${WHITE} 💻 Criando banco de dados...${GRAY_LIGHT}"
-  printf "\n\n"
-
+  printf "${WHITE} 💻 Creando contenedores y base de datos...${GRAY_LIGHT}\n\n"
   sleep 2
 
   sudo su - root <<EOF
+
+  # Agregar deploy_name al grupo docker
   usermod -aG docker $deploy_name
 
-  mkdir -p /data
-  chown -R 999:999 /data
+  # --- PostgreSQL ---
+  # Eliminar contenedor antiguo si existe
+  docker rm -f postgresql-$deploy_name 2>/dev/null || true
+  # Crear volumen Docker seguro
+  docker volume create pgdata_$deploy_name 2>/dev/null || true
 
+  # Ejecutar PostgreSQL con volumen Docker
   docker run --name postgresql-$deploy_name \
-                -e POSTGRES_USER=$deploy_name \
-                -e POSTGRES_PASSWORD=$deploy_name \
-                -e POSTGRES_DB=$deploy_name \
-                -e TZ="$time_zone" \
-                -p $pg_port:5432 \
-                --restart=always \
-                -v /data:/var/lib/postgresql/data \
-                -d postgres
+        -e POSTGRES_USER=$deploy_name \
+        -e POSTGRES_PASSWORD=$deploy_name \
+        -e POSTGRES_DB=$deploy_name \
+        -e TZ="$time_zone" \
+        -p $pg_port:5432 \
+        --restart=always \
+        -v pgdata_$deploy_name:/var/lib/postgresql/data \
+        -d postgres
 
+  # --- Redis ---
+  docker rm -f redis-$deploy_name 2>/dev/null || true
   docker run --name redis-$deploy_name \
-                -e TZ="$time_zone" \
-                -p $redis_port:6379 \
-                --restart=always \
-                -d redis:latest redis-server \
-                --appendonly yes \
-                --requirepass "${redis_pass}"
-  
+        -e TZ="$time_zone" \
+        -p $redis_port:6379 \
+        --restart=always \
+        -d redis:latest redis-server \
+        --appendonly yes \
+        --requirepass "${redis_pass}"
+
+  # --- Portainer ---
+  docker rm -f portainer-$deploy_name 2>/dev/null || true
+  docker volume create portainer_data 2>/dev/null || true
   docker run -d --name portainer-$deploy_name \
-                -p $portainer_port:9000 -p $portainer_port2:9443 \
-                --restart=always \
-                -v /var/run/docker.sock:/var/run/docker.sock \
-                -v portainer_data:/data portainer/portainer-ce
+        -p $portainer_port:9000 -p $portainer_port2:9443 \
+        --restart=always \
+        -v /var/run/docker.sock:/var/run/docker.sock \
+        -v portainer_data:/data portainer/portainer-ce
 EOF
 
   sleep 2
+  printf "${GREEN} ✅ Contenedores creados correctamente.${NC}\n"
 }
 
 #######################################

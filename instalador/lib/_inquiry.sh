@@ -131,7 +131,7 @@ inquiry_options() {
   printf "\n\n"
   printf "  [1] Instale el CRM\n"
   printf "  [2] Actualizar el CRM para la última versión\n"
-  printf "  [3] Actualice las instancias secundarias de CRM a la última versión (Beta)\n"
+
   printf "  [0] Instalar interfaz para creación de empresa.\n"
   printf "\n"
   printf "${GREEN} 👉 La migración funciona para VPS que solo contiene una instalación automática.${NC}"
