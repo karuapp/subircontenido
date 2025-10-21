@@ -26,7 +26,7 @@ backend_db_create() {
                 -e POSTGRES_USER=$deploy_name \
                 -e POSTGRES_PASSWORD=$deploy_name \
                 -e POSTGRES_DB=$deploy_name \
-        -e TZ="$time_zone" \
+                -e TZ="$time_zone" \
                 -p $pg_port:5432 \
                 --restart=always \
                 -v /data:/var/lib/postgresql/data \
