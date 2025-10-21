@@ -5,6 +5,16 @@ get_frontend_url() {
   printf "${WHITE} 💻 Ingrese el dominio de la interfaz web (Frontend):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_url
+
+  # Eliminar espacios
+  frontend_url=$(echo "$frontend_url" | xargs)
+
+  # Si no contiene https:// al inicio, agregarlo
+  if [[ "$frontend_url" != https://* && "$frontend_url" != http://* ]]; then
+    frontend_url="https://$frontend_url"
+  fi
+
+  export FRONTEND_URL="$frontend_url"
 }
 
 get_backend_url() {
@@ -12,6 +22,14 @@ get_backend_url() {
   printf "${WHITE} 💻 Ingresa el dominio de tu API (Backend):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_url
+
+  backend_url=$(echo "$backend_url" | xargs)
+
+  if [[ "$backend_url" != https://* && "$backend_url" != http://* ]]; then
+    backend_url="https://$backend_url"
+  fi
+
+  export BACKEND_URL="$backend_url"
 }
 
 get_urls() {
