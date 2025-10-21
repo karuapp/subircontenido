@@ -134,9 +134,9 @@ PORT=$backend_port
 
 # conexión de base de datos
 DB_DIALECT=postgres
-DB_PORT=5432
+DB_PORT=$pg_port
 DB_TIMEZONE=00:00
-POSTGRES_HOST=postgresql-$deploy_name
+POSTGRES_HOST=localhost
 POSTGRES_USER=$deploy_name
 POSTGRES_PASSWORD=$deploy_name
 POSTGRES_DB=$deploy_name
@@ -146,9 +146,9 @@ JWT_SECRET=${jwt_secret}
 JWT_REFRESH_SECRET=${jwt_refresh_secret}
 
 # Datos de conexión con el REDIS
-IO_REDIS_SERVER=redis-$deploy_name
+IO_REDIS_SERVER=localhost
 IO_REDIS_PASSWORD=${redis_pass}
-IO_REDIS_PORT=6379
+IO_REDIS_PORT=$redis_port
 IO_REDIS_DB_SESSION=2
 
 #CHROME_BIN=/usr/bin/google-chrome
