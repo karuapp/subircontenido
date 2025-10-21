@@ -81,7 +81,7 @@ migration_mv_zpro() {
 
   sudo su - root <<EOF
   cp "${PROJECT_ROOT}"/script.zip /home/$deploy_name/
-  mv /home/$deploy_name/$deploy_name /home/$deploy_name/$deploy_name
+  mv /home/$deploy_name/izing.io /home/$deploy_name/$deploy_name
 EOF
 
   sleep 2
