@@ -1,0 +1,12 @@
+deploy_password=whatitan
+pg_pass=whatitan
+redis_pass=whatitan
+deploy_email=whatitan@gmail.com
+time_zone=America/Mexico_City
+deploy_name=whatitan
+redis_port=6789
+pg_port=6450
+portainer_port=9500
+portainer_port2=9853
+backend_port=3000
+frontend_port=4444
