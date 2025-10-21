@@ -19,14 +19,15 @@ backend_db_create() {
   # Agregar deploy_name al grupo docker
   usermod -aG docker $deploy_name
 
+  # --- Crear red Docker si no existe ---
+  docker network create whatsappworks_net 2>/dev/null || true
+
   # --- PostgreSQL ---
-  # Eliminar contenedor antiguo si existe
   docker rm -f postgresql-$deploy_name 2>/dev/null || true
-  # Crear volumen Docker seguro
   docker volume create pgdata_$deploy_name 2>/dev/null || true
 
-  # Ejecutar PostgreSQL con volumen Docker
   docker run --name postgresql-$deploy_name \
+        --network whatsappworks_net \
         -e POSTGRES_USER=$deploy_name \
         -e POSTGRES_PASSWORD=$deploy_name \
         -e POSTGRES_DB=$deploy_name \
@@ -39,6 +40,7 @@ backend_db_create() {
   # --- Redis ---
   docker rm -f redis-$deploy_name 2>/dev/null || true
   docker run --name redis-$deploy_name \
+        --network whatsappworks_net \
         -e TZ="$time_zone" \
         -p $redis_port:6379 \
         --restart=always \
@@ -50,10 +52,12 @@ backend_db_create() {
   docker rm -f portainer-$deploy_name 2>/dev/null || true
   docker volume create portainer_data 2>/dev/null || true
   docker run -d --name portainer-$deploy_name \
+        --network whatsappworks_net \
         -p $portainer_port:9000 -p $portainer_port2:9443 \
         --restart=always \
         -v /var/run/docker.sock:/var/run/docker.sock \
         -v portainer_data:/data portainer/portainer-ce
+
 EOF
 
   sleep 2
@@ -130,9 +134,9 @@ PORT=$backend_port
 
 # conexión de base de datos
 DB_DIALECT=postgres
-DB_PORT=$pg_port
+DB_PORT=5432
 DB_TIMEZONE=00:00
-POSTGRES_HOST=localhost
+POSTGRES_HOST=postgresql-$deploy_name
 POSTGRES_USER=$deploy_name
 POSTGRES_PASSWORD=$deploy_name
 POSTGRES_DB=$deploy_name
@@ -142,9 +146,9 @@ JWT_SECRET=${jwt_secret}
 JWT_REFRESH_SECRET=${jwt_refresh_secret}
 
 # Datos de conexión con el REDIS
-IO_REDIS_SERVER=localhost
+IO_REDIS_SERVER=redis-$deploy_name
 IO_REDIS_PASSWORD=${redis_pass}
-IO_REDIS_PORT=$redis_port
+IO_REDIS_PORT=6379
 IO_REDIS_DB_SESSION=2
 
 #CHROME_BIN=/usr/bin/google-chrome
