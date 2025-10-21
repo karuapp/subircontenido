@@ -11,53 +11,44 @@
 source "${PROJECT_ROOT}/config"
 backend_db_create() {
   print_banner
-  printf "${WHITE} 💻 Creando contenedores de base de datos y servicios...${GRAY_LIGHT}\n\n"
+  printf "${WHITE} 💻 Criando banco de dados...${GRAY_LIGHT}"
+  printf "\n\n"
+
   sleep 2
 
-  # Crear grupo docker para el usuario (si no existe)
-  sudo usermod -aG docker $deploy_name
+  sudo su - root <<EOF
+  usermod -aG docker $deploy_name
 
-  # Limpiar contenedor y volumen si existen
-  docker rm -f postgresql-$deploy_name 2>/dev/null
-  docker rm -f redis-$deploy_name 2>/dev/null
-  docker rm -f portainer-$deploy_name 2>/dev/null
   mkdir -p /data
-  chown 999:999 /data
+  chown -R 999:999 /data
 
-  # PostgreSQL
-  docker run -d \
-    --name postgresql-$deploy_name \
-    -e POSTGRES_USER=$deploy_name \
-    -e POSTGRES_PASSWORD=$deploy_name \
-    -e POSTGRES_DB=$deploy_name \
-    -e TZ="$time_zone" \
-    -p $pg_port:5432 \
-    --restart=always \
-    -v /data:/var/lib/postgresql/data \
-    postgres:16
+  docker run --name postgresql-$deploy_name \
+                -e POSTGRES_USER=$deploy_name \
+                -e POSTGRES_PASSWORD=$deploy_name \
+                -e POSTGRES_DB=$deploy_name \
+        -e TZ="$time_zone" \
+                -p $pg_port:5432 \
+                --restart=always \
+                -v /data:/var/lib/postgresql/data \
+                -d postgres
 
-  # Redis
-  docker run -d \
-    --name redis-$deploy_name \
-    -e TZ="$time_zone" \
-    -p $redis_port:6379 \
-    --restart=always \
-    redis:latest redis-server --appendonly yes --requirepass "$redis_pass"
-
-  # Portainer
-  docker run -d \
-    --name portainer-$deploy_name \
-    -p $portainer_port:9000 \
-    -p $portainer_port2:9443 \
-    --restart=always \
-    -v /var/run/docker.sock:/var/run/docker.sock \
-    -v portainer_data:/data \
-    portainer/portainer-ce
+  docker run --name redis-$deploy_name \
+                -e TZ="$time_zone" \
+                -p $redis_port:6379 \
+                --restart=always \
+                -d redis:latest redis-server \
+                --appendonly yes \
+                --requirepass "${redis_pass}"
+  
+  docker run -d --name portainer-$deploy_name \
+                -p $portainer_port:9000 -p $portainer_port2:9443 \
+                --restart=always \
+                -v /var/run/docker.sock:/var/run/docker.sock \
+                -v portainer_data:/data portainer/portainer-ce
+EOF
 
   sleep 2
-  echo -e "${WHITE} ✅ Contenedores creados correctamente${GRAY_LIGHT}\n"
 }
-
 
 #######################################
 # install_chrome
@@ -88,29 +79,37 @@ EOF
 #######################################
 backend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variables de entorno...${GRAY_LIGHT}\n\n"
-  sleep 2
+  printf "${WHITE} 💻 Configurar variables de entorno (backend)...${GRAY_LIGHT}"
+  printf "\n\n"
 
-  # Generar contraseñas aleatorias
+  sleep 2
+  
+  # Gerar senhas aleatórias
   pg_pass=$(openssl rand -base64 32)
   redis_pass=$(openssl rand -base64 32)
-  jwt_secret=$(openssl rand -base64 32)
-  jwt_refresh_secret=$(openssl rand -base64 32)
 
-  # Guardar credenciales
-  cat <<EOF > "${PROJECT_ROOT}/db_credentials"
+  # Salvar as senhas em um arquivo para reutilização
+  cat << EOF > "${PROJECT_ROOT}"/db_credentials
 pg_pass=${pg_pass}
 redis_pass=${redis_pass}
 EOF
 
-  # Normalizar URLs
-  backend_url="https://${backend_url#https://}"
-  backend_url="${backend_url%%/*}"
-  frontend_url="https://${frontend_url#https://}"
-  frontend_url="${frontend_url%%/*}"
+  # ensure idempotency
+  backend_url=$(echo "${backend_url/https:\/\/}")
+  backend_url=${backend_url%%/*}
+  backend_url=https://$backend_url
 
-  # Crear archivo .env correctamente
-  sudo -u $deploy_name bash -c "cat > /home/$deploy_name/$deploy_name/backend/.env <<EOL
+  # ensure idempotency
+  frontend_url=$(echo "${frontend_url/https:\/\/}")
+  frontend_url=${frontend_url%%/*}
+  frontend_url=https://$frontend_url
+  
+  # Generate dynamic secrets
+  jwt_secret=$(openssl rand -base64 32)
+  jwt_refresh_secret=$(openssl rand -base64 32)
+
+sudo su - $deploy_name << EOF
+  cat <<[-]EOF > /home/$deploy_name/$deploy_name/backend/.env
 NODE_ENV=
 BACKEND_URL=${backend_url}
 FRONTEND_URL=${frontend_url}
@@ -128,40 +127,53 @@ POSTGRES_USER=$deploy_name
 POSTGRES_PASSWORD=$deploy_name
 POSTGRES_DB=$deploy_name
 
-# JWT secrets
+# Claves para el cifrado token jwt
 JWT_SECRET=${jwt_secret}
 JWT_REFRESH_SECRET=${jwt_refresh_secret}
 
-# Redis
+# Datos de conexión con el REDIS
 IO_REDIS_SERVER=localhost
 IO_REDIS_PASSWORD=${redis_pass}
 IO_REDIS_PORT=$redis_port
 IO_REDIS_DB_SESSION=2
 
+#CHROME_BIN=/usr/bin/google-chrome
 CHROME_BIN=/usr/bin/google-chrome-stable
 
-# Temporización
+# tiempo para la aleatorización del mensaje de horario de apertura
 MIN_SLEEP_BUSINESS_HOURS=1000
 MAX_SLEEP_BUSINESS_HOURS=2000
+
+# Es hora de aleatorizar los mensajes del bot.
 MIN_SLEEP_AUTO_REPLY=400
 MAX_SLEEP_AUTO_REPLY=600
+
+# tiempo para la aleatorización de mensajes generales
 MIN_SLEEP_INTERVAL=200
 MAX_SLEEP_INTERVAL=500
 
-# API oficial
+# Datos de RabbitMQ / Para no usarlos, simplemente comente la var AMQP_URL
+# RABBITMQ_DEFAULT_USER=$deploy_name
+# RABBITMQ_DEFAULT_PASS=${rabbit_pass}
+# AMQP_URL='amqp://$deploy_name:${rabbit_pass}@localhost:5672?connection_attempts=5&retry_delay=5'
+
+# API oficial (integración en el desarrollo)
 API_URL_360=https://waba-sandbox.360dialog.io
 
-# Facebook
+# Se utiliza para mostrar opciones que normalmente no están disponibles.
+ADMIN_DOMAIN=crm.com
+
+# Datos por utilizar el canal de Facebook
 FACEBOOK_APP_ID=3237415623
 FACEBOOK_APP_SECRET_KEY=3266214132b8c98ac59f3e957a5e
 
-# Límites
+# Limite el uso y las conexiones de crm
 USER_LIMIT=99
 CONNECTIONS_LIMIT=99
-EOL"
-  
+[-]EOF
+EOF
+
   sleep 2
-  echo -e "${WHITE} ✅ Variables de entorno configuradas correctamente${GRAY_LIGHT}\n"
 }
 
 #######################################
