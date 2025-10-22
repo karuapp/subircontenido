@@ -1,9 +1,9 @@
-deploy_password=fiflouu
-pg_pass=fiflouu
-redis_pass=fiflouu
-deploy_email=fiflouu@gmail.com
+deploy_password=fiflouudev
+pg_pass=fiflouudev
+redis_pass=fiflouudev
+deploy_email=fiflouudev@gmail.com
 time_zone=America/Panama
-deploy_name=fiflouu
+deploy_name=fiflouudev
 redis_port=6889
 pg_port=6550
 portainer_port=9600
