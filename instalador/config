@@ -1,9 +1,9 @@
-deploy_password=tsia
-pg_pass=tsia
-redis_pass=tsia
-deploy_email=tsia@gmail.com
-time_zone=America/Guayaquil
-deploy_name=tsia
+deploy_password=waconnetc
+pg_pass=waconnetc
+redis_pass=waconnetc
+deploy_email=waconnetc@gmail.com
+time_zone=America/Mexico_City
+deploy_name=waconnetc
 redis_port=6789
 pg_port=6450
 portainer_port=9500
