@@ -1,0 +1,12 @@
+deploy_password=fiflouu
+pg_pass=fiflouu
+redis_pass=fiflouu
+deploy_email=fiflouu@gmail.com
+time_zone=America/Panama
+deploy_name=fiflouu
+redis_port=6889
+pg_port=6550
+portainer_port=9600
+portainer_port2=9953
+backend_port=3300
+frontend_port=4400
