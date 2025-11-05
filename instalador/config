@@ -1,0 +1,12 @@
+deploy_password=intercom
+pg_pass=intercom
+redis_pass=intercom
+deploy_email=intercom@gmail.com
+time_zone=America/Guayaquil
+deploy_name=intercom
+redis_port=6789
+pg_port=6450
+portainer_port=9500
+portainer_port2=9853
+backend_port=3000
+frontend_port=4444
