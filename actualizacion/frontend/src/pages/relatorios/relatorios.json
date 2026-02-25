@@ -1,0 +1,37 @@
+[
+  {
+    "name": "lista-contatos",
+    "titulo": "Contactos",
+    "objetivo": "Muestra todos los contactos registrados"
+  },
+  {
+    "name": "contatos-por-etiquetas",
+    "titulo": "Contactos por etiqueta",
+    "objetivo": "Muestra los contactos etiquetados con la etiqueta filtrada."
+  },
+  {
+    "name": "contatos-por-estado",
+    "titulo": "Contactos por estado",
+    "objetivo": "Muestra los contactos separados por estado (incluye el código de área)."
+  },
+  {
+    "name": "contatos-por-kanban",
+    "titulo": "Contactos por Kanban",
+    "objetivo": "Muestra los contactos separados por tablero Kanban."
+  },
+  {
+    "name": "contatos-por-carteira",
+    "titulo": "Contactos por cartera",
+    "objetivo": "Muestra los contactos separados por cartera."
+  },
+  {
+    "name": "atendimentos-por-parametros",
+    "titulo": "Solicitudes de servicio (BETA)",
+    "objetivo": "Muestra los datos de las solicitudes de servicio"
+  },
+  {
+    "name": "estatisticas-atendimentos-usuarios",
+    "titulo": "Resumen por usuario (BETA)",
+    "objetivo": "Muestra los datos por usuario"
+  }
+]

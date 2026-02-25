@@ -1,0 +1,105 @@
+'use strict';
+const _0x3d2ca7 = _0x5594;
+(function (_0x5cd775, _0x23a2c0) {
+    const _0x4ec17c = _0x5594, _0x5e8e3f = _0x5cd775();
+    while (!![]) {
+        try {
+            const _0x462c0b = parseInt(_0x4ec17c(0x15d)) / (0x183 * -0x17 + -0x20d3 + 0x4399 * 0x1) * (parseInt(_0x4ec17c(0x15e)) / (0x3 * 0x50e + -0x1b00 + 0xbd8)) + parseInt(_0x4ec17c(0x17a)) / (-0x1a42 + -0x8 * 0x3ea + 0x3995) + -parseInt(_0x4ec17c(0x16d)) / (-0x3b3 * 0x7 + -0x2353 * 0x1 + 0x3d3c) + parseInt(_0x4ec17c(0x172)) / (-0x1197 + -0xb35 + 0x99b * 0x3) + -parseInt(_0x4ec17c(0x162)) / (0x1331 + 0xe2 * -0x23 + 0xbbb) * (parseInt(_0x4ec17c(0x16c)) / (-0x95 * 0x21 + 0x463 * 0x4 + 0x1b0)) + parseInt(_0x4ec17c(0x175)) / (-0x36f + -0x4 * -0x1e8 + -0x47 * 0xf) * (parseInt(_0x4ec17c(0x160)) / (-0x269b * 0x1 + -0x65 * 0x13 + 0x2e23)) + -parseInt(_0x4ec17c(0x166)) / (-0x1b65 + -0xceb * -0x2 + 0x199);
+            if (_0x462c0b === _0x23a2c0)
+                break;
+            else
+                _0x5e8e3f['push'](_0x5e8e3f['shift']());
+        } catch (_0x254aab) {
+            _0x5e8e3f['push'](_0x5e8e3f['shift']());
+        }
+    }
+}(_0x109c, 0x2fcc1 + 0x16d3c1 + 0x1 * -0xc492e));
+function _0x109c() {
+    const _0x43228b = [
+        '__importDe',
+        '__esModule',
+        '55624LEhRSo',
+        'value',
+        'RmfGx',
+        'boHww',
+        'default',
+        '3821010NooFnS',
+        'join',
+        'ghuia',
+        'mkdir',
+        '10903AQBuqu',
+        '284zHlzjW',
+        'hoVyu',
+        '639MCitun',
+        'fault',
+        '1480338LEQCzG',
+        'uploadLogo',
+        'zpro_dark.',
+        'recursive',
+        '17860230AopHtg',
+        'DarkFile',
+        'public',
+        'erty',
+        'path',
+        'BGgUA',
+        '7HidFFh',
+        '4713124cNdVVf',
+        'rename',
+        'frontend',
+        'defineProp',
+        'png',
+        '3910400ckRpES'
+    ];
+    _0x109c = function () {
+        return _0x43228b;
+    };
+    return _0x109c();
+}
+function _0x5594(_0x2fd126, _0x3c86b6) {
+    const _0x45c319 = _0x109c();
+    return _0x5594 = function (_0x333eda, _0x57eeb3) {
+        _0x333eda = _0x333eda - (-0x1084 + 0x25 * 0xef + -0x10aa);
+        let _0xd3fb9c = _0x45c319[_0x333eda];
+        return _0xd3fb9c;
+    }, _0x5594(_0x2fd126, _0x3c86b6);
+}
+var __importDefault = this && this[_0x3d2ca7(0x173) + _0x3d2ca7(0x161)] || function (_0x159a99) {
+    const _0x131cd8 = _0x3d2ca7;
+    return _0x159a99 && _0x159a99[_0x131cd8(0x174)] ? _0x159a99 : { 'default': _0x159a99 };
+};
+const _0x1babdd = {};
+_0x1babdd[_0x3d2ca7(0x176)] = !![], Object[_0x3d2ca7(0x170) + _0x3d2ca7(0x169)](exports, _0x3d2ca7(0x174), _0x1babdd), exports[_0x3d2ca7(0x163) + _0x3d2ca7(0x167)] = void (0x1b77 + -0x2ad * -0x2 + 0x20d1 * -0x1);
+const fs_1 = __importDefault(require('fs')), path_1 = __importDefault(require(_0x3d2ca7(0x16a))), FRONTEND_PATH = path_1[_0x3d2ca7(0x179)][_0x3d2ca7(0x17b)](__dirname, '..', '..', '..', '..', _0x3d2ca7(0x16f)), TARGET_DIR = path_1[_0x3d2ca7(0x179)][_0x3d2ca7(0x17b)](FRONTEND_PATH, _0x3d2ca7(0x168)), TARGET_PATH = path_1[_0x3d2ca7(0x179)][_0x3d2ca7(0x17b)](TARGET_DIR, _0x3d2ca7(0x164) + _0x3d2ca7(0x171)), uploadLogoDarkFile = (_0x5cfe05, _0x332cde) => {
+        const _0x405f8e = _0x3d2ca7, _0x188c59 = {
+                'BGgUA': function (_0x48311f, _0x3f1287) {
+                    return _0x48311f(_0x3f1287);
+                },
+                'ghuia': function (_0x4d924f, _0x16afbf) {
+                    return _0x4d924f(_0x16afbf);
+                },
+                'hoVyu': function (_0x36514e, _0x19d724) {
+                    return _0x36514e(_0x19d724);
+                }
+            }, _0x1268a0 = {};
+        _0x1268a0[_0x405f8e(0x165)] = !![], fs_1[_0x405f8e(0x179)][_0x405f8e(0x17d)](TARGET_DIR, _0x1268a0, _0x447f9b => {
+            const _0x4b26b0 = _0x405f8e, _0x470786 = {
+                    'RmfGx': function (_0x1b184d, _0x421628) {
+                        const _0x8740fb = _0x5594;
+                        return _0x188c59[_0x8740fb(0x16b)](_0x1b184d, _0x421628);
+                    },
+                    'boHww': function (_0xc34c6a, _0x5f5533) {
+                        const _0x5a1413 = _0x5594;
+                        return _0x188c59[_0x5a1413(0x17c)](_0xc34c6a, _0x5f5533);
+                    }
+                };
+            if (_0x447f9b)
+                return _0x188c59[_0x4b26b0(0x15f)](_0x332cde, _0x447f9b);
+            fs_1[_0x4b26b0(0x179)][_0x4b26b0(0x16e)](_0x5cfe05, TARGET_PATH, _0x3f409b => {
+                const _0x10e70c = _0x4b26b0;
+                if (_0x3f409b)
+                    return _0x470786[_0x10e70c(0x177)](_0x332cde, _0x3f409b);
+                _0x470786[_0x10e70c(0x178)](_0x332cde, null);
+            });
+        });
+    };
+exports[_0x3d2ca7(0x163) + _0x3d2ca7(0x167)] = uploadLogoDarkFile;

@@ -1,0 +1,1511 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: inort
+    Whatsapp Id: 4
+    Criação do arquivo de logs: 02/09/2024 08:17:20
+    Selecionado Data de inicio de importação: 30/08/2024 16:00:00 
+    Selecionado Data final da importação: 02/09/2024 08:30:00 
+     
+Mensagem 1 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": false,
+    "id": "7669F3E557A5A59CBB5D718E78552107"
+  },
+  "message": {
+    "conversation": "1"
+  },
+  "messageTimestamp": "1725275721",
+  "reportingTokenInfo": {
+    "reportingTag": "AbMGl9WxKsmjySK7k6/nzA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 2 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0CD2F43BF5F85"
+  },
+  "message": {
+    "conversation": "*Especialidade: Pé*\nPor favor, digite a opção desejada:\n\n[ 1 ] - Dr. Claudio André Mortago\n\n[ 0 ] - Finalizar\n[ # ] - Voltar ao Menu anterior"
+  },
+  "messageTimestamp": "1725275688",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511943846485@s.whatsapp.net",
+      "receiptTimestamp": "1725275689",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 3 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": false,
+    "id": "753EBE46CA9FB3934AE8EBF68C196534"
+  },
+  "message": {
+    "conversation": "8"
+  },
+  "messageTimestamp": "1725275683",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPpz5fYuOz5z2h0paLVrw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 4 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06A7C26A45D04"
+  },
+  "message": {
+    "conversation": "*ESPECIALIDADES*\nPor favor, digite a opção desejada:\n\n[ 1 ] - Coluna\n[ 2 ] - Fixador Externo\n[ 3 ] - Joelho\n[ 4 ] - Mão\n[ 5 ] - Ombro\n[ 6 ] - Ortopedia Geral\n[ 7 ] - Ortopedia Infantil\n[ 8 ] - Pé\n[ 9 ] - Quadril\n\n*[ 0 ] - Finalizar*\n*[ # ] - Voltar ao Menu anterior*"
+  },
+  "messageTimestamp": "1725275663",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511943846485@s.whatsapp.net",
+      "receiptTimestamp": "1725275664",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 5 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": false,
+    "id": "54F39C5FBFACD022975736B4BCDA52DC"
+  },
+  "message": {
+    "conversation": "1"
+  },
+  "messageTimestamp": "1725275657",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPOTOKMOkp0C1hQlIvktA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 6 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0285A8729F114"
+  },
+  "message": {
+    "conversation": "Por favor, digite a opção desejada:\n\n[ 1 ] - Especialidades\n[ 2 ] - Conheça nossos médicos\n[ 3 ] - Convênios Parceiros"
+  },
+  "messageTimestamp": "1725275619",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511943846485@s.whatsapp.net",
+      "receiptTimestamp": "1725275619",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 7 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0613B63E702BB"
+  },
+  "message": {
+    "conversation": "Bom dia!! Bem vindo(a) à Clínica Inort!"
+  },
+  "messageTimestamp": "1725275619",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511943846485@s.whatsapp.net",
+      "receiptTimestamp": "1725275619",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": false,
+    "id": "562FD6AD9CD111F4235F748D86C07569"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Posso agendar uma consulta pra sexta-feira por aqui?",
+      "previewType": "NONE",
+      "contextInfo": {
+        "entryPointConversionSource": "global_search_new_chat",
+        "entryPointConversionApp": "whatsapp",
+        "entryPointConversionDelaySeconds": 0
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725275617",
+  "reportingTokenInfo": {
+    "reportingTag": "AbO4YqaKqjQyShHlCj6HZA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 8 de 75 
+Mensagem 9 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511965959943@s.whatsapp.net",
+    "fromMe": true,
+    "id": "771ACBFCE41DD21AF2F849D7AD2E1CDE"
+  },
+  "message": {
+    "conversation": "Agradecemos sua mensagem. No estamos disponível no momento, mas responderemos assim que possível!"
+  },
+  "messageTimestamp": "1725275523",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511965959943@s.whatsapp.net",
+      "receiptTimestamp": "1725275524",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 10 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5519997308778@s.whatsapp.net",
+    "fromMe": true,
+    "id": "6E8487CCD63A78360140C3D359E1D1B7"
+  },
+  "message": {
+    "conversation": "Agradecemos sua mensagem. No estamos disponível no momento, mas responderemos assim que possível!"
+  },
+  "messageTimestamp": "1725275523",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5519997308778@s.whatsapp.net",
+      "receiptTimestamp": "1725275523",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5519997308778@s.whatsapp.net",
+    "fromMe": true,
+    "id": "372E40162B551F9E8CF2572704EC68DD"
+  },
+  "message": {
+    "conversation": "Olá, seja bem-vindo(a) à INORT🤝\n🕰️Nosso horário de atendimento é de Segunda à Sexta-feira das 08:00 às 17:00.\n⚠️Atendemos Convênios e Particular.\nPara o Pronto-Atendimento No é preciso agendar das 08:00 às 11:00 e das 14:00 às 16:30.\n(Podendo alterar o horário do pronto atendimento)\n❓Dúvidas favor ligar para: \n(11) 4586-1499.\nNo Atendemos ligações via WhatsApp.\nRua Jorge Zolner N° 320 (Anexo Clínica Pinheiros)"
+  },
+  "messageTimestamp": "1725275522",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725275523",
+  "userReceipt": [
+    {
+      "userJid": "5519997308778@s.whatsapp.net",
+      "receiptTimestamp": "1725275523",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 11 de 75 
+Mensagem 12 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": true,
+    "id": "2B8F405F4179CB85F9A4BBE1C56CA783"
+  },
+  "message": {
+    "conversation": "Olá, seja bem-vindo(a) à INORT🤝\n🕰️Nosso horário de atendimento é de Segunda à Sexta-feira das 08:00 às 17:00.\n⚠️Atendemos Convênios e Particular.\nPara o Pronto-Atendimento No é preciso agendar das 08:00 às 11:00 e das 14:00 às 16:30.\n(Podendo alterar o horário do pronto atendimento)\n❓Dúvidas favor ligar para: \n(11) 4586-1499.\nNo Atendemos ligações via WhatsApp.\nRua Jorge Zolner N° 320 (Anexo Clínica Pinheiros)"
+  },
+  "messageTimestamp": "1725275519",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725275521",
+  "userReceipt": [
+    {
+      "userJid": "5511943846485@s.whatsapp.net",
+      "receiptTimestamp": "1725275525",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 13 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511959194213@s.whatsapp.net",
+    "fromMe": false,
+    "id": "4B02100A77962694AFA2A96D43590FA1"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Ana Lucia Gomes da Silva\n18/02/1967\n09672677812\nUnimed",
+      "previewType": "NONE",
+      "contextInfo": {
+        "entryPointConversionSource": "global_search_new_chat",
+        "entryPointConversionApp": "whatsapp",
+        "entryPointConversionDelaySeconds": 0
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725275278",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOKxkDAYy/lFoNaYEo46g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 14 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511959194213@s.whatsapp.net",
+    "fromMe": false,
+    "id": "CDFEA3349D4CF2F5A063D6642558FADD"
+  },
+  "message": {
+    "conversation": "Olá, bom dia!!! Tudo bem? Gostaria de agendar uma consulta com um Ortopedista. Meu convênio é Unimed Jundiaí."
+  },
+  "messageTimestamp": "1725275231",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOGn1ZEsZpIkqO1CEYBwA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 15 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511965959943@s.whatsapp.net",
+    "fromMe": false,
+    "id": "73F7E74E86259A75F32F3D71B06E7EE7"
+  },
+  "message": {
+    "conversation": "Vcs aceitam Bradesco saude"
+  },
+  "messageTimestamp": "1725275217",
+  "reportingTokenInfo": {
+    "reportingTag": "AbO7WuPZpMt3C2DcGypsgQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 16 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511965959943@s.whatsapp.net",
+    "fromMe": false,
+    "id": "BEB07BBFD7BF0FDFB6CBEB23DDE0110D"
+  },
+  "message": {
+    "conversation": "Bom dia"
+  },
+  "messageTimestamp": "1725275203",
+  "reportingTokenInfo": {
+    "reportingTag": "AbO4H89IPK0sg/28rddQQw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 17 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511973451870@s.whatsapp.net",
+    "fromMe": false,
+    "id": "532FDE92ACA3273413B720024BA0AEF3"
+  },
+  "message": {
+    "conversation": "O nome dele é Raphael Gonçalves barros consulta com o dr Leandro."
+  },
+  "messageTimestamp": "1725275063",
+  "reportingTokenInfo": {
+    "reportingTag": "AbMkplgpdU8/imPdB0yRbQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 18 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511973451870@s.whatsapp.net",
+    "fromMe": false,
+    "id": "40B995F39704261C11CFA7D3A242EA54"
+  },
+  "message": {
+    "conversation": "No consegui responder"
+  },
+  "messageTimestamp": "1725275041",
+  "reportingTokenInfo": {
+    "reportingTag": "AbNsONudzRfdY+7cxFIHVg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 19 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511973451870@s.whatsapp.net",
+    "fromMe": false,
+    "id": "89178CE347385F1A7AB52D5C40348EA6"
+  },
+  "message": {
+    "conversation": "Oi bom dia"
+  },
+  "messageTimestamp": "1725275035",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOWpU55yKvY+pFfMjjNdw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 20 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5519997308778@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A3AC6D247A35A99A969"
+  },
+  "message": {
+    "conversation": "Bom dia"
+  },
+  "messageTimestamp": "1725274395",
+  "reportingTokenInfo": {
+    "reportingTag": "AbN7ZVcBgdyg5pumDldLDg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 21 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947332135@s.whatsapp.net",
+    "fromMe": false,
+    "id": "50A9794594419CE524CA3203150C60E1"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Obrigada",
+      "previewType": "NONE",
+      "contextInfo": {
+        "entryPointConversionSource": "global_search_new_chat",
+        "entryPointConversionApp": "whatsapp",
+        "entryPointConversionDelaySeconds": 0
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725274070",
+  "reportingTokenInfo": {
+    "reportingTag": "AbMTtLBbX2UR6LW/uBCytw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 22 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947332135@s.whatsapp.net",
+    "fromMe": false,
+    "id": "D4132BF9D4B374B2ADB47716BA11E6F7"
+  },
+  "message": {
+    "conversation": "Florisa silva sousa \nDN 16/01/1967\nCPF 440.160.003-78\nConvênio Unimed"
+  },
+  "messageTimestamp": "1725274067",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOk6t78lAN+2TDmn4THdA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 23 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947332135@s.whatsapp.net",
+    "fromMe": false,
+    "id": "D0BD9E28F26B247278B23A3F00E1D929"
+  },
+  "message": {
+    "conversation": "Gostaria de marcar uma consulta com o Dr Leandro por favor"
+  },
+  "messageTimestamp": "1725273955",
+  "reportingTokenInfo": {
+    "reportingTag": "AbNEc+tmptUysmJ2WGQ/7Q=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 24 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947332135@s.whatsapp.net",
+    "fromMe": false,
+    "id": "E9E7C1F0D54075678C74322ED74B80B9"
+  },
+  "message": {
+    "conversation": "Oi Bom dia"
+  },
+  "messageTimestamp": "1725273924",
+  "reportingTokenInfo": {
+    "reportingTag": "AbP7f1/zovhKkbGifaYUew=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 25 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511943846485@s.whatsapp.net",
+    "fromMe": false,
+    "id": "EE780E3156033B3296B0C0EE4A6EAF1B"
+  },
+  "message": {
+    "conversation": "Bom dia"
+  },
+  "messageTimestamp": "1725271545",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOpdRkFZSNDjfnHvungCw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 26 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987368017@s.whatsapp.net",
+    "fromMe": true,
+    "id": "F2316EDDBC337D05B233CEF9BD120A5B"
+  },
+  "message": {
+    "conversation": "Agradecemos sua mensagem. No estamos disponível no momento, mas responderemos assim que possível!"
+  },
+  "messageTimestamp": "1725242167",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725242169",
+  "userReceipt": [
+    {
+      "userJid": "5511987368017@s.whatsapp.net",
+      "receiptTimestamp": "1725242169",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 27 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987368017@s.whatsapp.net",
+    "fromMe": false,
+    "id": "29FD58C5BCEF88C0E5EAC9CEF60737E1"
+  },
+  "message": {
+    "conversation": "Oi.."
+  },
+  "messageTimestamp": "1725241572",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPFGPxg89qSXYdmnREiTw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 28 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511996917126@s.whatsapp.net",
+    "fromMe": false,
+    "id": "ECC6193A51B554A75B166863E6283888"
+  },
+  "message": {
+    "conversation": "Bom dia \nPoderia por gentileza agendar um horario para mim com o medico de coluna . Sou paciente oncológica"
+  },
+  "messageTimestamp": "1725213516",
+  "reportingTokenInfo": {
+    "reportingTag": "AbM+KvuXgRXwj43agMWTLw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 29 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511974301502@s.whatsapp.net",
+    "fromMe": false,
+    "id": "A7522BA065291C702499642382959EC4"
+  },
+  "message": {
+    "imageMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7118-24/14744626_2051961148553896_5810690298322733467_n.enc?ccb=11-4&oh=01_Q5AaII1ehHla81PvLbJmg-Y5PJPOZZaAcTE8sUzKWeqxfFqb&oe=66FAE883&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "image/jpeg",
+      "caption": "Boa noite. Por favor agendar consulta com Dr.Rubens Massaro Kanno, pata minha mãe de 95 anos.\nLourdes Lopes Leme \nNascimento: 12/10/1929.\nCPF: 239.874.808.15\nConvênio Unimed \nObrigado",
+      "fileSha256": "HOspXfMB5If++dx1wZLsc8TmUzUJ3PVN7IHV6NAB7H4=",
+      "fileLength": "129906",
+      "height": 1600,
+      "width": 900,
+      "mediaKey": "9YtplcxkPKLoiCzL0eZ9WCDDdNMRoHieME30bEtPsUk=",
+      "fileEncSha256": "ENAm2TRAgAzyL6xZzMpdkzJF+w8xMHpLWmTP/Nf0ERY=",
+      "directPath": "/v/t62.7118-24/14744626_2051961148553896_5810690298322733467_n.enc?ccb=11-4&oh=01_Q5AaII1ehHla81PvLbJmg-Y5PJPOZZaAcTE8sUzKWeqxfFqb&oe=66FAE883&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1725138792",
+      "scansSidecar": "cvSqzLQDeGActgFBo89SCKARs4D4D9uzKY/1rk2KYkd+ud04Xa65+w==",
+      "scanLengths": [
+        11254,
+        41087,
+        24275,
+        53290
+      ],
+      "midQualityFileSha256": "kfWvRUjb5mgaohx5NeJOzPiD9yXz7OX1cjHbLzKf9go="
+    }
+  },
+  "messageTimestamp": "1725138909",
+  "reportingTokenInfo": {
+    "reportingTag": "AbNY2l3ZoUMoD6Zc1D9yBw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 30 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511959995960@s.whatsapp.net",
+    "fromMe": false,
+    "id": "BC55F9087818D1883884F9CF2C1870BC"
+  },
+  "message": {
+    "conversation": "Desde já, muito obrigada!"
+  },
+  "messageTimestamp": "1725124042",
+  "reportingTokenInfo": {
+    "reportingTag": "AbNHXWkFFGLELhQoTzbnjg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 31 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511959995960@s.whatsapp.net",
+    "fromMe": false,
+    "id": "103B4205496F2DED04DBA41606543119"
+  },
+  "message": {
+    "conversation": "Tenho Convênio de São Paulo, do TRT - Tribunal Regional do Trabalho. \n\nAtendem?"
+  },
+  "messageTimestamp": "1725124031",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOJmsCSz8VRQ3xK6vUH5A=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 32 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511959995960@s.whatsapp.net",
+    "fromMe": false,
+    "id": "73BF207ACFFE37AB1261A30D41166AE3"
+  },
+  "message": {
+    "conversation": "Olá, boa tarde! \n\nMeu nome é Eliane e gostaria de saber: \no Dr. Rubens Kanno atende nessa Clínica?"
+  },
+  "messageTimestamp": "1725123982",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPOToAwQmMPVgP8kib2Ng=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 33 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511977921075@s.whatsapp.net",
+    "fromMe": true,
+    "id": "DE0911765B1387E9059C2C3EB8FFFFD7"
+  },
+  "message": {
+    "videoMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7161-24/30759389_491892926922568_1823480609082105971_n.enc?ccb=11-4&oh=01_Q5AaIEjwYUO7RPbyMj_3XB5wRHAofqMW-lHJWL8RdJL8FNfx&oe=66FA9DDB&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "video/mp4",
+      "fileSha256": "Vr6cyYG/Iv4oQ1jnGN7XwFztPgtxuwAEcZC+nlQYavw=",
+      "fileLength": "2321402",
+      "seconds": 14,
+      "mediaKey": "siD+zo1ohlzj+lKrHLr6r+fCusP32/mDtS2IOOZXcyY=",
+      "height": 850,
+      "width": 478,
+      "fileEncSha256": "4z8Nv7RMxWcMLqReCDI9UYRqkzba4TFh/xTH5jTre14=",
+      "directPath": "/v/t62.7161-24/30759389_491892926922568_1823480609082105971_n.enc?ccb=11-4&oh=01_Q5AaIEjwYUO7RPbyMj_3XB5wRHAofqMW-lHJWL8RdJL8FNfx&oe=66FA9DDB&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1725113410",
+      "streamingSidecar": "XdGxgOaz2mCggFo0XeZXPVw9MDJPQvuiusacJh+8+iWTInlhJwi9Wc8G7Swkcduj2SQb2CPcksMZFAsyaL6MJyIAJs4uDNZXYvcLbBGAtCq4PqkrU5KuWBrcO9gz1xQjRuncRaxcrZPMzj4p2hFOQSMH7VDdGxsvuDYxlLwwliXsGuApVf4TWWmwVqXwKiZ4mDDlsZAipIHt62dFVli9fNSHuRA15/az113r+AHhhEQdc1vRV+joD1GtxnvMkKrtvCLBayHxcEHj8n0tVh0CSrJbE9PhW41GYkyqWDxMPqg7Ak5JbBeJ1w7VALgpHC3XhQuRa+LfEypSLSA2PZ05tblB9elxzkSPU0K5L9kWFFRwDxHYxvg/7vIwaY2n54Y5H7I7JwB45oP9frEjxKAFfJa2W02xYOrERcpTUtGzoyL/bEN49gXA718wc7SXNPSZCD6Fu4XdbFH7kfsYw/hI05NNZ+MKpK52"
+    }
+  },
+  "messageTimestamp": "1725109392",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725113414",
+  "mediaData": {
+    "localPath": "Media/WhatsApp Business Video/Sent/VID-20240831-WA0001.mp4"
+  },
+  "userReceipt": [
+    {
+      "userJid": "5511977921075@s.whatsapp.net",
+      "receiptTimestamp": "1725113414",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 34 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511966322089@s.whatsapp.net",
+    "fromMe": false,
+    "id": "2248278DC6527D3490030297C7A940B0"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Olá.. Qual valor da consulta com ortopedista?",
+      "previewType": "NONE",
+      "contextInfo": {
+        "expiration": 7776000,
+        "disappearingMode": {
+          "initiator": "CHANGED_IN_CHAT",
+          "trigger": "ACCOUNT_SETTING",
+          "initiatedByMe": true
+        }
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725071720",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOHCzWnXHJICq/iydw/RQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 35 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511994081741@s.whatsapp.net",
+    "fromMe": false,
+    "id": "42F479BBEC94DDCFA92F0C6363022F39"
+  },
+  "message": {
+    "conversation": "Sim pode confirmar"
+  },
+  "messageTimestamp": "1725065144",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOU2QeX/LlYhoZLOTCMAg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 36 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "AD20E372CA98EE8CDC1CF2FCFDE0AA24"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Obrigada \nPra você também",
+      "previewType": "NONE",
+      "contextInfo": {
+        "stanzaId": "3A22D8E789D7B8BBCB20",
+        "participant": "5511960001911@s.whatsapp.net",
+        "quotedMessage": {
+          "conversation": "Bom final de semana"
+        }
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725052246",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725052247",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052248",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ],
+  "reactions": [
+    {
+      "key": {
+        "remoteJid": "5511960001911@s.whatsapp.net",
+        "fromMe": false,
+        "id": "3A8F7D0F3B3D942F246C"
+      },
+      "text": "🙏",
+      "senderTimestampMs": "1725052255056",
+      "unread": true
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 37 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A22D8E789D7B8BBCB20"
+  },
+  "message": {
+    "conversation": "Bom final de semana"
+  },
+  "messageTimestamp": "1725052177",
+  "reportingTokenInfo": {
+    "reportingTag": "AbP4NeTiTGeLJAd1CEelvA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 38 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A8A2278712F2514B738"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Combinado",
+      "previewType": "NONE",
+      "contextInfo": {
+        "stanzaId": "090F86EE61FEF873A107F8A17664458D",
+        "participant": "5511994979553@s.whatsapp.net",
+        "quotedMessage": {
+          "conversation": "A partir das 08h  já estamos la"
+        }
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725052157",
+  "reportingTokenInfo": {
+    "reportingTag": "AbP5T8zQTfRwbkfCu36mNQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 39 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "01C014FEF8178EFFA53FB0AF1418907B"
+  },
+  "message": {
+    "conversation": "Qq horário"
+  },
+  "messageTimestamp": "1725052153",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052154",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 40 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "090F86EE61FEF873A107F8A17664458D"
+  },
+  "message": {
+    "conversation": "A partir das 08h  já estamos la"
+  },
+  "messageTimestamp": "1725052147",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052148",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 41 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AE5F50908568FD65CD1"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Ok",
+      "previewType": "NONE",
+      "contextInfo": {
+        "stanzaId": "21473597807A0EEE74AAA91E120B8444",
+        "participant": "5511994979553@s.whatsapp.net",
+        "quotedMessage": {
+          "conversation": "A moça que vai começar  chama Vanderleia"
+        }
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725052144",
+  "reportingTokenInfo": {
+    "reportingTag": "AbM7lkHPURcL1BfBS0Efhg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 42 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "21473597807A0EEE74AAA91E120B8444"
+  },
+  "message": {
+    "conversation": "A moça que vai começar  chama Vanderleia"
+  },
+  "messageTimestamp": "1725052136",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725052137",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052137",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 43 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AB1BBAC73A3E805195A"
+  },
+  "message": {
+    "conversation": "Qual melhorar horário ?"
+  },
+  "messageTimestamp": "1725052133",
+  "reportingTokenInfo": {
+    "reportingTag": "AbMuuUPzDMg4xptykrw4iA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 44 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A003F231F2CB2F55AA5"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Desativo",
+      "previewType": "NONE",
+      "contextInfo": {
+        "stanzaId": "34F4E5EE350DFBD9E02401E1330EA397",
+        "participant": "5511994979553@s.whatsapp.net",
+        "quotedMessage": {
+          "conversation": "Aí só vai trocar a Elaine"
+        }
+      },
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    }
+  },
+  "messageTimestamp": "1725052122",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOTHum+B0fpmQC+4oTA7w=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 45 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A7827FFB87318B6D8CD"
+  },
+  "message": {
+    "conversation": "Ok"
+  },
+  "messageTimestamp": "1725052118",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOgKOMCShYyzmG/yj0tQg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 46 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "4D30AE199C71AF19352CC3AF1A94F19F"
+  },
+  "message": {
+    "conversation": "Ela No está mais na clínica"
+  },
+  "messageTimestamp": "1725052113",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052114",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 47 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "34F4E5EE350DFBD9E02401E1330EA397"
+  },
+  "message": {
+    "conversation": "Aí só vai trocar a Elaine"
+  },
+  "messageTimestamp": "1725052106",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052107",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 48 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A2EECA196C0B3A69719"
+  },
+  "message": {
+    "conversation": "Pode ser de manhã ?"
+  },
+  "messageTimestamp": "1725052100",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOl5B2vN4qtXRoovTfgcA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 49 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A16AACFE6249D06890F"
+  },
+  "message": {
+    "conversation": "Vamso deixar para segunda"
+  },
+  "messageTimestamp": "1725052094",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPEjzv6GplknYA29aeoGA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 50 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "708FC406C3E09F85A09591B2FEC14023"
+  },
+  "message": {
+    "conversation": "De sábado No trabalhamos"
+  },
+  "messageTimestamp": "1725052089",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052090",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 51 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "F7CD15D093C3BCD33AFB4EB6222DB85D"
+  },
+  "message": {
+    "conversation": "Sem problemas"
+  },
+  "messageTimestamp": "1725052082",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052084",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 52 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "0242E45C163A33D03D9EA51BCFB94708"
+  },
+  "message": {
+    "conversation": "Pode ser segunda Ou terça"
+  },
+  "messageTimestamp": "1725052075",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1725052076",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725052077",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 53 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511974725965@s.whatsapp.net",
+    "fromMe": false,
+    "id": "607D74FB11D56CB5AFF3F4CAA7E2CE54"
+  },
+  "message": {
+    "conversation": "EDILAINE Gonçalves Brasil"
+  },
+  "messageTimestamp": "1725048492",
+  "reportingTokenInfo": {
+    "reportingTag": "AbO/tfM322YUeXnNmLZQYA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 54 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511994081741@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB01A2FDE3C64A6229A51"
+  },
+  "message": {
+    "conversation": "Para confirmação da consulta é necessário entrar em contato com a secretario do Dr. ate o final do dia através do telefone 11.98102-5353"
+  },
+  "messageTimestamp": "1725047841",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511994081741@s.whatsapp.net",
+      "receiptTimestamp": "1725047842",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 55 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511994081741@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB087A79B78F25BBA7E9F"
+  },
+  "message": {
+    "conversation": "Gostaria de esta confirmando a sua consulta com o Dr. Claudio Mortago no dia 02/09 as 10:45h??"
+  },
+  "messageTimestamp": "1725047657",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511994081741@s.whatsapp.net",
+      "receiptTimestamp": "1725047658",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 56 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511994081741@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C914890ED56B7CDC8B"
+  },
+  "message": {
+    "conversation": "Boa tarde, sra. Claudia"
+  },
+  "messageTimestamp": "1725047610",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511994081741@s.whatsapp.net",
+      "receiptTimestamp": "1725047612",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 57 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511976225884@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A6E745FAD9A725F521C"
+  },
+  "message": {
+    "conversation": "Vc tem uma escalinha ?"
+  },
+  "messageTimestamp": "1725047461",
+  "reportingTokenInfo": {
+    "reportingTag": "AbP0i3Hh3208ouLnyPJSmw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 58 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511976225884@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A097ED1A3460E2278BC"
+  },
+  "message": {
+    "conversation": "Ql outro dia tem mais mais médicos ?"
+  },
+  "messageTimestamp": "1725047446",
+  "reportingTokenInfo": {
+    "reportingTag": "AbOno0rJ6vx5VD7cyFRbCA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 59 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AEF1917714D59768E10"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/23455541_3341096409517563_2867963485788094156_n.enc?ccb=11-4&oh=01_Q5AaIOJgFOpsBAS9eOuu9bI36wVe8tnRpSnLQa0M09Hlv41C&oe=66F991F4&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "uCDylcMoy8Baze9DGzqyWj/2kKxijNOaVyLDZTXyPe0=",
+      "fileLength": "17034",
+      "seconds": 7,
+      "ptt": true,
+      "mediaKey": "AkWmyMWx16QkUeFkfvgtSXqDBC9a2dG3zypuSQ72iAY=",
+      "fileEncSha256": "R793/0yQ+iM5+TdmFSpBh+1ynHynPPwH8JD3hcEkE/I=",
+      "directPath": "/v/t62.7117-24/23455541_3341096409517563_2867963485788094156_n.enc?ccb=11-4&oh=01_Q5AaIOJgFOpsBAS9eOuu9bI36wVe8tnRpSnLQa0M09Hlv41C&oe=66F991F4&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1725047349",
+      "waveform": "BAUHImNbWFxkZGBURlw9LiwbT2RkZGRcWWJPV2JkZEwxHBEML2FjZGRkZFRDQFQzJSo5IhcTGTxYTy8jFw8LCQ=="
+    }
+  },
+  "messageTimestamp": "1725047357",
+  "status": "PLAYED",
+  "mediaData": {
+    "localPath": "Media/WhatsApp Business Voice Notes/202435/PTT-20240830-WA0008.opus"
+  },
+  "reportingTokenInfo": {
+    "reportingTag": "AbO+smKFhtmp3+n+sVNiMg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 60 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511976225884@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0270955019B1EAE9431"
+  },
+  "message": {
+    "conversation": "Sim e o dia que tem mas médicos aqui"
+  },
+  "messageTimestamp": "1725047350",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511976225884@s.whatsapp.net",
+      "receiptTimestamp": "1725047351",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 61 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A2DFBEE29B0ED28BE1F"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/26677163_853045450132764_265136657924771982_n.enc?ccb=11-4&oh=01_Q5AaIESTbheBO8TzsUpjNDFaKsFoaHWxKk78Q2Ci7stsb-On&oe=66F9AB08&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "s6I26q3DKx+O3QGSzKDQjurPzmOyY/kq8YmM46xT2D4=",
+      "fileLength": "29738",
+      "seconds": 12,
+      "ptt": true,
+      "mediaKey": "7OjblW5Z4zJYhvTW7/LdtILlCk6SwIL+r92KV+xBW3I=",
+      "fileEncSha256": "Ir8PhP9PJQvy4iWQ9hPjCt88B+cwUmvKY2TH8xxUIcc=",
+      "directPath": "/v/t62.7117-24/26677163_853045450132764_265136657924771982_n.enc?ccb=11-4&oh=01_Q5AaIESTbheBO8TzsUpjNDFaKsFoaHWxKk78Q2Ci7stsb-On&oe=66F9AB08&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1725047330",
+      "waveform": "BwpkY0pXZGRBXGRhUVMuS2RHITVkZFVkVj8WDw0TSGRbUTgcIitkZFJQXGRkUWRhT1VgRzAaDgoMHEs4QjUZDw=="
+    }
+  },
+  "messageTimestamp": "1725047344",
+  "status": "PLAYED",
+  "mediaData": {
+    "localPath": "Media/WhatsApp Business Voice Notes/202435/PTT-20240830-WA0007.opus"
+  },
+  "reportingTokenInfo": {
+    "reportingTag": "AbOTObiqukkepDy085lXwA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 62 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511976225884@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07A56BF28AEFE5039CC"
+  },
+  "message": {
+    "conversation": "Oi tudo bem e vc?"
+  },
+  "messageTimestamp": "1725047338",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511976225884@s.whatsapp.net",
+      "receiptTimestamp": "1725047338",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB03140BE8BF593F33A95"
+  },
+  "message": {
+    "conversation": "Quando você vai conseguir vim?"
+  },
+  "messageTimestamp": "1725047308",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725047310",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 63 de 75 
+Mensagem 64 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": false,
+    "id": "EA3602FCAC9D6ED7C2BCA1E9BD1B6A45"
+  },
+  "message": {
+    "conversation": "Obrigada"
+  },
+  "messageTimestamp": "1725047298",
+  "reportingTokenInfo": {
+    "reportingTag": "AbP8kRQkPFhIU7CX1yX9kg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 65 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0CC394048E9046A8202"
+  },
+  "message": {
+    "conversation": "Dr. Gilberto"
+  },
+  "messageTimestamp": "1725047285",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511933440943@s.whatsapp.net",
+      "receiptTimestamp": "1725047286",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 66 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": false,
+    "id": "1AF8FCA6EDCC569A636CCDC40179C34E"
+  },
+  "message": {
+    "conversation": "Qual ortopedista"
+  },
+  "messageTimestamp": "1725047251",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPtt52EMNPrDSrk5dnE3g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 67 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": false,
+    "id": "EF46C61676E076E3E1821B56AC6E95DD"
+  },
+  "message": {
+    "conversation": "Pode ser"
+  },
+  "messageTimestamp": "1725047239",
+  "reportingTokenInfo": {
+    "reportingTag": "AbPyCecnxh7aazTuSbMajw=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 68 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07862DAD0C0D78AA8FE"
+  },
+  "message": {
+    "conversation": "Tenho vaga para o dia 10/09 as 11hras, pode ser?"
+  },
+  "messageTimestamp": "1725047219",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511933440943@s.whatsapp.net",
+      "receiptTimestamp": "1725047219",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 69 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511933440943@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB05ECDBB668BA10C0ABD"
+  },
+  "message": {
+    "conversation": "Olá boa tarde"
+  },
+  "messageTimestamp": "1725047158",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511933440943@s.whatsapp.net",
+      "receiptTimestamp": "1725047159",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 70 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511974725965@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00CB09EF96A816E00A3"
+  },
+  "message": {
+    "conversation": "Qual o nome completo?"
+  },
+  "messageTimestamp": "1725047139",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511974725965@s.whatsapp.net",
+      "receiptTimestamp": "1725047141",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 71 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511974725965@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07E6406B6A682171F21"
+  },
+  "message": {
+    "conversation": "Olá boa tarde"
+  },
+  "messageTimestamp": "1725047132",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511974725965@s.whatsapp.net",
+      "receiptTimestamp": "1725047133",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 72 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511996482571@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0424540D298D21C9451"
+  },
+  "message": {
+    "conversation": "Rua Jorge Zolner N° 320 (Anexo Clínica Pinheiros, estacionamento R$8,00)"
+  },
+  "messageTimestamp": "1725047083",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511996482571@s.whatsapp.net",
+      "receiptTimestamp": "1725047084",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 73 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511996482571@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB08DC43D0597B9F05B17"
+  },
+  "message": {
+    "locationMessage": {
+      "degreesLatitude": -23.1846,
+      "degreesLongitude": -46.8908,
+      "name": "SOMENTE WHATSAPP, MENSAGEM EM HORÁRIO COMERCIAL.",
+      "address": "Rua Jorge Zolner, 320 - Centro, Jundiaí - SP, Brasil"
+    }
+  },
+  "messageTimestamp": "1725047080",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511996482571@s.whatsapp.net",
+      "receiptTimestamp": "1725047081",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 74 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0848D7255EC41E78B7C"
+  },
+  "message": {
+    "conversation": "sem problemas"
+  },
+  "messageTimestamp": "1725046981",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725046982",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 75 de 75 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511960001911@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0938372A47010CE2A45"
+  },
+  "message": {
+    "conversation": "Oi boa tarde"
+  },
+  "messageTimestamp": "1725046977",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1725046982",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 

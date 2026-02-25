@@ -1,0 +1,265 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: CCJ FIxo
+    Whatsapp Id: 2
+    Criação do arquivo de logs: 19/08/2024 10:49:28
+    Selecionado Data de inicio de importação: 07/08/2024 07:00:00 
+    Selecionado Data final da importação: 08/08/2024 07:00:00 
+     
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0FDB6503787A5"
+  },
+  "message": {
+    "conversation": "*Lana*:\n oi"
+  },
+  "messageTimestamp": "1723110861",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723110862",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 2 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB027FF827E83B2"
+  },
+  "message": {
+    "conversation": "*Lana*:\n Bom dia!, Paulo Ribeiro!\r\nAs inscrições para o Concurso de Bolsas CCJ 2025 estão abertas!\r\n\r\nPara efetivar sua inscrição basta preencher o formulário! \r\nAtenção: Utilizaremos o e-mail indicado para confirmação da inscrição e envio do regulamento, sendo importante verificar se o mesmo está escrito corretamente.\r\n\r\nLink: https://forms.gle/SE53GzTfnTJskgZK8\r\n\r\nQualquer dúvida estamos à disposição!"
+  },
+  "messageTimestamp": "1723109257",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723109257",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 3 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0EA433B409B9A"
+  },
+  "message": {
+    "imageMessage": {
+      "url": "https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m233/up-oil-image-6dcb437b-421c-495c-baf2-899a16def4b0?ccb=9-4&oh=01_Q5AaIL0MIzMqo8Vclmor6brT-B1fN0dAiee1rSM44KvYBVDG&oe=66DC0E0D&_nc_sid=000000&mms3=true",
+      "mimetype": "image/jpeg",
+      "fileSha256": "yVUsBVGxYf/+Ag186JsZIAd/4+UIWSu3x8PHkJBKxpo=",
+      "fileLength": "259855",
+      "height": 1600,
+      "width": 1279,
+      "mediaKey": "Z4joJIc1iCA+KhVkyjD091i6GbR6g4/Drw5WtK0laTE=",
+      "fileEncSha256": "T+CK1Myew01VvJQ1I6S4FdVANwPkhCzAOU6oJ/tqMFc=",
+      "directPath": "/o1/v/t62.7118-24/f1/m233/up-oil-image-6dcb437b-421c-495c-baf2-899a16def4b0?ccb=9-4&oh=01_Q5AaIL0MIzMqo8Vclmor6brT-B1fN0dAiee1rSM44KvYBVDG&oe=66DC0E0D&_nc_sid=000000",
+      "mediaKeyTimestamp": "1723109251"
+    }
+  },
+  "messageTimestamp": "1723109252",
+  "status": "DELIVERY_ACK",
+  "mediaData": {
+    "localPath": "Media/WhatsApp Business Images/Sent/IMG-20240808-WA0000.jpg"
+  },
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723109254",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 4 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06A1F36953022"
+  },
+  "message": {
+    "conversation": "Avalie este atendimento:\n0 - Ruim\n1 - Regular\n2 - Bom\n3 - Muito Bom\n4 - Excelente\n5 - Incrível"
+  },
+  "messageTimestamp": "1723109166",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723109168",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 5 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A74EF8F58BBA"
+  },
+  "message": {
+    "conversation": "Bom dia!, Paulo Ribeiro, bem-vindo a Secretaria Unidade 1 Centro - Ensino Médio.\n\nComo podemos ajudar?"
+  },
+  "messageTimestamp": "1723108841",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723108842",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 6 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A9FAC8FDE3AD1EC080C"
+  },
+  "message": {
+    "conversation": "1"
+  },
+  "messageTimestamp": "1723108839",
+  "reportingTokenInfo": {
+    "reportingTag": "AaEoZTMHB6aCOeNsDTx43g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 7 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB03E2053BC9073"
+  },
+  "message": {
+    "conversation": "Por favor, digite a opção desejada:\n\n[ 1 ] - Secretaria Unidade 1 Centro - Ensino Médio\n[ 2 ] - Secretaria Unidade 2 Malota - Ensino Fundamental 2\n[ 3 ] - Financeiro\n[ 4 ] - Coordenação"
+  },
+  "messageTimestamp": "1723108832",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723108833",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 8 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06FE8042376CD"
+  },
+  "message": {
+    "conversation": "Bom dia, Paulo, bem-vindo ao Colégio Cristão Jundiaí!"
+  },
+  "messageTimestamp": "1723108832",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1723108832",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 9 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AFCB90509F3E78278C1"
+  },
+  "message": {
+    "conversation": "Oi"
+  },
+  "messageTimestamp": "1723108825",
+  "reportingTokenInfo": {
+    "reportingTag": "AaE7WTdJi8x04BwwUt3b2g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 10 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511984518404@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0DBCF95ECECBDAAA7CA"
+  },
+  "message": {
+    "conversation": "*Bárbara:*\n🙏"
+  },
+  "messageTimestamp": "1723027515",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511984518404@s.whatsapp.net",
+      "receiptTimestamp": "1723027516",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 11 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511984518404@s.whatsapp.net",
+    "fromMe": false,
+    "id": "57BE34F2ACAF06098F7A76C3603A2877"
+  },
+  "message": {
+    "conversation": "Para todas nós 😘"
+  },
+  "messageTimestamp": "1723027269",
+  "reportingTokenInfo": {
+    "reportingTag": "AaHbLHWXJnYsXEVf4GHcng=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 12 de 12 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511984518404@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A4D716AB50ABA167FD"
+  },
+  "message": {
+    "conversation": "*Bárbara:*\nObrigada, Cátia 😊\nTenha um ótimo dia."
+  },
+  "messageTimestamp": "1723026656",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511984518404@s.whatsapp.net",
+      "receiptTimestamp": "1723026657",
+      "readTimestamp": "0",
+      "playedTimestamp": "0"
+    }
+  ],
+  "reactions": [
+    {
+      "key": {
+        "remoteJid": "5511984518404@s.whatsapp.net",
+        "fromMe": false,
+        "id": "26A393B2AB877A62C14D4BEA505AFE90"
+      },
+      "text": "🙏🏻",
+      "senderTimestampMs": "1723027261704"
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 

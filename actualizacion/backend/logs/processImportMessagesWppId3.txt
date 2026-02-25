@@ -1,0 +1,2606 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: ZapMUlti
+    Whatsapp Id: 3
+    Criação do arquivo de logs: 30/10/2025 10:57:54
+    Selecionado Data de inicio de importação: 01/01/2025 00:00:00 
+    Selecionado Data final da importação: 14/03/2025 00:00:00 
+     
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB081E1A68FA826C98D23"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1741719417",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1741719418",
+      "readTimestamp": "1741719418",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511998451373:0@s.whatsapp.net",
+        "5511998451373:38@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 2 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0ADBAA20925C821E76D"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1741719417",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1741719417",
+      "readTimestamp": "1741719417",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511998451373:0@s.whatsapp.net",
+        "5511998451373:38@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 3 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB025421F3EFA6819ADD3"
+  },
+  "message": {
+    "conversation": "Opção inválida, por favor, escolha uma opção válida."
+  },
+  "messageTimestamp": "1741719417",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511998451373@s.whatsapp.net",
+      "receiptTimestamp": "1741719417",
+      "readTimestamp": "1741719417",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511998451373:0@s.whatsapp.net",
+        "5511998451373:38@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998451373@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A1B949DA6829D2E2431"
+  },
+  "message": {
+    "conversation": "Olá",
+    "messageContextInfo": {
+      "messageSecret": "NV7q6fg7PnrnA0tK9ibEUHbKuWkrofSYJ4EmxYWb2xU="
+    }
+  },
+  "messageTimestamp": "1741719414",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1742321521",
+      "readTimestamp": "1742321521",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 4 de 85 
+Mensagem 5 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "0@s.whatsapp.net",
+    "fromMe": false,
+    "id": "1234092867681243-1"
+  },
+  "message": {
+    "templateMessage": {
+      "hydratedFourRowTemplate": {
+        "videoMessage": {
+          "mimetype": "video/mp4",
+          "fileSha256": "w1NwCQIHuEIH0Jfh4yOmGIIbK/GOAuRM6fRtf6bmQ4M=",
+          "fileLength": "3961935",
+          "seconds": 15,
+          "mediaKey": "hgT37bHVYzBRGugwHdUSnvrTqcjWOJ1WK1BFiaRQ2rM=",
+          "fileEncSha256": "uPtvrRbYH1vWtf1lxiHD6yHEEcBRE5NTHDeKSQcu9tI=",
+          "jpegThumbnail": "/9j/4AAQSkZJRgABAgAAAQABAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCACCAIIDAREAAhEBAxEB/8QBogAAAAYCAwEAAAAAAAAAAAAABwgGBQQJAwoCAQALAQAABgMBAQEAAAAAAAAAAAAGBQQDBwIIAQkACgsQAAIBAwQBAwMCAwMDAgYJdQECAwQRBRIGIQcTIgAIMRRBMiMVCVFCFmEkMxdScYEYYpElQ6Gx8CY0cgoZwdE1J+FTNoLxkqJEVHNFRjdHYyhVVlcassLS4vJkg3SThGWjs8PT4yk4ZvN1Kjk6SElKWFlaZ2hpanZ3eHl6hYaHiImKlJWWl5iZmqSlpqeoqaq0tba3uLm6xMXGx8jJytTV1tfY2drk5ebn6Onq9PX29/j5+hEAAgEDAgQEAwUEBAQGBgVtAQIDEQQhEgUxBgAiE0FRBzJhFHEIQoEjkRVSoWIWMwmxJMHRQ3LwF+GCNCWSUxhjRPGisiY1GVQ2RWQnCnODk0Z0wtLi8lVldVY3hIWjs8PT4/MpGpSktMTU5PSVpbXF1eX1KEdXZjh2hpamtsbW5vZnd4eXp7fH1+f3SFhoeIiYqLjI2Oj4OUlZaXmJmam5ydnp+So6SlpqeoqaqrrK2ur6/9oADAMBAAIRAxEAPwDew9g7oR9e9+611737r3XXv3W+u/fuvde9669173vr3XXv3Xuu/euvdde99e697917rv37r3Xvfutde9669173vrfXXvXXuve/da679769117917rv37r3Xvfut9e9+61173rrfXve+tde96631737r3Xve+vde9+691737r3Xvfutdde/db679669173vr3Xvfuvde9+61117917rv37rfXvfuvdde/da679663173vr3Xvfuvdde/de679+61117917rv3rr3Xve+vde9+631737r3XXv3Xuve/de679669173vrXXXv3W+u/futdde/de679+63173rr3XXvfXuve/de697917rv37rXXvfut9e9+69173rrXXve+t9de/de679+69117917r3v3Xuve/de679+6911791rrv37rfXXv3Xuu/eutde9763173rr3Xve+tde9+631737r3Xveuvde976111791vrv37r3Xveuvde97691737r3Xveuvdde99a69791vrv3rr3RYuwPmZ8ZOsshU4ndXbWDbK0UslPX43a1Bn9+12Nq4mKyUWUp9i4jccmLro2HqhqBFKosStiD7L7vd9ssDpu54kf+EsNX+8ju/l1FHOXvn7Q+39y1lzdzDttpuC/FD4vizr/poIRJKv+2QV8ukltz+YD8SdzVkdBTdsR4ieRwhm3Zs/fmzsXDc2ElTntz7YxWApIRe5eSqRFH6iOfaeDmHZLltEV1FqPkTpr9mqleg5sP3n/YLmW7Wx2vmjbRcsaKJzJagk8AGuo4VJPkAany6N3i8pjM3jqPL4bI0GXxORp46vH5PGVdPX4+vpZl1RVNHW0kktNVU8qm6ujMrD6H2c9TtFLFPGs0LK8LgFWUghgcggjBBGQRx6n+9dOde97691737rXXveut9e9+69173vr3Xveuvdde99e679+6911791rr3v3Xuu/fut9e9+611QT82PmxuHszcOc6r6rzlVherMLU1WGzmbw1S9NX9k19NI1PkgMlTss0exY5kaGGGFgmVQPLK0tLLFEIy5r5rmjmba9rbTpNJJBxr5qp8qcGYZrgUAOrk/97r73W9Sb1d+1ntbdva7dau0N9fQtplmlGJLe3kXMcUZqksqEPI4ZVZYlJlrXREjRI40WONFVEjRQqIigBVVVAVVUCwA4HuNSSSSck9cznd5HMkhLOxJJJqSTxJJ4k+fSu3xsbdnW26MpsvfGFqdvbowv2X8Tw9XJTS1FJ/EcdSZai8klJNUU7fcY6vhlGlzZXF7G4Cm9srrbrlrO9Qx3KU1KaVFQGHAkZBB6PeaOVt/5L32flnmi2ez3220eLC5UsniRpKlSjMvdG6MKE4YVzUdDB8cvk32H8bdzQ5DbdXU5fZNbWibdnXVVVMuEzkMrj7yuxkchaHA7q8fMVdCF8rqiVSzQqEUQcv80Xe0SrDMWk24mhU5Kj1SvCnHT8LfI0YZDfd4+9Fzj7KbxDt17NPuHt3JIBPZu2owqTmazLH9KRaljGCIpsq4DFZE2Ydg75212Zszbe/dn14yW2904uny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37rfSQ31sHZnZm2q/Z+/tt4vdW28kF+6xWWpxNEJYiWp6yllUpU4/I0cnrgqqd4qinkAeN1YAhuWKOaMxTKrxMKEEAgj5g4PRVvex7NzLtU2x8wWsF7s9wmmWGZFkjdfRlYEGhyDxBAIIIB6rI37/Kk2Zk62ep6z7Yz2yaSd2kXE7r23B2DSUIJslLjqymz2y8uKONAADWVFdUk3LTNewBt5yJtFw5e2aSAnyB1L+Qbu/wCNU+XWDXOn93v7Vb9dve8p3+47Izknwhpu7df9IspWYD5G4YDgAB0lNufylzHWRvvHvuTIYwuBPR7T62i2/lPFf1fbZjN713ZQwzEfpaTHTKp+qt+U0Ht9t6PW4nldfQBVr9vxfyp0Gth/u4uSbS7WXmTmLcr20BqY4IIbUt8i7NdGh89IU+hBz1Y/0p8c+pfj/iqjH9cbaSir8jHFHm90ZOZsruvPeI60XJZqoUSrRpMWkjo6ZaeggkdmigQs1xlY7fZbbD4FjGscfnTiT6sTUk/aT1m/7ee1vIftVs/7k5E26CxtGoZGWrTTMODTTOWklIqaamIWpChRjocfazqQOve99a679+63173rrXXXvfW+ve/de69791rrv37rfXXv3Wuu/fut9de/da679+69173rrfXvfuvde9+6911731rr3v3W+u/futde9+63173rrXXvfut9de99e679+691737r3Xvfutdde/db679+691737r3Xvfutde9+63117917r3vXXuu/fuvde97611737rfXveuvde9+691737r3Xve+tde9+63117117rv37r3Xvfuvde97611737r3XXv3W+u/fuvde9+69117917rv37rXXvfuvde9663173vrXXvfut9e9669173vr3Xveuvde97691737rXXvfuvdde9db6797611737rfXXvXXuve99e697917rv37rXXvfuvde9663173vrXXvfuvde9+631737r3Xvfuvddf778/X/bfT37r3Xvfutde9+63137917r3v3Xuve9da69731vrr37r3XfvXXuve99e669+6113791vrr37rXXfv3Xuve9db697317r3vXXuuvfuvdd+99e669+6113791vr3vXXuve/de697317r3v3Xuve/de697917r3vXXuve99e697917rr37rXXfv3W+ve9de697317r3v3Xuv/Z",
+          "staticUrl": "https://static.whatsapp.net/downloadable?category=PSA&id=202226592650397850&num=5a6ea375-2e27-4822-8a9f-e74c79a7cfeb&_nc_cat=1"
+        },
+        "hydratedContentText": "*Novidade: organize suas conversas com listas personalizadas 🗃️*\nCrie listas para ordenar suas conversas por familiares, amigos, colegas de trabalho e muito mais. Edite e reordene suas listas como preferir.\n\nPara começar, basta tocar em ➕ na barra de filtros no topo da aba Conversas.",
+        "hydratedButtons": [
+          {
+            "urlButton": {
+              "displayText": "Experimentar",
+              "url": "https://wa.me/new-list"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "messageTimestamp": "1741377825",
+  "status": "DELIVERY_ACK"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 6 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3AF6BE2E5BFD2468723A"
+  },
+  "message": {
+    "conversation": "Bom dia, Eliseu! \nTudo bem? \n\n*Plano Premium R$460,00*\n6 Numero WhatsApp \n11 Atendentes\n31 Filas\nChatBot\nCampanhas\nAgendamentos\nRespostas Rápidas",
+    "messageContextInfo": {
+      "messageSecret": "e64sqJjZrDQicnwEif9x8pFPpkcXsvMbwXjN1DzevAo="
+    }
+  },
+  "messageTimestamp": "1740302886",
+  "status": "READ",
+  "messageC2STimestamp": "1740302887",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1740302887",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521974025542@s.whatsapp.net",
+      "receiptTimestamp": "1740302888",
+      "readTimestamp": "1740308838",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521974025542:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 7 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "0@s.whatsapp.net",
+    "fromMe": false,
+    "id": "553481767702501-1"
+  },
+  "message": {
+    "templateMessage": {
+      "hydratedFourRowTemplate": {
+        "videoMessage": {
+          "mimetype": "video/mp4",
+          "fileSha256": "B4F3kBxg9/CxKTFYCjAwPTraLoivY7mkeiD4kPppgVk=",
+          "fileLength": "1467761",
+          "seconds": 7,
+          "mediaKey": "OTIT05Q4cM5TyYwvqzCZ8pkKEuZ3QJCBjYZcHi/rum0=",
+          "fileEncSha256": "jKEThMP0kRKhFsYuB94RsXCpjbDs/QxKSLFKe2ttydA=",
+          "jpegThumbnail": "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",
+          "staticUrl": "https://static.whatsapp.net/downloadable?category=PSA&id=20893442915637896&num=76048e9b-86f0-4485-b9d5-e3092ec0b464&_nc_cat=1"
+        },
+        "hydratedContentText": "*Novidade: veja as transcrições das mensagens de voz*\nLocal barulhento? Sem tempo? Em qualquer lugar, agora você pode ver as mensagens de voz como transcrições. Basta tocar sem soltar na mensagem de voz e depois em Transcrever.",
+        "hydratedButtons": [
+          {
+            "urlButton": {
+              "displayText": "Saiba mais",
+              "url": "https://faq.whatsapp.com/241617298315321"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "messageTimestamp": "1740301192",
+  "status": "DELIVERY_ACK"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 8 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": false,
+    "id": "09CF534D74D14598D85FBEA16E7C54C9"
+  },
+  "message": {
+    "conversation": "Plano Premium",
+    "messageContextInfo": {
+      "messageSecret": "G/TQwcRaS4s3pkLfc20O86I9xW/3i6A8jajubM7InEc="
+    }
+  },
+  "messageTimestamp": "1740270675",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677474",
+      "readTimestamp": "1743677474",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 9 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": false,
+    "id": "9E36056AC6AB31E583BEE1C5EB55F0AE"
+  },
+  "message": {
+    "conversation": "Gostaria de saber os valores dos planos",
+    "messageContextInfo": {
+      "messageSecret": "2dB3ku5ukavYoQeFOr0GKiF7DrK4EyzLMw66FYmENVg="
+    }
+  },
+  "messageTimestamp": "1740270568",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677474",
+      "readTimestamp": "1743677474",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 10 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB03B13A1B18985615C12"
+  },
+  "message": {
+    "conversation": "Ou digite:\n\n *Voltar* , para retornar ao menu anterior;\n *Sair* , para encerrar o atendimento;"
+  },
+  "messageTimestamp": "1740270544",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521974025542@s.whatsapp.net",
+      "receiptTimestamp": "1740270544",
+      "readTimestamp": "1740270544",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521974025542:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 11 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB02C23213CEAEB7509F2"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Eliseu, bem-vindo ao Comercial de Vendas.\n\nComo podemos ajudar?"
+  },
+  "messageTimestamp": "1740270538",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521974025542@s.whatsapp.net",
+      "receiptTimestamp": "1740270539",
+      "readTimestamp": "1740270539",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521974025542:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 12 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": false,
+    "id": "04D04FC703198418FDDE278E47293DFF"
+  },
+  "message": {
+    "conversation": "3",
+    "messageContextInfo": {
+      "messageSecret": "4TDQFq6+/I1TPiQdaQTVcohqRXPVsDaF+AfjHbHDSNc="
+    }
+  },
+  "messageTimestamp": "1740270538",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677474",
+      "readTimestamp": "1743677474",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 13 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0D184977AD92B636F72"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1740270522",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521974025542@s.whatsapp.net",
+      "receiptTimestamp": "1740270522",
+      "readTimestamp": "1740270522",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521974025542:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 14 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0AD460150BD59A5F539"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1740270522",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521974025542@s.whatsapp.net",
+      "receiptTimestamp": "1740270522",
+      "readTimestamp": "1740270522",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521974025542:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 15 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521974025542@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3D72CCBC57E02910320C0549C28ABB48"
+  },
+  "message": {
+    "conversation": "Boa noite",
+    "messageContextInfo": {
+      "messageSecret": "+/ChLsa92bkLkByHNpdvMt1xAJDXG9i9gnM3BhxJmBA="
+    }
+  },
+  "messageTimestamp": "1740270519",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677474",
+      "readTimestamp": "1743677474",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 16 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A2FA114E8637392FE2D"
+  },
+  "message": {
+    "conversation": "Me chama amanhã",
+    "messageContextInfo": {
+      "messageSecret": "5rA5VOQ7k8YfkZUH9uMNKjkJ0oIfmiblJL1OUm+n/pQ="
+    }
+  },
+  "messageTimestamp": "1739918992",
+  "status": "READ",
+  "messageC2STimestamp": "1739918992",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918992",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918992",
+      "readTimestamp": "1739918992",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 17 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A2E88CF6420B534975B"
+  },
+  "message": {
+    "conversation": "Explico como funciona.",
+    "messageContextInfo": {
+      "messageSecret": "d5GVeZ9Qtba7T1I1FQP4yfduu8kFAj3VrdscqmB53no="
+    }
+  },
+  "messageTimestamp": "1739918987",
+  "status": "READ",
+  "messageC2STimestamp": "1739918987",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918987",
+      "readTimestamp": "1739918987",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918987",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A47E156E98AF8877B99"
+  },
+  "message": {
+    "conversation": "Amanhã posso fazer uma apresentação.",
+    "messageContextInfo": {
+      "messageSecret": "PHO1w7DgIWTpd5uutIw7OiBWCFuG9X9R+xUsCXW18QE="
+    }
+  },
+  "messageTimestamp": "1739918953",
+  "status": "READ",
+  "messageC2STimestamp": "1739918953",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918953",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918953",
+      "readTimestamp": "1739918953",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 18 de 85 
+Mensagem 19 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A8F9F870E3E0BD36047"
+  },
+  "message": {
+    "conversation": "Tem cliente que No sabe criar chatbot e precisa de ajuda.",
+    "messageContextInfo": {
+      "messageSecret": "JispIR7gXTIbfPRfyO5NY/n6dPSYHrOmi2q5A5Az7gY="
+    }
+  },
+  "messageTimestamp": "1739918934",
+  "status": "READ",
+  "messageC2STimestamp": "1739918935",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918935",
+      "readTimestamp": "1739918940",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918935",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 20 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": false,
+    "id": "AFAE22F029116979A81F0B28B1A09841"
+  },
+  "message": {
+    "conversation": "Ainda No",
+    "messageContextInfo": {
+      "messageSecret": "3yan0zNDB0lkjEmKt1tox2XS8sqxs3kCLUt8Cf5iAsE="
+    }
+  },
+  "messageTimestamp": "1739918908",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677475",
+      "readTimestamp": "1743677475",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 21 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A7497EB8B463D81D501"
+  },
+  "message": {
+    "conversation": "Vc já trabalha com chatbot?",
+    "messageContextInfo": {
+      "messageSecret": "ArS82G2/q2PVkSL2CMGd3EvN/0bJKYLHYu6QltIhzj4="
+    }
+  },
+  "messageTimestamp": "1739918897",
+  "status": "READ",
+  "messageC2STimestamp": "1739918897",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918897",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918897",
+      "readTimestamp": "1739918897",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 22 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A4D3E1B3BC154BB3117"
+  },
+  "message": {
+    "conversation": "Vc usa nossa plataforma.",
+    "messageContextInfo": {
+      "messageSecret": "+noS5TbvKW++Bgg9TdE4TMBlL1dkp+IzzMl9pHS5uAM="
+    }
+  },
+  "messageTimestamp": "1739918883",
+  "status": "READ",
+  "messageC2STimestamp": "1739918883",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918883",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918883",
+      "readTimestamp": "1739918892",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 23 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": false,
+    "id": "35C22BFBC02AB22FC9B003876A03C861"
+  },
+  "message": {
+    "conversation": "Tenho desconto para criar meu sistema de venda?",
+    "messageContextInfo": {
+      "messageSecret": "lDw0fh7IP/XueqfvB2uVtrv3iGagEPTZoakFMuKU3NQ="
+    }
+  },
+  "messageTimestamp": "1739918368",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677475",
+      "readTimestamp": "1743677475",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 24 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": false,
+    "id": "347595F22566B56D577E249451C35E1D"
+  },
+  "message": {
+    "conversation": "Como funciona para revender o sistema",
+    "messageContextInfo": {
+      "messageSecret": "MnZRyaMQ29kCVxzRvjoR9Cew92TqaV5Aj9D1Vw6E9P4="
+    }
+  },
+  "messageTimestamp": "1739918345",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677475",
+      "readTimestamp": "1743677475",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 25 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C0F4C39CA64E8CEF2D"
+  },
+  "message": {
+    "conversation": "Ou digite:\n\n *Voltar* , para retornar ao menu anterior;\n *Sair* , para encerrar o atendimento;"
+  },
+  "messageTimestamp": "1739918098",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918098",
+      "readTimestamp": "1739918098",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 26 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00C9C890C6BCF80746D"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Alex Montezani, bem-vindo ao Trabalhe Conosco.\n\nComo podemos ajudar?"
+  },
+  "messageTimestamp": "1739918093",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918093",
+      "readTimestamp": "1739918093",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 27 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": false,
+    "id": "F81295E48CA145BA2E9F7DC9982DB381"
+  },
+  "message": {
+    "conversation": "6",
+    "messageContextInfo": {
+      "messageSecret": "JpluFGJfQ8mL0QabR6c4lIOmCNLUkreIo8OgiVU29pk="
+    }
+  },
+  "messageTimestamp": "1739918092",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677475",
+      "readTimestamp": "1743677475",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 28 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A6B6A353DEB6BC34B02"
+  },
+  "message": {
+    "conversation": "Boa noite! \n\nComo posso ajudar?",
+    "messageContextInfo": {
+      "messageSecret": "oovtKdE4FOanRiZSAEOQdAEtYgyu+tROwEXAxoXtMfE="
+    }
+  },
+  "messageTimestamp": "1739918073",
+  "status": "READ",
+  "messageC2STimestamp": "1739918073",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739918073",
+      "readTimestamp": "1739918073",
+      "playedTimestamp": "0",
+      "pendingDeviceJid": [
+        "554791308220:38@s.whatsapp.net"
+      ],
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739918073",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 29 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0748498E76BDDAEF3B2"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1739917461",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739917463",
+      "readTimestamp": "1739917469",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 30 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0989EFC22E67AA04280"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1739917461",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739917462",
+      "readTimestamp": "1739917469",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 31 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0BB4B00020B2EA3F8EE"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1739917461",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739917462",
+      "readTimestamp": "1739917469",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 32 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB01A82462B76A36F4D33"
+  },
+  "message": {
+    "conversation": "Opção inválida, por favor, escolha uma opção válida."
+  },
+  "messageTimestamp": "1739917461",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739917462",
+      "readTimestamp": "1739917469",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0944E00ED0B05BC442F"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1739917460",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554791308220@s.whatsapp.net",
+      "receiptTimestamp": "1739917461",
+      "readTimestamp": "1739917469",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791308220:36@s.whatsapp.net",
+        "554791308220:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 33 de 85 
+Mensagem 34 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791308220@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3F43C83B525115636E04"
+  },
+  "message": {
+    "conversation": "Ola"
+  },
+  "messageTimestamp": "1739917457",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677475",
+      "readTimestamp": "1743677475",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 35 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A4A188A54CC9BD6A4C3"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "https://www.instagram.com/zapmultiplataforma?igsh=Z3piMzAzZzNkaWtm&utm_source=qr",
+      "matchedText": "https://www.instagram.com/zapmultiplataforma?igsh=Z3piMzAzZzNkaWtm&utm_source=qr",
+      "description": "344 seguidores, seguindo 18, 8 posts — Veja as fotos e vídeos de ZapMulti - WhatsApp (@zapmultiplataforma)",
+      "title": "ZapMulti - WhatsApp (@zapmultiplataforma) • perfil do Instagram",
+      "font": "SYSTEM",
+      "previewType": "NONE",
+      "inviteLinkGroupTypeV2": "DEFAULT",
+      "linkPreviewMetadata": {}
+    },
+    "messageContextInfo": {
+      "messageSecret": "pPFGByHf5Tw8oqbP2w9XpWY2d4jUeOpQsJiPdi7brtM="
+    }
+  },
+  "messageTimestamp": "1739739341",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1739739342",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739754006",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739739342",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 36 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3AD538E5FDE637A64C98"
+  },
+  "message": {
+    "editedMessage": {
+      "message": {
+        "protocolMessage": {
+          "key": {
+            "remoteJid": "558181202372@s.whatsapp.net",
+            "fromMe": true,
+            "id": "3A4166E2552AAED79218"
+          },
+          "type": "MESSAGE_EDIT",
+          "editedMessage": {
+            "conversation": "Boa tarde! \n\nComo posso ajudar?",
+            "messageContextInfo": {
+              "messageSecret": "e0K9rFSBv6DajAzwBMpFIfI/YYJuPK9NIiMKEii0dRI="
+            }
+          },
+          "timestampMs": "1739739269959"
+        }
+      }
+    }
+  },
+  "messageTimestamp": "1739739263",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1739739264",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739754005",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1739739269",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 37 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0D3CA4E1BDC94B0AA77"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1739734284",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734284",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 38 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A41E014042C9B6CBAE"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1739734284",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734284",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 39 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB04A964B968BD17D5E07"
+  },
+  "message": {
+    "conversation": "Opção inválida, por favor, escolha uma opção válida."
+  },
+  "messageTimestamp": "1739734283",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734284",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 40 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0B450E810B36D66B473"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1739734283",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734283",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 41 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0DED5BA931A8E21C30C"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1739734283",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734283",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 42 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": false,
+    "id": "0DDBB9EEE8DD6570E404EE60653653C7"
+  },
+  "message": {
+    "conversation": "Como funciona",
+    "messageContextInfo": {
+      "messageSecret": "L9QEwtwbHNT2wDrC13/xs7ILWqwJsJnPqv4Hk/Om1A8="
+    }
+  },
+  "messageTimestamp": "1739734282",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677476",
+      "readTimestamp": "1743677476",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 43 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A245F26E206F922B89"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1739734282",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734282",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 44 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0305B63A29CDFFF77AA"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1739734282",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734282",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 45 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E2014B6C194B0AB863"
+  },
+  "message": {
+    "conversation": "Opção inválida, por favor, escolha uma opção válida."
+  },
+  "messageTimestamp": "1739734281",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558181202372@s.whatsapp.net",
+      "receiptTimestamp": "1739734282",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558181202372:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 46 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558181202372@s.whatsapp.net",
+    "fromMe": false,
+    "id": "7F3D437FEF266B5BB093D47154D13DBB"
+  },
+  "message": {
+    "conversation": "Oi",
+    "messageContextInfo": {
+      "messageSecret": "EugYQCQMUCPVO1ZVQ5I5Pazth+uRZrHjsL2JPL3LxqM="
+    }
+  },
+  "messageTimestamp": "1739734278",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677476",
+      "readTimestamp": "1743677476",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB04A2F437BB07A4C1199"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1738954430",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511987744364@s.whatsapp.net",
+      "receiptTimestamp": "1738954430",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511987744364:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 47 de 85 
+Mensagem 48 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06AB4B5146624B55257"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1738954429",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511987744364@s.whatsapp.net",
+      "receiptTimestamp": "1738954430",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511987744364:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 49 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB000B01652349D134116"
+  },
+  "message": {
+    "conversation": "Opção inválida, por favor, escolha uma opção válida."
+  },
+  "messageTimestamp": "1738954429",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511987744364@s.whatsapp.net",
+      "receiptTimestamp": "1738954429",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511987744364:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 50 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB072FBB0EBA9519B06CE"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1738954429",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511987744364@s.whatsapp.net",
+      "receiptTimestamp": "1738954429",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511987744364:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 51 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A9366AA0636855F40F"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1738954429",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511987744364@s.whatsapp.net",
+      "receiptTimestamp": "1738954429",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511987744364:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 52 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3EB0E8B297A1DB5A200EA2"
+  },
+  "message": {
+    "conversation": "Olá! 🙂\nInstalamos‎ Câmeras e Sensores em pontos‎ estratégicos‎ do‎ seu Imóvel e‎ acionamos‎ a Policia‎ em‎ caso de‎ invasão.\nSomos Líder‎ Mundial, com 150‎ Anos‎ de Experiência no Mercado!!!\n\n✅ Monitoramento‎ do local 24‎ horas por‎ dia\n✅‎ Câmeras‎ Analíticas que detectam‎ movimento\n✅‎ Solução para Casas, Comércios,‎ Escritórios e Empresas\n✅‎ Seguro‎ Complementar para‎ Danos ao Imóvel e Bens‎ roubados\n\nSolicite uma‎ Avaliação‎ de Segurança‎ Gratuita‎ nos‎ contatos abaixo!!!‎ 🤝\n\nFone/Whatsapp:‎ (11) 91658-9529\nFone/Whatsapp:‎ (11) 91628-2030\nSite:‎ www.alarme24.com.br\n\n⚠️ No‎ ATENDEMOS‎ POR‎ ESSE‎ WHATSAPP\nDigite 2 para‎ Sair‎"
+  },
+  "messageTimestamp": "1738954427",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677478",
+      "readTimestamp": "1743677478",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 53 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511987744364@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3EB079DDACCE48002EE42A"
+  },
+  "message": {
+    "imageMessage": {
+      "url": "https://mmg.whatsapp.net/o1/v/t62.7118-24/f2/m231/AQO0fwczRJt2t3J-KzK8ZkvZTAm5XdAChibYpuS-XYWoNdw1g3GAhgOrBu8wl-PNbNZ4x2VZKiOGCqmh71CDXAgLAww0qJD6ZsrLhMcfdg?ccb=9-4&oh=01_Q5AaILnOhIRXRlEL5WtUqa80RxUBYdzplevwyxwPWlFLLBqx&oe=67CDC252&_nc_sid=e6ed6c&mms3=true",
+      "mimetype": "image/jpeg",
+      "fileSha256": "YeCOiWtlDcAoQgw/BQvsVzac1B25mbISnAQ6JWDlNe4=",
+      "fileLength": "250493",
+      "height": 954,
+      "width": 1080,
+      "mediaKey": "MzHfMuYMDkJjyDtU/QevhgRduio1V3qbwMJD4fHks8I=",
+      "fileEncSha256": "14y+fBmO5hQKn5seQz8X0oGyemdrgBVyOnAAyB8QEf4=",
+      "directPath": "/o1/v/t62.7118-24/f2/m231/AQO0fwczRJt2t3J-KzK8ZkvZTAm5XdAChibYpuS-XYWoNdw1g3GAhgOrBu8wl-PNbNZ4x2VZKiOGCqmh71CDXAgLAww0qJD6ZsrLhMcfdg?ccb=9-4&oh=01_Q5AaILnOhIRXRlEL5WtUqa80RxUBYdzplevwyxwPWlFLLBqx&oe=67CDC252&_nc_sid=e6ed6c",
+      "mediaKeyTimestamp": "1738954425",
+      "imageSourceType": "USER_IMAGE"
+    }
+  },
+  "messageTimestamp": "1738954426",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677478",
+      "readTimestamp": "1743677478",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 54 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "2CA13880770CB49F5B986F9F78A0F949"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/24267138_9819120341434670_8995993389191005427_n.enc?ccb=11-4&oh=01_Q5AaIObh7xZxT8xPB-NEe6ZbWKQZ8Slu7zgH_zvd7kEKTcmv&oe=67CC778B&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "Vt3FousKaN1cLZd0i3rw3B5OTCQJpGE5bLFwf8AlNwc=",
+      "fileLength": "103411",
+      "seconds": 45,
+      "ptt": true,
+      "mediaKey": "nhhM1jS1j7bc1TD+a6nvKsmv0qIu+M+pPEQAhAzyH5U=",
+      "fileEncSha256": "8di8tGyCa3CyaSWwNOmU02kFuUj0v6k5GO/HGpUAkOE=",
+      "directPath": "/v/t62.7117-24/24267138_9819120341434670_8995993389191005427_n.enc?ccb=11-4&oh=01_Q5AaIObh7xZxT8xPB-NEe6ZbWKQZ8Slu7zgH_zvd7kEKTcmv&oe=67CC778B&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738869062",
+      "streamingSidecar": "",
+      "waveform": "ACouQUNTSQRKSBpbMSA+W1UeAEcwNxxBIhwxGD84RQAjDEglVRRKSTUAPgA1DEJcAEc1HD0lIgAAOC0vMkMqAA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "ddh9eeWkSAeTl3M2ADqjK1qXBDDwy2zYwZ+icQdA5i4="
+    }
+  },
+  "messageTimestamp": "1738869107",
+  "status": "PLAYED",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 55 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A8B73BA58942F666E35"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/20047682_1289471865430301_1067920529786148132_n.enc?ccb=11-4&oh=01_Q5AaIAc4m7dC4jUDVGhB8KGnxr2_YM2OHt_AUB_TBpOPoeWc&oe=67CC66F9&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "G5oOH51eiOb4lemroOip1xn2sz+2CvL2EqdyWha5HSY=",
+      "fileLength": "53352",
+      "seconds": 23,
+      "ptt": true,
+      "mediaKey": "kEJiW76YlLaONWssQkDnHMcL3a/e5KNt6N6GqtzQIE4=",
+      "fileEncSha256": "GOeNpPjniItcNl+ERZ74tDJuk4bPJ+FVgdmz0eYarns=",
+      "directPath": "/v/t62.7117-24/20047682_1289471865430301_1067920529786148132_n.enc?ccb=11-4&oh=01_Q5AaIAc4m7dC4jUDVGhB8KGnxr2_YM2OHt_AUB_TBpOPoeWc&oe=67CC66F9&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738868840",
+      "streamingSidecar": "",
+      "waveform": "DAUONlFVV1geCx9kWmRNX1tkKwkFNRkcUFFkWlRURDlBHGRUZFleZDhjHBw/PxQ2ZEdgUVIfUWBkZEwTDRkXKA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "7fcHtAB4J7B/byo0H4hFuVM3jYwKvNAf+dyL8+SCjUw="
+    }
+  },
+  "messageTimestamp": "1738868864",
+  "status": "PLAYED",
+  "messageC2STimestamp": "1738868865",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738868865",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738868866",
+      "readTimestamp": "1738869042",
+      "playedTimestamp": "1738869043",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 56 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "C356AF37CDC69E83E8D9735CC87E7E8E"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/30051111_3522145647920904_6410087027063566882_n.enc?ccb=11-4&oh=01_Q5AaIK_JkIVDEHsHxMGa8l2jAWh99qR5WqlC82r79QbIvktq&oe=67CC636D&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "vdh1GimMJDZzww1hZE/38WNXsTZR8kKn/9+3/bMN0P8=",
+      "fileLength": "196242",
+      "seconds": 86,
+      "ptt": true,
+      "mediaKey": "4mg+LcX82i9dXYs3zgUxYR0tgqUki6WW6H591u0fXWc=",
+      "fileEncSha256": "bnM2oS+sbDqLjyOh68bRjlmk0x+4Km0Asyl/nixgA6o=",
+      "directPath": "/v/t62.7117-24/30051111_3522145647920904_6410087027063566882_n.enc?ccb=11-4&oh=01_Q5AaIK_JkIVDEHsHxMGa8l2jAWh99qR5WqlC82r79QbIvktq&oe=67CC636D&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738867417",
+      "streamingSidecar": "",
+      "waveform": "DDwRLwI4EwAeIUMqMQBDPQBEEjgrASs1HgJNOAIpHik0RikASVRUCTZANis4BzclPz04RUsnRD9RW1onRQEyAA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "c7wlHkarrjzGM5m/SyQhpc58PgmUoR8jN3smrgwmlY0="
+    }
+  },
+  "messageTimestamp": "1738867503",
+  "status": "PLAYED",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 57 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A458766A3C4A004D4EF"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/11952429_600676759397145_7498634464838585244_n.enc?ccb=11-4&oh=01_Q5AaIHHhBgWPwmhH8yen8V4t42NX5gJ3RponP74WOOoSxa23&oe=67CC60FD&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "dezEDT0Fjy4/ZNAhmRpRZVd3HqcZuhA2L/JPVKV0Txs=",
+      "fileLength": "120479",
+      "seconds": 60,
+      "ptt": true,
+      "mediaKey": "Ot28W8aBE0ypJqJoJJFgMeGgixKf2FWpAz59lGZpYkA=",
+      "fileEncSha256": "B6FW1YhESu4GBOYTbQtz3d1BLCgru6QxApWWL0DIDyY=",
+      "directPath": "/v/t62.7117-24/11952429_600676759397145_7498634464838585244_n.enc?ccb=11-4&oh=01_Q5AaIHHhBgWPwmhH8yen8V4t42NX5gJ3RponP74WOOoSxa23&oe=67CC60FD&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738866939",
+      "streamingSidecar": "",
+      "waveform": "D0ZcGlBQCiEMEU0kLSoQKhZWNzcsSSkOOCgKHDVHPUAlGCcvYEk9KQ84EVJFLCFCMTcSWEpQPBxVQkUtKjQhEA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "B7W69BTM8gn4PU14p+S/rVLc/Jx8IVXJ0sVSc7fvhBg="
+    }
+  },
+  "messageTimestamp": "1738866999",
+  "status": "PLAYED",
+  "messageC2STimestamp": "1738867001",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738867001",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738867004",
+      "readTimestamp": "1738867299",
+      "playedTimestamp": "1738867375",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 58 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3ADC8424BB77ED872A4E"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/35282829_9197082893680058_275221905389709012_n.enc?ccb=11-4&oh=01_Q5AaIKbbwFp9gMrk3G8mzwfRUu3dAXH_2RDT-g8JGWx43XBP&oe=67CC6620&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "No9HAcS0mxoELm9hlhEV09iyMzYU+3OvznSLtPHTzvc=",
+      "fileLength": "247102",
+      "seconds": 111,
+      "ptt": true,
+      "mediaKey": "FfpffScA3SXlm+Ud3pIOiI5PzTIwoeZbTMqKmLYSxjg=",
+      "fileEncSha256": "nJdg6TPS+YAIVTJQjFytXjGM8RKtbxllkQftNJPilg8=",
+      "directPath": "/v/t62.7117-24/35282829_9197082893680058_275221905389709012_n.enc?ccb=11-4&oh=01_Q5AaIKbbwFp9gMrk3G8mzwfRUu3dAXH_2RDT-g8JGWx43XBP&oe=67CC6620&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738866812",
+      "streamingSidecar": "",
+      "waveform": "Hzk1JUAnMh5ELiglLiY0LFFHSEQ7UjskN1AzQCUgMi8bOC5NO1NFKkIyKzhJUC5FTSY7MT5COSRSQ0haQkYlFA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "hrWRtvvwO1v0V8Sq+0c4QW9zIS8ds+IMREc+YVtXtgg="
+    }
+  },
+  "messageTimestamp": "1738866923",
+  "status": "PLAYED",
+  "messageC2STimestamp": "1738866925",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738866925",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738866927",
+      "readTimestamp": "1738867299",
+      "playedTimestamp": "1738867299",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 59 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "0335BE322FCA194C7214B582CBF6CD5C"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/32802630_1174031970723831_7759354138583610223_n.enc?ccb=11-4&oh=01_Q5AaIGjc6TJh7cCwPgKWAuCukR6-PEWJ_nnprPcP7uZDOy3A&oe=67CC5712&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "/vPrL91XLvKRVA3VeTFK6i3w5Uk4kMblRCFysGgNB9c=",
+      "fileLength": "127526",
+      "seconds": 57,
+      "ptt": true,
+      "mediaKey": "Mjxx/kT1/MLsQXsGN6v6P7xlO+KHmkT3Wzx44V55Isg=",
+      "fileEncSha256": "ur+gA4Hq8tkNFnBaNTfwXy+ZClk6iIXrIqbSuT8diU0=",
+      "directPath": "/v/t62.7117-24/32802630_1174031970723831_7759354138583610223_n.enc?ccb=11-4&oh=01_Q5AaIGjc6TJh7cCwPgKWAuCukR6-PEWJ_nnprPcP7uZDOy3A&oe=67CC5712&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1738866241",
+      "streamingSidecar": "",
+      "waveform": "ATU1SkYJTx8BMgA7AUZIODE3BCUePwY4AwY3PE0gBDI/Q0E1BkQ4ODgvAD0DHwVFUjhFATwmQwJCDgA4ED5DAA=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "YkxvT/rmkiiB/KLSiVMJ4FMdxQtisTyvoO8W7mWx2q4="
+    }
+  },
+  "messageTimestamp": "1738866297",
+  "status": "PLAYED",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 60 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A20E0823C0DCBB22CC1"
+  },
+  "message": {
+    "conversation": "Libero 7 dias",
+    "messageContextInfo": {
+      "messageSecret": "Wu2XcWw7ClrQqVYdj5ipf+Oapdv5TQatC1lM4hoKhr0="
+    }
+  },
+  "messageTimestamp": "1738866147",
+  "status": "READ",
+  "messageC2STimestamp": "1738866147",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738866147",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738866147",
+      "readTimestamp": "1738866223",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 61 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A413EF4DA6CB944B2CB"
+  },
+  "message": {
+    "conversation": "Que fazer teste ?",
+    "messageContextInfo": {
+      "messageSecret": "Yk25ASfKn/s6XnUBE/wBbpdpjOOKfp7UYoHzPBPGs6I="
+    }
+  },
+  "messageTimestamp": "1738866138",
+  "status": "READ",
+  "messageC2STimestamp": "1738866138",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738866138",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738866138",
+      "readTimestamp": "1738866223",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 62 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "7A56DA78E829B04ADE3F3BF90F158724"
+  },
+  "message": {
+    "conversation": "Estou fazendo uma pesquisa de ferramentas que tenham função chatboot e CRM",
+    "messageContextInfo": {
+      "messageSecret": "N8agmojnuwZmfzvZ2WeYzCoDTP1LpHbBOe82df4+1Wk="
+    }
+  },
+  "messageTimestamp": "1738866117",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 63 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A3F5D3DAB0CEE89FEEF"
+  },
+  "message": {
+    "conversation": "Desculpa demora, vc está interessado ainda?",
+    "messageContextInfo": {
+      "messageSecret": "mYLZ/mL+gewYaY4i2nV8LDGwYGXFV04qwawuWPxEq/Q="
+    }
+  },
+  "messageTimestamp": "1738865040",
+  "status": "READ",
+  "messageC2STimestamp": "1738865041",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738865041",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738865041",
+      "readTimestamp": "1738866086",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 64 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A85AAE124A586DC5BC0"
+  },
+  "message": {
+    "conversation": "Rogério",
+    "messageContextInfo": {
+      "messageSecret": "k58BtamvDCoseKzFTa2gdNvYH4iBtZjEdGLCq3K6+7g="
+    }
+  },
+  "messageTimestamp": "1738865014",
+  "status": "READ",
+  "messageC2STimestamp": "1738865015",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738865016",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738865017",
+      "readTimestamp": "1738866086",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 65 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A99C419FC5F967976E2"
+  },
+  "message": {
+    "conversation": "Boa tarde",
+    "messageContextInfo": {
+      "messageSecret": "/2waguOzAARpISnnduCx5GTorSq7CeLRDTeYGrhv1AM="
+    }
+  },
+  "messageTimestamp": "1738864995",
+  "status": "READ",
+  "messageC2STimestamp": "1738864995",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1738864995",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738864997",
+      "readTimestamp": "1738866086",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 66 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "08F0F7E351033158C18177D7EB757A00"
+  },
+  "message": {
+    "conversation": "Obrigado pela informação",
+    "messageContextInfo": {
+      "messageSecret": "8+2sFfb0SHkRQDY86i+LkzvCiQBvdNaiBFVZRM6Lb6I="
+    }
+  },
+  "messageTimestamp": "1738782672",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 67 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "86E68B77B3900AECB317C53F345EAD1B"
+  },
+  "message": {
+    "conversation": "Preciso de um chat boot",
+    "messageContextInfo": {
+      "messageSecret": "8VI1TjsFYTohU2xv16StlAilB0eb0WEGS7gbll7CJ8w="
+    }
+  },
+  "messageTimestamp": "1738772473",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 68 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "C8507E9D3E3E2A875D99231D47DA90FD"
+  },
+  "message": {
+    "conversation": "Como funciona a ferramenta?",
+    "messageContextInfo": {
+      "messageSecret": "K0XYuGmltqRvi8G1WmBeeA8LtWC1uBGsgqMgCCeoDN8="
+    }
+  },
+  "messageTimestamp": "1738772464",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 69 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB09D5C2F0513EA35B834"
+  },
+  "message": {
+    "conversation": "Ou digite:\n\n *Voltar* , para retornar ao menu anterior;\n *Sair* , para encerrar o atendimento;"
+  },
+  "messageTimestamp": "1738772438",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738772439",
+      "readTimestamp": "1738772439",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 70 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0753915A3CE8B564B4E"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Rogerio Maia, bem-vindo ao Comercial de Vendas.\n\nComo podemos ajudar?"
+  },
+  "messageTimestamp": "1738772433",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738772433",
+      "readTimestamp": "1738772433",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 71 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "B03F58C777D25A0B54A098DE3B4E98DC"
+  },
+  "message": {
+    "conversation": "3",
+    "messageContextInfo": {
+      "messageSecret": "6Ah/7Mw1GNuq4gWQomK/sThNSft+42f8KA03//ySIO8="
+    }
+  },
+  "messageTimestamp": "1738772431",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 72 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0839DF154C78CB1D574"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1738772290",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738772291",
+      "readTimestamp": "1738772408",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 73 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0AFE577454CDDEE2156"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1738772290",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521985977626@s.whatsapp.net",
+      "receiptTimestamp": "1738772291",
+      "readTimestamp": "1738772408",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521985977626:79@s.whatsapp.net",
+        "5521985977626:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 74 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521985977626@s.whatsapp.net",
+    "fromMe": false,
+    "id": "11569252688DB228A77EBFDA88A8BBC2"
+  },
+  "message": {
+    "conversation": "Olá",
+    "messageContextInfo": {
+      "messageSecret": "IbsvL2dcwXiXVlBBpm4axQj+DLcU42r9SBdrr/IznUA="
+    }
+  },
+  "messageTimestamp": "1738772286",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677480",
+      "readTimestamp": "1743677480",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 75 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3A9874EBCB7CF62E3A48"
+  },
+  "message": {
+    "conversation": "Bom dia! \n\nComo posso ajudar?",
+    "messageContextInfo": {
+      "messageSecret": "1G3G5dsRI4DU3SOFVZPf6MsB3vR4MfqK7SQ9JNrseMo="
+    }
+  },
+  "messageTimestamp": "1737712787",
+  "status": "DELIVERY_ACK",
+  "messageC2STimestamp": "1737712788",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1737712789",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:13@s.whatsapp.net",
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    },
+    {
+      "userJid": "5511947030807@s.whatsapp.net",
+      "receiptTimestamp": "1737712790",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511947030807:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 76 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": false,
+    "id": "7A8E45C69C7347041A905CF3546A9F6B"
+  },
+  "message": {
+    "conversation": "Ativar um receptor",
+    "messageContextInfo": {
+      "messageSecret": "vg/wkJ9vEnMxMYL7Ox0XA5bKJ8U2B0u8oTUI+hMGaMc="
+    }
+  },
+  "messageTimestamp": "1737673227",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677481",
+      "readTimestamp": "1743677481",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 77 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A1FF55E4E63C57B831"
+  },
+  "message": {
+    "conversation": "Ou digite:\n\n *Voltar* , para retornar ao menu anterior;\n *Sair* , para encerrar o atendimento;"
+  },
+  "messageTimestamp": "1737673218",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511947030807@s.whatsapp.net",
+      "receiptTimestamp": "1737673218",
+      "readTimestamp": "1737673218",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511947030807:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 78 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E3F07651BE877298E3"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Aldemi Jurema, bem-vindo ao Suporte técnico.\n\nComo podemos ajudar?"
+  },
+  "messageTimestamp": "1737673213",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511947030807@s.whatsapp.net",
+      "receiptTimestamp": "1737673213",
+      "readTimestamp": "1737673213",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511947030807:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 79 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": false,
+    "id": "E0754F149A679155B2D29695BA3A52B8"
+  },
+  "message": {
+    "conversation": "5",
+    "messageContextInfo": {
+      "messageSecret": "KuU2EEPY0ZPRVR8sbFGvZnh6BTdGZBuWG78TbiCkRj8="
+    }
+  },
+  "messageTimestamp": "1737673212",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677481",
+      "readTimestamp": "1743677481",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 80 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB033E009660D3FB3C444"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1737673194",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511947030807@s.whatsapp.net",
+      "receiptTimestamp": "1737673195",
+      "readTimestamp": "1737673195",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511947030807:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 81 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C4C477F2B8C580B91F"
+  },
+  "message": {
+    "conversation": "Boa Noite!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1737673194",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5511947030807@s.whatsapp.net",
+      "receiptTimestamp": "1737673194",
+      "readTimestamp": "1737673194",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511947030807:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 82 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511947030807@s.whatsapp.net",
+    "fromMe": false,
+    "id": "1D11CB582B73ED5167B81CF6E5BF67AB"
+  },
+  "message": {
+    "conversation": "Boa Noite",
+    "messageContextInfo": {
+      "messageSecret": "6sQsTXVWGvsP8L1jIRJuFdVhVrT4a8jnBz0S/rU65ao="
+    }
+  },
+  "messageTimestamp": "1737673192",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677481",
+      "readTimestamp": "1743677481",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 83 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511971674404@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB022B5D3E10807B64F31"
+  },
+  "message": {
+    "conversation": "_Por favor, digite a opção desejada:_\n\n1. 2 Via de Boleto\n2. Atendimento ao Cliente\n3. Comercial de Vendas\n4. Financeiro\n5. Suporte técnico\n6. Trabalhe Conosco"
+  },
+  "messageTimestamp": "1736876555",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511971674404@s.whatsapp.net",
+      "receiptTimestamp": "1736876555",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511971674404:0@s.whatsapp.net",
+        "5511971674404:40@s.whatsapp.net",
+        "5511971674404:39@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 84 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511971674404@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB087E9ED5FB2DD0F74B1"
+  },
+  "message": {
+    "conversation": "Boa Tarde!, Bem vindo(a) ao atendimento virtual do ZapMulti!"
+  },
+  "messageTimestamp": "1736876554",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511971674404@s.whatsapp.net",
+      "receiptTimestamp": "1736876555",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511971674404:0@s.whatsapp.net",
+        "5511971674404:40@s.whatsapp.net",
+        "5511971674404:39@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "5511960001911@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 85 de 85 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511971674404@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3EB0E1F466D8EEF318433F"
+  },
+  "message": {
+    "conversation": "Boa tarde, tudo bem?\n\nSou representante *VIVO FIBRA* Identificamos que a sua região foi afetada por um rompimento de fibra em massa, nossos técnicos já estão no local para manutenção. Desde já agradeço a compreensão.",
+    "messageContextInfo": {
+      "messageSecret": "xJZgV/S0pNbtfBy3ThjqqUw0fad6Riw9Kc42pTBKHO0="
+    }
+  },
+  "messageTimestamp": "1736876553",
+  "userReceipt": [
+    {
+      "userJid": "5511960001911@s.whatsapp.net",
+      "receiptTimestamp": "1743677484",
+      "readTimestamp": "1743677484",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511960001911:11@s.whatsapp.net"
+      ]
+    }
+  ]
+}>>>>>>>>>>>>>>>>>>> 

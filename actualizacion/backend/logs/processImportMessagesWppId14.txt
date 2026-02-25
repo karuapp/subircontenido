@@ -1,0 +1,7 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: My_PauloRibeiro
+    Whatsapp Id: 14
+    Criação do arquivo de logs: 27/03/2025 11:36:25
+    Selecionado Data de inicio de importação: 11/07/2024 16:24:00 
+    Selecionado Data final da importação: 11/07/2024 16:25:00 
+     

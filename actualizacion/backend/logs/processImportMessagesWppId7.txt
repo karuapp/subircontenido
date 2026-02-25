@@ -1,0 +1,3013 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: WP SDR
+    Whatsapp Id: 7
+    Criação do arquivo de logs: 24/09/2024 21:37:22
+    Selecionado Data de inicio de importação: 24/09/2024 00:00:00 
+    Selecionado Data final da importação: 24/09/2024 23:59:00 
+     
+Mensagem 1 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB008F04B84777149B48C"
+  },
+  "message": {
+    "conversation": "Nicoli, quando puder me diz o melhor horário para agendarmos uma demonstração amanhã 🤩",
+    "messageContextInfo": {
+      "messageSecret": "Y8qXwAkbJKRez6sGR9raWSNS/2IgMXBVQWSnl4h2Eds="
+    }
+  },
+  "messageTimestamp": "1727206537",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727206542",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 2 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511949594651@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0B9ABBA46D35F8AEB00"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "03xP3bOdVbqLeoY/rZMttuMge9lrgjrDWdLQVx/d04k="
+    }
+  },
+  "messageTimestamp": "1727204373",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511949594651@s.whatsapp.net",
+      "receiptTimestamp": "1727204374",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511949594651:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 3 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511949594651@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0861EBFB876EE314929"
+  },
+  "message": {
+    "conversation": "Olá Mariana tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "YqPb7jDGS4RWI/RcjPUMYn0dVjntAJggcy7b3cYzNSk="
+    }
+  },
+  "messageTimestamp": "1727204369",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511949594651@s.whatsapp.net",
+      "receiptTimestamp": "1727204370",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511949594651:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 4 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB09BCC8100219541D9DC"
+  },
+  "message": {
+    "conversation": "5511949594651",
+    "messageContextInfo": {
+      "messageSecret": "QPvyFnaJcKhdTXBPh/wrPdaPgyt6/AsaZGufL6WSGd8="
+    }
+  },
+  "messageTimestamp": "1727204354",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727204354",
+      "readTimestamp": "1727204354",
+      "playedTimestamp": "1727204354"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 5 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5512996576273@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0EC0C4FC4FCA7BF3CA9"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "L/cbhmSqOjhRSDCNv/cZ+tORzVxKbkrvErs+iP0Wxng="
+    }
+  },
+  "messageTimestamp": "1727204298",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5512996576273@s.whatsapp.net",
+      "receiptTimestamp": "1727204299",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5512996576273:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 6 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5512996576273@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB031ACB5495FFA046D88"
+  },
+  "message": {
+    "conversation": "Olá Gleice tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "Ier2t5c7QW5BDZi/f7jek8/wCmvx9yqVNZ2ttGG7AK0="
+    }
+  },
+  "messageTimestamp": "1727204294",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5512996576273@s.whatsapp.net",
+      "receiptTimestamp": "1727204296",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5512996576273:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 7 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0BA1DCE330CD1C08861"
+  },
+  "message": {
+    "conversation": "5512996576273",
+    "messageContextInfo": {
+      "messageSecret": "bB/tRG3LiB6Fz8+KBFOVBGJKfmt8I8tZNRz/luR6FB8="
+    }
+  },
+  "messageTimestamp": "1727204256",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727204256",
+      "readTimestamp": "1727204256",
+      "playedTimestamp": "1727204256"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 8 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C46EFFE4529F31F925"
+  },
+  "message": {
+    "conversation": "Hoje ás 16:30 você tem disponibilidade?",
+    "messageContextInfo": {
+      "messageSecret": "3GvqTySiFEcMdJMyHtWiIHBYOYuyHs/QlAUJymZqzrA="
+    }
+  },
+  "messageTimestamp": "1727203417",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727203419",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 9 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0166CD8746388B6C6CD"
+  },
+  "message": {
+    "conversation": "Ótimo!",
+    "messageContextInfo": {
+      "messageSecret": "EqgnKMfILd1Sr8ofUYuaZauyET7A8N0lzbwFNEnnp9Y="
+    }
+  },
+  "messageTimestamp": "1727203398",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727203400",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 10 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558596372004@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0F56093924841A71362"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "WMvsq1y/bb/ei0Uy809MdLSxBnecG42GzDZ2WdvH1sc="
+    }
+  },
+  "messageTimestamp": "1727201152",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558596372004@s.whatsapp.net",
+      "receiptTimestamp": "1727201153",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558596372004:0@s.whatsapp.net",
+        "558596372004:10@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 11 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558596372004@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB083174C49D4F9D342BC"
+  },
+  "message": {
+    "conversation": "Olá Ederson tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "/Xsgsj9mQriuOwqGtpbdcObSGL4x3KmCiQA9XtadQ8c="
+    }
+  },
+  "messageTimestamp": "1727201141",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558596372004@s.whatsapp.net",
+      "receiptTimestamp": "1727201143",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558596372004:0@s.whatsapp.net",
+        "558596372004:10@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 12 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB01CD3DEA72EC782175D"
+  },
+  "message": {
+    "conversation": "5585996372004",
+    "messageContextInfo": {
+      "messageSecret": "WJeYVYmMbbaet+Nty/6ozlX1j6HKnDfSL09FlPtjvEg="
+    }
+  },
+  "messageTimestamp": "1727201115",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727201115",
+      "readTimestamp": "1727201115",
+      "playedTimestamp": "1727201115"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 13 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559294994629@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0D3638CB9247668CCDF"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "a4rNIAHS+FCwL5Ehu86dqp5UXeLpf25xaC0sl5qzz+g="
+    }
+  },
+  "messageTimestamp": "1727201038",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559294994629@s.whatsapp.net",
+      "receiptTimestamp": "1727201460",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559294994629:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 14 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559294994629@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0F2E2DDAF8EAE8321C6"
+  },
+  "message": {
+    "conversation": "Olá Alexandre tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "rfYHSMnPexKE5p84oxHrQgNGxvp/OqKe9z5ln9PjlIw="
+    }
+  },
+  "messageTimestamp": "1727201034",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559294994629@s.whatsapp.net",
+      "receiptTimestamp": "1727201460",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559294994629:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 15 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB05813E7AB177D384B8F"
+  },
+  "message": {
+    "conversation": "5592994994629",
+    "messageContextInfo": {
+      "messageSecret": "xTQ6gyCvffyHKf3kBQsM/hXcRPTBilwNyrz/BCQRyJs="
+    }
+  },
+  "messageTimestamp": "1727201012",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727201012",
+      "readTimestamp": "1727201012",
+      "playedTimestamp": "1727201012"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 16 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A35381C5502E7E9816D"
+  },
+  "message": {
+    "conversation": "A tarde",
+    "messageContextInfo": {
+      "messageSecret": "IxEMkmkGazG6uTWfcEP0+MwuvTM2QBzF7aiQsbtbYnY="
+    }
+  },
+  "messageTimestamp": "1727200122",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727200125",
+      "readTimestamp": "1727200125",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:1@s.whatsapp.net",
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbPhrhGrpY/A8dE8eTWxkg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 17 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AE062C3EC9A446BD069"
+  },
+  "message": {
+    "conversation": "Legal",
+    "messageContextInfo": {
+      "messageSecret": "+aU3E8vFwY2pWMb+ZTNGZSHikSG3wMWLTsVx3y6Z1ug="
+    }
+  },
+  "messageTimestamp": "1727200118",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727200125",
+      "readTimestamp": "1727200125",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:1@s.whatsapp.net",
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbMZfIAvRcRgm5EiFfDuOg=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 18 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C2EBCEFC1F03F9412C"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Temos planos a partir de 79,90 🤩\nhttps://www.atendevet.com.br/produtos-precos\nMe informa qual faria mais sentido pra você, e agendamos uma demonstração online pra você conhecer nossas ferramentas na pratica!! Qual seria o melhor período para agendarmos, manhã ou tarde?",
+      "matchedText": "https://www.atendevet.com.br/produtos-precos",
+      "canonicalUrl": "https://www.atendevet.com.br/produtos-precos",
+      "description": "https://www.atendevet.com.br/produtos-precos",
+      "title": "www.atendevet.com.br",
+      "font": "SYSTEM",
+      "previewType": "NONE",
+      "thumbnailDirectPath": "",
+      "thumbnailSha256": "",
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    },
+    "messageContextInfo": {
+      "messageSecret": "2SJ4CGVh2GRKs07ZywjAQb9zLE1cYVFWIbHX9iuDwRw="
+    }
+  },
+  "messageTimestamp": "1727199485",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727199580",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 19 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0D8AA23C038D7077A25"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Conseguimos sim, Nicoli 😄",
+      "contextInfo": {
+        "stanzaId": "3A69215214E8926DD2B1",
+        "participant": "554891878964@s.whatsapp.net",
+        "quotedMessage": {
+          "conversation": "E se vocês conseguem puxar de outro sistema os cadastros",
+          "messageContextInfo": {
+            "messageSecret": "1ABnRakDRV4xiTp4CrN4Yc2AHFXwKl8DoWmwJYqneEU="
+          }
+        }
+      }
+    },
+    "messageContextInfo": {
+      "messageSecret": "/Jf07Epy6iDLvlnpeOfIh3/Z1iT/bClmAg6O/kZJZr8="
+    }
+  },
+  "messageTimestamp": "1727199441",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727199580",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB037126397784026EBE0"
+  },
+  "message": {
+    "conversation": "Claro!!",
+    "messageContextInfo": {
+      "messageSecret": "aZQiPcLxjgUa8oMuOmbU6/25MCDhEaKZ8IJ5pOWJBPE="
+    }
+  },
+  "messageTimestamp": "1727199431",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727199580",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 20 de 107 
+Mensagem 21 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AD337D55D0EDD28BB18"
+  },
+  "message": {
+    "conversation": "Uso o vetbase",
+    "messageContextInfo": {
+      "messageSecret": "YMIL8j6lfTOPx3QIAow0ccE3br9YkMS+h9EMYDHaHQU="
+    }
+  },
+  "messageTimestamp": "1727198300",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727198701",
+      "readTimestamp": "1727198701",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbN77tD97pIYzXMQkt3+8g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 22 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A69215214E8926DD2B1"
+  },
+  "message": {
+    "conversation": "E se vocês conseguem puxar de outro sistema os cadastros",
+    "messageContextInfo": {
+      "messageSecret": "1ABnRakDRV4xiTp4CrN4Yc2AHFXwKl8DoWmwJYqneEU="
+    }
+  },
+  "messageTimestamp": "1727198297",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727198701",
+      "readTimestamp": "1727198701",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbMSbMqMOQct79mVODUo+g=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 23 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A4EE4C30D8F835C3722"
+  },
+  "message": {
+    "conversation": "Me passa os valores por favor",
+    "messageContextInfo": {
+      "messageSecret": "f2wHEjyDF9xYJvpdCYFU1AHU1SCgBAnjKgWOWRB4etw="
+    }
+  },
+  "messageTimestamp": "1727198280",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727198701",
+      "readTimestamp": "1727198701",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbMUqG6t7nfIut7jfcz3XQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 24 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AFDCC5B292CAC523069"
+  },
+  "message": {
+    "conversation": "Oiiii",
+    "messageContextInfo": {
+      "messageSecret": "o8F03MIwKWiMyS89mw11PE+5FXJ6R8NL1VPv9TOFXuE="
+    }
+  },
+  "messageTimestamp": "1727198273",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727198701",
+      "readTimestamp": "1727198701",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbNC9AeH9rgA4gWw9ukvug=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 25 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553299428732@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB08240D70EBA3C218953"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "b7pWZjZIHOJMmiwVSV6JabvqDsfs97731KTWV+qcAVA="
+    }
+  },
+  "messageTimestamp": "1727196156",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553299428732@s.whatsapp.net",
+      "receiptTimestamp": "1727198490",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553299428732:0@s.whatsapp.net",
+        "553299428732:24@s.whatsapp.net",
+        "553299428732:23@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 26 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553299428732@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB04C482857B7454423AF"
+  },
+  "message": {
+    "conversation": "Olá Julia tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "LW6zgv8FjipjovFMHYokROUzIbiJVDItWERRT3LPHto="
+    }
+  },
+  "messageTimestamp": "1727196151",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553299428732@s.whatsapp.net",
+      "receiptTimestamp": "1727198490",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553299428732:0@s.whatsapp.net",
+        "553299428732:24@s.whatsapp.net",
+        "553299428732:23@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 27 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0584C8C00E88F58E43B"
+  },
+  "message": {
+    "conversation": "5532999428732",
+    "messageContextInfo": {
+      "messageSecret": "m1/AI7lsp5TagGLYpTQWe9p49JH+j+dd0EBP7r+ev3E="
+    }
+  },
+  "messageTimestamp": "1727196135",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727196135",
+      "readTimestamp": "1727196135",
+      "playedTimestamp": "1727196135"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 28 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": false,
+    "id": "2F01C8A3E7E050A77E89"
+  },
+  "message": {
+    "conversation": "Agradeço sua mensagem. Estou ocupada no momento, mas entro em contato assim que possível. 🙏🏽",
+    "messageContextInfo": {
+      "messageSecret": "FengT8piJ0R+94Fdiavz49+FKGODbdWNObNR9InAej8="
+    }
+  },
+  "messageTimestamp": "1727195850",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727195998",
+      "readTimestamp": "1727195998",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:1@s.whatsapp.net",
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbOs9ZfTresGCrcW7PQehQ=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 29 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5516981645932@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB02EBA40F09D5D73DF59"
+  },
+  "message": {
+    "extendedTextMessage": {
+      "text": "Para que você conheça melhor a nossa plataforma e do que estou falando, encaminho o nosso video de apresentação \nhttps://www.youtube.com/watch?v=EdELw2cZej4",
+      "matchedText": "https://www.youtube.com/watch?v=EdELw2cZej4",
+      "canonicalUrl": "https://www.youtube.com/watch?v=EdELw2cZej4",
+      "description": "https://www.youtube.com/watch?v=EdELw2cZej4",
+      "title": "www.youtube.com",
+      "font": "SYSTEM",
+      "previewType": "NONE",
+      "thumbnailDirectPath": "",
+      "thumbnailSha256": "",
+      "inviteLinkGroupTypeV2": "DEFAULT"
+    },
+    "messageContextInfo": {
+      "messageSecret": "WIHESmx0ObQAH0QBv+22/GI0ZaWlQJ8wVEDnmhnGJNM="
+    }
+  },
+  "messageTimestamp": "1727195075",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5516981645932@s.whatsapp.net",
+      "receiptTimestamp": "1727195076",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5516981645932:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 30 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5516981645932@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB012B5A2DEB9A251B7D0"
+  },
+  "message": {
+    "audioMessage": {
+      "url": "https://mmg.whatsapp.net/v/t62.7117-24/30910406_1059585385515503_2102469342653629445_n.enc?ccb=11-4&oh=01_Q5AaILKqSjVe2K6U31CqzPnn5X4yRMlo1E0zudMcsVMeHio-&oe=671A4A49&_nc_sid=5e03e0&mms3=true",
+      "mimetype": "audio/ogg; codecs=opus",
+      "fileSha256": "PJuZjD8kBOJCwAOZ4KpmsJ3eAyu3xA86oQgwgeB2eCQ=",
+      "fileLength": "34909",
+      "seconds": 16,
+      "ptt": true,
+      "mediaKey": "g/6ALpIoi6E8MYJLX0x+pCRg2Y9QV6B+tCzft5585i8=",
+      "fileEncSha256": "ulAJQ6IG99NzztAsNnVOcSrRWx3Vk0sfs1cbm+hpqNY=",
+      "directPath": "/v/t62.7117-24/30910406_1059585385515503_2102469342653629445_n.enc?ccb=11-4&oh=01_Q5AaILKqSjVe2K6U31CqzPnn5X4yRMlo1E0zudMcsVMeHio-&oe=671A4A49&_nc_sid=5e03e0",
+      "mediaKeyTimestamp": "1727195015",
+      "streamingSidecar": "",
+      "waveform": "JzA4Nzw3Oz44PTI7NjFCQk4rOz42SkA/NEE8NUM/Ryg3SDFGWThDLio1PzY9QUQpMkFOTT4/QyJWSEhMJBsJBg=="
+    },
+    "messageContextInfo": {
+      "messageSecret": "Zyo0rfRCoPCURcjpxhclGBvdStonlFTlgxEVm54QN2Q="
+    }
+  },
+  "messageTimestamp": "1727195017",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5516981645932@s.whatsapp.net",
+      "receiptTimestamp": "1727195018",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5516981645932:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 31 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5516981645932@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0DC6879D7BAAE0D2B07"
+  },
+  "message": {
+    "conversation": "Olá Tuanni, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "KE84pqvWPIz1IfIdNSSHV0A874t0DaNH+atBjpYKr7c="
+    }
+  },
+  "messageTimestamp": "1727194963",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5516981645932@s.whatsapp.net",
+      "receiptTimestamp": "1727194964",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5516981645932:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 32 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0904400E8FDFB5B1DC5"
+  },
+  "message": {
+    "conversation": "5516981645932",
+    "messageContextInfo": {
+      "messageSecret": "387GlllOMEo6ovHun0Nud3V7RtNh8eQrjeiuZY/hPaY="
+    }
+  },
+  "messageTimestamp": "1727194941",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727194941",
+      "readTimestamp": "1727194941",
+      "playedTimestamp": "1727194941"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 33 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB047A04B0C72DB2495A4"
+  },
+  "message": {
+    "conversation": "5516981645932",
+    "messageContextInfo": {
+      "messageSecret": "e7pTaesFEZn8gJWuTmMadNEzLQRdDTOnv0VUU+lTMY4="
+    }
+  },
+  "messageTimestamp": "1727194636",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727194636",
+      "readTimestamp": "1727194636",
+      "playedTimestamp": "1727194636"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 34 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511988021956@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB096A98ECED057A51363"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "bKMPGZiV6ARFSY8ilOC6LoUZPvOhYlhNrqmVPd1LE98="
+    }
+  },
+  "messageTimestamp": "1727193923",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511988021956@s.whatsapp.net",
+      "receiptTimestamp": "1727194505",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511988021956:44@s.whatsapp.net",
+        "5511988021956:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 35 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E00F2233B212C325D0"
+  },
+  "message": {
+    "conversation": "5511988021956",
+    "messageContextInfo": {
+      "messageSecret": "4QU7rSDAqbTlrGOtXjXT6ssP8m3jfsrlGw4l4ni3124="
+    }
+  },
+  "messageTimestamp": "1727193913",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193913",
+      "readTimestamp": "1727193913",
+      "playedTimestamp": "1727193913"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 36 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06819E33EA179A9C401"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "8uwVJiK3jWU0IGefAU1BntVOaSwWk7vwKKIersRaV9Q="
+    }
+  },
+  "messageTimestamp": "1727193824",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727195848",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 37 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554891878964@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB066D93B9AB69904FB98"
+  },
+  "message": {
+    "conversation": "Olá Nicoli, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "xgTS+6mLPnmS25uEY0wEVAEQb60MRvvcs0SFiO9G/VU="
+    }
+  },
+  "messageTimestamp": "1727193780",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554891878964@s.whatsapp.net",
+      "receiptTimestamp": "1727195848",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554891878964:0@s.whatsapp.net",
+        "554891878964:15@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 38 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB02C91D9E6E3DCE03CBB"
+  },
+  "message": {
+    "conversation": "5548991878964",
+    "messageContextInfo": {
+      "messageSecret": "rnwiLT/KrENAWxqRfsKgOQz4WIP2XbTAouodiCu5Ikw="
+    }
+  },
+  "messageTimestamp": "1727193761",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193761",
+      "readTimestamp": "1727193761",
+      "playedTimestamp": "1727193761"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 39 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511988021956@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A0D70C7AF0F90CA52A6"
+  },
+  "message": {
+    "conversation": "Olá, obrigada por entrar em contato! 💜\n\n📌 Para agilizar o processo de agendamento de consultas, por favor, *informe sua localização com o CEP e/ou endereço.* Assim informo se a região é atendida, valores e disponibilidade de agenda. 📌\n\nEvite mensagens de áudio. \n\nTodas as mensagens são lidas porém são respondidas de acordo com a urgência de cada caso!\n\nEm caso de _urgência_ ou em caso de _emergência_ *No hesite* em levar o animal para pronto atendimento no hospital veterinário ou consultório mais próximo. Grata! 🐾"
+  },
+  "messageTimestamp": "1727193668",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193668",
+      "readTimestamp": "1727193668",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:1@s.whatsapp.net",
+        "554184848989:3@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbOq+yRKDHQgYDqM5ne5WA=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 40 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511988021956@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB09B85CA6B710E04807E"
+  },
+  "message": {
+    "conversation": "Olá Thais, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "Y8Tl50dKj7ECtUrYUBTDOPqupq6LwGRM0O6TWxZBd8Q="
+    }
+  },
+  "messageTimestamp": "1727193644",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511988021956@s.whatsapp.net",
+      "receiptTimestamp": "1727193646",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511988021956:44@s.whatsapp.net",
+        "5511988021956:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 41 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB030CB6920D00654A37D"
+  },
+  "message": {
+    "conversation": "5511988021956",
+    "messageContextInfo": {
+      "messageSecret": "/EbJCiioIiiLfryIumXpuaaOFfv5FRFHEKwsMNcBYYE="
+    }
+  },
+  "messageTimestamp": "1727193621",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193621",
+      "readTimestamp": "1727193621",
+      "playedTimestamp": "1727193621"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 42 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555180334792@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB05FBA46F25D9FC037A2"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "I5yzYLNJGjndofgJ2tZf1XrHvn555L48sEuSzO5XYVw="
+    }
+  },
+  "messageTimestamp": "1727193614",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555180334792@s.whatsapp.net",
+      "receiptTimestamp": "1727193622",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555180334792:40@s.whatsapp.net",
+        "555180334792:0@s.whatsapp.net",
+        "555180334792:41@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 43 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555180334792@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB048FCF058EEFAB8DC14"
+  },
+  "message": {
+    "conversation": "Olá Carolina, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "2pXZC1lv55HTa03YccDnoUEXhOGOu58lENXyH2R8lfc="
+    }
+  },
+  "messageTimestamp": "1727193608",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555180334792@s.whatsapp.net",
+      "receiptTimestamp": "1727193610",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555180334792:40@s.whatsapp.net",
+        "555180334792:0@s.whatsapp.net",
+        "555180334792:41@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 44 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0CF8E9F79B645F656FF"
+  },
+  "message": {
+    "conversation": "5551980334792",
+    "messageContextInfo": {
+      "messageSecret": "vkUE50y/MjMNd4gcq5cXChuCvECk6TZdSKYRNr1HJHM="
+    }
+  },
+  "messageTimestamp": "1727193491",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193491",
+      "readTimestamp": "1727193491",
+      "playedTimestamp": "1727193491"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 45 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0BDF7921CF664B42E71"
+  },
+  "message": {
+    "conversation": "5547991817323",
+    "messageContextInfo": {
+      "messageSecret": "VCA3ZVFLg64MASZxDtr7RcbLV6Ez2R27Oq563JXbp9o="
+    }
+  },
+  "messageTimestamp": "1727193449",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193449",
+      "readTimestamp": "1727193449",
+      "playedTimestamp": "1727193449"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 46 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791817323@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB055D795F717C0C07B0E"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "sOtgx2X3hsvqS/Elc91wykoXf2bdorFmy3ThwrShOTU="
+    }
+  },
+  "messageTimestamp": "1727193412",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554791817323@s.whatsapp.net",
+      "receiptTimestamp": "1727193413",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791817323:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 47 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554791817323@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB006CBD5BB4AF7380B86"
+  },
+  "message": {
+    "conversation": "Olá Renata, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "0fBCmxyJNGonfq0SKVPOcp7WTkG825m7pQdgDhvDU30="
+    }
+  },
+  "messageTimestamp": "1727193404",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554791817323@s.whatsapp.net",
+      "receiptTimestamp": "1727193405",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554791817323:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 48 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB06492FAB3C90C8F0E24"
+  },
+  "message": {
+    "conversation": "5547991817323",
+    "messageContextInfo": {
+      "messageSecret": "R2x9CsgBaQYyOnaB1mZKbubFEr7XUjD5aecpyp+Gz18="
+    }
+  },
+  "messageTimestamp": "1727193388",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193388",
+      "readTimestamp": "1727193388",
+      "playedTimestamp": "1727193388"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 49 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521982755821@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0641E659078B8EAAD6C"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "3OfnGdTazhfqN+MPbsgyB312tHgcHdGGQP4cJwEG7x0="
+    }
+  },
+  "messageTimestamp": "1727193371",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521982755821@s.whatsapp.net",
+      "receiptTimestamp": "1727193371",
+      "readTimestamp": "1727199951",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521982755821:7@s.whatsapp.net",
+        "5521982755821:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 50 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521982755821@s.whatsapp.net",
+    "fromMe": false,
+    "id": "85B0CC72D597B70397134A72BE8F025B"
+  },
+  "message": {
+    "conversation": "Oba, você chamou a Jojô Cat Sitter 😸!!\n\nPor favor, me passe as informações a seguir que eu já vou agilizar seu atendimento 😼:\n\n• Quantos gatos você têm?\n• Em qual bairro / localização do Rio de Janeiro você mora? \n• Seus gatos têm acesso a rua?\n• Algum gatinho necessita de cuidados especiais (medicação)? Se sim, quais?\n• Qual será o período da sua ausência?\n\nRetornarei o mais rápido possível! 🐈🐈‍⬛😻",
+    "messageContextInfo": {
+      "messageSecret": "KEe5CoUPLH0ysJEL6iFZPdHfACGI6MnSSf58SBBlznM="
+    }
+  },
+  "messageTimestamp": "1727193365",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193365",
+      "readTimestamp": "1727193365",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554184848989:1@s.whatsapp.net"
+      ]
+    }
+  ],
+  "reportingTokenInfo": {
+    "reportingTag": "AbOLlkdtyFoKFxQfnge/Ow=="
+  }
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 51 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521982755821@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0C6FC569E77B8301720"
+  },
+  "message": {
+    "conversation": "Olá Joana, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "wt7D8/QYrjMG9L7O2281cHdoyc/lObUhAZxcD5USsC0="
+    }
+  },
+  "messageTimestamp": "1727193363",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "5521982755821@s.whatsapp.net",
+      "receiptTimestamp": "1727193364",
+      "readTimestamp": "1727199951",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521982755821:7@s.whatsapp.net",
+        "5521982755821:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 52 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB034C2AA901E0EAFF44E"
+  },
+  "message": {
+    "conversation": "5521982755821",
+    "messageContextInfo": {
+      "messageSecret": "BjP2VwrTiJREBy1HP+G3tWQNOC0cSiT83asZva1mMMM="
+    }
+  },
+  "messageTimestamp": "1727193341",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727193341",
+      "readTimestamp": "1727193341",
+      "playedTimestamp": "1727193341"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 53 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555491121779@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB094F8F1779DB80EF62F"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "NXzif2aGQMXWNR9TpkBG9LgqH+2CUMhec/TYScLdD4w="
+    }
+  },
+  "messageTimestamp": "1727192727",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555491121779@s.whatsapp.net",
+      "receiptTimestamp": "1727192729",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555491121779:0@s.whatsapp.net",
+        "555491121779:3@s.whatsapp.net",
+        "555491121779:2@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 54 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555491121779@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB09C3D2F6C640489ECA9"
+  },
+  "message": {
+    "conversation": "Olá Betina, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "3YIKkAxrLrQXeySdNCj60Lxm/gk+ZbrLDGiWc4MNFWg="
+    }
+  },
+  "messageTimestamp": "1727192721",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555491121779@s.whatsapp.net",
+      "receiptTimestamp": "1727192724",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555491121779:0@s.whatsapp.net",
+        "555491121779:3@s.whatsapp.net",
+        "555491121779:2@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 55 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB003C71AD2CD22E5B474"
+  },
+  "message": {
+    "conversation": "5554991121779",
+    "messageContextInfo": {
+      "messageSecret": "ZsW7pZYvSHaqSJR/MUuEHafWWZJtU9WnDDkbZB9rKf8="
+    }
+  },
+  "messageTimestamp": "1727192705",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192705",
+      "readTimestamp": "1727192705",
+      "playedTimestamp": "1727192705"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 56 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558588236548@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0CB51D73BF7A8B42CD9"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "24UY1AWUSp0AGKQcVe9X+DQZTrkbk570eb4WlHhx2DA="
+    }
+  },
+  "messageTimestamp": "1727192635",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558588236548@s.whatsapp.net",
+      "receiptTimestamp": "1727192636",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558588236548:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 57 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511962628814@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A7E6926FAB69F05AC1"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "Hpw2e+11QGBMk0jXy7UuXsPtDOQCSAtMB7zvQzPgdEc="
+    }
+  },
+  "messageTimestamp": "1727192632",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511962628814@s.whatsapp.net",
+      "receiptTimestamp": "1727192635",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511962628814:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 58 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555186527211@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07E63A0558EDE1FE941"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "rdB0jTaOx57blbOVXHf2PcaOfHa8ZDblVfFLnKeDaQE="
+    }
+  },
+  "messageTimestamp": "1727192631",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555186527211@s.whatsapp.net",
+      "receiptTimestamp": "1727192632",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555186527211:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 59 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "558588236548@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07CF71C6697FC9AD9EC"
+  },
+  "message": {
+    "conversation": "Olá Maria, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "KcdT41YbwRbKm6dag11/krVNgbmpDMp21UiFOOtpEP0="
+    }
+  },
+  "messageTimestamp": "1727192626",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "558588236548@s.whatsapp.net",
+      "receiptTimestamp": "1727192628",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "558588236548:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 60 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB015D3C36D7C3541F322"
+  },
+  "message": {
+    "conversation": "5585988236548",
+    "messageContextInfo": {
+      "messageSecret": "ZoO01cxmI833PIGUcqlp/G7dzsdrYBFQZWgu1Gga3/0="
+    }
+  },
+  "messageTimestamp": "1727192612",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192612",
+      "readTimestamp": "1727192612",
+      "playedTimestamp": "1727192612"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 61 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511962628814@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB066579F8952B71EF69C"
+  },
+  "message": {
+    "conversation": "Olá Julia, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "nyBmTnmfETG7lhGpbFW0hWHB+LL+o7uy6qpat8RenS0="
+    }
+  },
+  "messageTimestamp": "1727192606",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511962628814@s.whatsapp.net",
+      "receiptTimestamp": "1727192608",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511962628814:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 62 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB08F4087FCCABF6AEFBB"
+  },
+  "message": {
+    "conversation": "5511962628814",
+    "messageContextInfo": {
+      "messageSecret": "Jvqbp8zOCfxq8BRXHnngXUhERntU49FIe0PiJWAum00="
+    }
+  },
+  "messageTimestamp": "1727192592",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192592",
+      "readTimestamp": "1727192592",
+      "playedTimestamp": "1727192592"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 63 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "555186527211@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E4227242217FB1743C"
+  },
+  "message": {
+    "conversation": "Olá Grazieli, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "w6ylDE3sdphJYaTOflB7K2dHk79nd1N8Ld7KoL7o74Y="
+    }
+  },
+  "messageTimestamp": "1727192585",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "555186527211@s.whatsapp.net",
+      "receiptTimestamp": "1727192587",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "555186527211:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 64 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB093E3B1752DD660FCB6"
+  },
+  "message": {
+    "conversation": "5551986527211",
+    "messageContextInfo": {
+      "messageSecret": "ehbvWsCaxOo7QRk6PyRvWKZFWIs37DXJmNX1FRPbL2k="
+    }
+  },
+  "messageTimestamp": "1727192571",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192571",
+      "readTimestamp": "1727192571",
+      "playedTimestamp": "1727192571"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 65 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E39E5DCCC168A708C2"
+  },
+  "message": {
+    "conversation": "553173134178",
+    "messageContextInfo": {
+      "messageSecret": "0Ce/DWEyfmVE5CQWt8bZQDanp4hahrWsubE/w6bsps4="
+    }
+  },
+  "messageTimestamp": "1727192564",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192564",
+      "readTimestamp": "1727192564",
+      "playedTimestamp": "1727192564"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 66 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553173134178@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB02C1E0D246D933845D4"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "ufOChjpXvx0idmaeEb9rw+P2eqeSN7VTkGvjE0DGEX0="
+    }
+  },
+  "messageTimestamp": "1727192457",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553173134178@s.whatsapp.net",
+      "receiptTimestamp": "1727192458",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553173134178:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 67 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553173134178@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0498683F98DDCC8E53C"
+  },
+  "message": {
+    "conversation": "Olá Junia, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "Auts77XI7/2v701qq/9e7tdi5Z1SSkmYWp6d2OdHPVM="
+    }
+  },
+  "messageTimestamp": "1727192449",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553173134178@s.whatsapp.net",
+      "receiptTimestamp": "1727192452",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553173134178:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 68 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0B02A4CC8164BCE71D4"
+  },
+  "message": {
+    "conversation": "553173134178",
+    "messageContextInfo": {
+      "messageSecret": "3Hk+B9x8NTR1NzqIH66QTvk+m6sLtkz4C0lVPMKQ16A="
+    }
+  },
+  "messageTimestamp": "1727192432",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727192432",
+      "readTimestamp": "1727192432",
+      "playedTimestamp": "1727192432"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 69 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998830739@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0148CB8D9B470CF3B2D"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "NexBh2pmJAgp1y+kOBAyTR9O9gSZbS0wCJ81dQJtGMM="
+    }
+  },
+  "messageTimestamp": "1727186759",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998830739@s.whatsapp.net",
+      "receiptTimestamp": "1727186760",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511998830739:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 70 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511998830739@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00F3537AAB6AFEF0DD1"
+  },
+  "message": {
+    "conversation": "Olá Glaucia, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "vJlCyKOmILAMnSwt1FY15mU1tA6/rWSuORRJSzAvzik="
+    }
+  },
+  "messageTimestamp": "1727186754",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511998830739@s.whatsapp.net",
+      "receiptTimestamp": "1727186759",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511998830739:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 71 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0DD77EB86304817741F"
+  },
+  "message": {
+    "conversation": "5511998830739",
+    "messageContextInfo": {
+      "messageSecret": "yd5o9Pkp2bEFxKuqQvRHNp1f1P4ShYt2kSy/2hSyyI0="
+    }
+  },
+  "messageTimestamp": "1727186731",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186731",
+      "readTimestamp": "1727186731",
+      "playedTimestamp": "1727186731"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 72 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511988761800@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0B2519713351ED2BE22"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "dXO3cE9QQdr9iizKX3a2sjtg3icr7wlviNczpiRHBbA="
+    }
+  },
+  "messageTimestamp": "1727186580",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511988761800@s.whatsapp.net",
+      "receiptTimestamp": "1727186581",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511988761800:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 73 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511988761800@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A9B4E753838F692529"
+  },
+  "message": {
+    "conversation": "Olá Susane, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "zVwf+IwuhLvHHOpTYuET9eoC+JX8AWZ4lUx2iT5gt4A="
+    }
+  },
+  "messageTimestamp": "1727186576",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511988761800@s.whatsapp.net",
+      "receiptTimestamp": "1727186577",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511988761800:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 74 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0393AD5516BABCA50F2"
+  },
+  "message": {
+    "conversation": "5511988761800",
+    "messageContextInfo": {
+      "messageSecret": "3WsI+j7bzVv/xFJ0Y0ACBP0LkCJocss0iTwVK65rCsk="
+    }
+  },
+  "messageTimestamp": "1727186559",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186559",
+      "readTimestamp": "1727186559",
+      "playedTimestamp": "1727186559"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 75 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "556281325182@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E04FBF2385E6E41330"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "g51qdWlrwzQ0vmWGRv9j6M1ZTaVkizZoAXG1+SRdGkk="
+    }
+  },
+  "messageTimestamp": "1727186494",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "556281325182@s.whatsapp.net",
+      "receiptTimestamp": "1727186495",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "556281325182:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 76 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "556281325182@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0222A0FDFB1F70486E8"
+  },
+  "message": {
+    "conversation": "Olá Samara, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "Bo3IKZ55tvBsCLAHxEhfv6pqShyHze8kelbjrxeZbJ8="
+    }
+  },
+  "messageTimestamp": "1727186490",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "556281325182@s.whatsapp.net",
+      "receiptTimestamp": "1727186491",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "556281325182:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 77 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0D259580EF211158C33"
+  },
+  "message": {
+    "conversation": "5562981325182",
+    "messageContextInfo": {
+      "messageSecret": "9IzFG44ClTUb+qu+ztIlSV0/BKso/4euKMmRNkpe49g="
+    }
+  },
+  "messageTimestamp": "1727186468",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186468",
+      "readTimestamp": "1727186468",
+      "playedTimestamp": "1727186468"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 78 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB04E0F6FB483728DB6B1"
+  },
+  "message": {
+    "conversation": "55995696437",
+    "messageContextInfo": {
+      "messageSecret": "D/jh1t5zFqkCJPYuJnMn6W0Y8zGtvjZgWPgmTeCexno="
+    }
+  },
+  "messageTimestamp": "1727186430",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186430",
+      "readTimestamp": "1727186430",
+      "playedTimestamp": "1727186430"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 79 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB079994A916C38D923EC"
+  },
+  "message": {
+    "conversation": "5511988531853",
+    "messageContextInfo": {
+      "messageSecret": "kmF3HCPaIBDeYlDiGTchLI9eC45lxrtRPrajXibYMd4="
+    }
+  },
+  "messageTimestamp": "1727186382",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186382",
+      "readTimestamp": "1727186382",
+      "playedTimestamp": "1727186382"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 80 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554491488054@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0EB4B4875A60ECEC979"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "oiA+U+OsX4gAJJLBEJysDhwoMtxjVs73uV2pEKgdFP4="
+    }
+  },
+  "messageTimestamp": "1727186324",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554491488054@s.whatsapp.net",
+      "receiptTimestamp": "1727186325",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554491488054:9@s.whatsapp.net",
+        "554491488054:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 81 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554491488054@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0DAC053FF2FCDD52FCF"
+  },
+  "message": {
+    "conversation": "Olá Lara, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "YPKth2j++LN+utQe8y9aDVLonZED1WUsVeLIZV3+az8="
+    }
+  },
+  "messageTimestamp": "1727186319",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "554491488054@s.whatsapp.net",
+      "receiptTimestamp": "1727186321",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "554491488054:9@s.whatsapp.net",
+        "554491488054:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 82 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB09A46DD9CE2431EE932"
+  },
+  "message": {
+    "conversation": "5544991488054",
+    "messageContextInfo": {
+      "messageSecret": "6WTX55zUbyPQRxAOHrA0P6z9A1wLBd3bHXSgHNYh2XU="
+    }
+  },
+  "messageTimestamp": "1727186298",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186298",
+      "readTimestamp": "1727186298",
+      "playedTimestamp": "1727186298"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 83 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521986462996@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A9375C469A8D6F0A29"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "fSByEZVpSny5mcZd3Ohg+vtrRF1KEEjdsSKJJTBGx0c="
+    }
+  },
+  "messageTimestamp": "1727186267",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5521986462996@s.whatsapp.net",
+      "receiptTimestamp": "1727186268",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521986462996:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 84 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521986462996@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0A2F16405F341E7E2B1"
+  },
+  "message": {
+    "conversation": "Olá Karla tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "oeEuf15RkS4j8SFh7FQ5ulbFN0mXCnOYAQoIoryNVPw="
+    }
+  },
+  "messageTimestamp": "1727186262",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5521986462996@s.whatsapp.net",
+      "receiptTimestamp": "1727186265",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521986462996:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 85 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07DFE58935DD0867BD9"
+  },
+  "message": {
+    "conversation": "5521986462996",
+    "messageContextInfo": {
+      "messageSecret": "NLoq9LhYOAZ98tvoK4KgvpMq5xv5DAJ5MJ2Sz8RuRE0="
+    }
+  },
+  "messageTimestamp": "1727186242",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727186242",
+      "readTimestamp": "1727186242",
+      "playedTimestamp": "1727186242"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 86 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521986995162@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB07F6F09CA36B28AAA63"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "zkQDOGonxehgopq8drhUGAgIwanEjjJI2QDjFeqzudk="
+    }
+  },
+  "messageTimestamp": "1727184964",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5521986995162@s.whatsapp.net",
+      "receiptTimestamp": "1727184965",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521986995162:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 87 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5521986995162@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0F37128413294A3AA47"
+  },
+  "message": {
+    "conversation": "Olá Iolanda, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "OmvvNvbYLCyzEqdwRmAvWVORBUqH3Ndpynmz/kv5GxQ="
+    }
+  },
+  "messageTimestamp": "1727184959",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5521986995162@s.whatsapp.net",
+      "receiptTimestamp": "1727184961",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5521986995162:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 88 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0327AAB02A6778C751B"
+  },
+  "message": {
+    "conversation": "5521986995162",
+    "messageContextInfo": {
+      "messageSecret": "5YqM1yIDKGeUanNnK66UoTxwO7YvV03whjahGVxagkk="
+    }
+  },
+  "messageTimestamp": "1727184934",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184934",
+      "readTimestamp": "1727184934",
+      "playedTimestamp": "1727184934"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 89 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "557183091384@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB054D08ACBEC0694392D"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "3dGobYCKg9knzyZY2elSpMXpxuYPbucIPc3whCXzviM="
+    }
+  },
+  "messageTimestamp": "1727184900",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "557183091384@s.whatsapp.net",
+      "receiptTimestamp": "1727185204",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "557183091384:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 90 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "557183091384@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB048623F937C13B62500"
+  },
+  "message": {
+    "conversation": "Olá Patricia, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "JhuFQjtEjsyOL3nMAj9is+Otu38rBOpUCll9dgKFuuU="
+    }
+  },
+  "messageTimestamp": "1727184895",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "557183091384@s.whatsapp.net",
+      "receiptTimestamp": "1727185204",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "557183091384:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 91 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0CE04972E744E75965A"
+  },
+  "message": {
+    "conversation": "5571983091384",
+    "messageContextInfo": {
+      "messageSecret": "OVIvv7QjyyHcGH4QrCBOubMvM6AaOyGWjVrz/dhQd+Y="
+    }
+  },
+  "messageTimestamp": "1727184882",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184882",
+      "readTimestamp": "1727184882",
+      "playedTimestamp": "1727184882"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 92 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5515997251099@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0FBAE0043A980AFBA33"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "it8R0Xd2pRkIe4eb0MX+On5In9s5o+53ZvQoIoDAPVQ="
+    }
+  },
+  "messageTimestamp": "1727184817",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5515997251099@s.whatsapp.net",
+      "receiptTimestamp": "1727184818",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5515997251099:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 93 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5515997251099@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0832A81EFBE9A544EDE"
+  },
+  "message": {
+    "conversation": "Olá Paula, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "KA9ihMsw4JtFhPPwk0A0Kg398qABofTubfyCqPdy1GM="
+    }
+  },
+  "messageTimestamp": "1727184812",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5515997251099@s.whatsapp.net",
+      "receiptTimestamp": "1727184813",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5515997251099:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 94 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB013177A391ACBFBF5F7"
+  },
+  "message": {
+    "conversation": "5515997251099",
+    "messageContextInfo": {
+      "messageSecret": "KUSL8gFCZZDX+m030CoAaP0Scj8Ygr3ZhSfDgVdHX/A="
+    }
+  },
+  "messageTimestamp": "1727184800",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184800",
+      "readTimestamp": "1727184800",
+      "playedTimestamp": "1727184800"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 95 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511991555264@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB071FA49C46EC63464B0"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "1wJMBAKerFyw/odxGS6HiDqyvazr3VpGBhcC+PqNCT4="
+    }
+  },
+  "messageTimestamp": "1727184767",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511991555264@s.whatsapp.net",
+      "receiptTimestamp": "1727184769",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511991555264:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 96 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "5511991555264@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB029296193AA3E3CCCD1"
+  },
+  "message": {
+    "conversation": "Olá Carmem, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "AFJ8v+sqD8sL1Dh/9K7GaEv1o2/wZNcLPmb2b5NGZGA="
+    }
+  },
+  "messageTimestamp": "1727184762",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "5511991555264@s.whatsapp.net",
+      "receiptTimestamp": "1727184764",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "5511991555264:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 97 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00EE9F8CFC39D6D43EF"
+  },
+  "message": {
+    "conversation": "5511991555264",
+    "messageContextInfo": {
+      "messageSecret": "BliCUMIV2+3z4xzBkeTm8yNHzytYo2zH2znEz4tURx4="
+    }
+  },
+  "messageTimestamp": "1727184745",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184745",
+      "readTimestamp": "1727184745",
+      "playedTimestamp": "1727184745"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 98 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559182686340@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00E3599110F7E8927A0"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "zLK88C0hiV6r7IkIrPB7QjkoGn8k/FSbU+7Uo+SRDnM="
+    }
+  },
+  "messageTimestamp": "1727184701",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559182686340@s.whatsapp.net",
+      "receiptTimestamp": "1727184703",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559182686340:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 99 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559182686340@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB05C7508A26DD13512F0"
+  },
+  "message": {
+    "conversation": "Olá Cristina, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "KQxTDyxZ6wdTsFUmi82pPPe6vfLvwMRtxAStvqBYYbA="
+    }
+  },
+  "messageTimestamp": "1727184696",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559182686340@s.whatsapp.net",
+      "receiptTimestamp": "1727184698",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559182686340:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 100 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0654679BC43341517B5"
+  },
+  "message": {
+    "conversation": "5591982686340",
+    "messageContextInfo": {
+      "messageSecret": "FoXyFsHXs+tvtFTRUIUWVB6a4c6N8qqcG/1EaKjOEXs="
+    }
+  },
+  "messageTimestamp": "1727184675",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184675",
+      "readTimestamp": "1727184675",
+      "playedTimestamp": "1727184675"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 101 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559884388940@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB05073002023AD93EDA5"
+  },
+  "message": {
+    "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+    "messageContextInfo": {
+      "messageSecret": "XcZya+g9kE0xErWyr+RkwYrv/j/nse/1NhMZCFoKZFo="
+    }
+  },
+  "messageTimestamp": "1727184632",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559884388940@s.whatsapp.net",
+      "receiptTimestamp": "1727184634",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559884388940:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 102 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "559884388940@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB051ED5FF339C0084CC6"
+  },
+  "message": {
+    "conversation": "Olá Liz, tudo bem?\nMeu nome é Amanda, sou Customer Service do ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar☺️",
+    "messageContextInfo": {
+      "messageSecret": "jQ6+0rBUMd/cBDS/4PCQTaU/5lPGQ4YVOAgPUjNGYy8="
+    }
+  },
+  "messageTimestamp": "1727184627",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "559884388940@s.whatsapp.net",
+      "receiptTimestamp": "1727184634",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "559884388940:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 103 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB00AA2008BA28A01877A"
+  },
+  "message": {
+    "conversation": "5598984388940",
+    "messageContextInfo": {
+      "messageSecret": "NcwBVTvEQ6Y7gtMzI+IrJ+pfspwTQFulFnV4OAqSbxA="
+    }
+  },
+  "messageTimestamp": "1727184605",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184605",
+      "readTimestamp": "1727184605",
+      "playedTimestamp": "1727184605"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 104 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553892103377@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB069457A36E2B26F86"
+  },
+  "message": {
+    "editedMessage": {
+      "message": {
+        "protocolMessage": {
+          "key": {
+            "remoteJid": "553892103377@s.whatsapp.net",
+            "fromMe": true,
+            "id": "3EB0ADB2DB084CF1E1B368"
+          },
+          "type": "MESSAGE_EDIT",
+          "editedMessage": {
+            "conversation": "Recebemos seu contato para saber mais sobre nosso sistema!\n\nVai ser um prazer apresentar pra você!\n\nVc já utiliza alguma plataforma de prontuário digital, que facilite seus atendimentos domiciliares?",
+            "messageContextInfo": {
+              "messageSecret": "Jk0pSmo9oX5TG8IrGW813JWrlyQmzS+pEB5s94pgGZ4="
+            }
+          },
+          "timestampMs": "1727184547475"
+        }
+      }
+    }
+  },
+  "messageTimestamp": "1727184514",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553892103377@s.whatsapp.net",
+      "receiptTimestamp": "1727184548",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553892103377:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 105 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "553892103377@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0E74EB4A348E0D31F"
+  },
+  "message": {
+    "editedMessage": {
+      "message": {
+        "protocolMessage": {
+          "key": {
+            "remoteJid": "553892103377@s.whatsapp.net",
+            "fromMe": true,
+            "id": "3EB098D690AC6A13BEEBE0"
+          },
+          "type": "MESSAGE_EDIT",
+          "editedMessage": {
+            "conversation": "Olá Bruna, tudo bem?\nMeu nome é Amanda, sou Customer Service do *ATENDEVET, o 1º App de prontuário feito 100%  para o veterinário domiciliar*☺️",
+            "messageContextInfo": {
+              "messageSecret": "TKhdlkHcWn5RuYbV13b5pCJV/RBcWYXZIl6uzY7Ej2A="
+            }
+          },
+          "timestampMs": "1727184539126"
+        }
+      }
+    }
+  },
+  "messageTimestamp": "1727184500",
+  "status": "DELIVERY_ACK",
+  "userReceipt": [
+    {
+      "userJid": "553892103377@s.whatsapp.net",
+      "receiptTimestamp": "1727184540",
+      "readTimestamp": "0",
+      "playedTimestamp": "0",
+      "deliveredDeviceJid": [
+        "553892103377:0@s.whatsapp.net"
+      ]
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 106 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB007CB0AF2844ECBC6A1"
+  },
+  "message": {
+    "conversation": "5538992103377",
+    "messageContextInfo": {
+      "messageSecret": "PP+3MOpNkytL3LpC2cIShWE7wo6UcsCFsclG3IB+CMc="
+    }
+  },
+  "messageTimestamp": "1727184436",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184436",
+      "readTimestamp": "1727184436",
+      "playedTimestamp": "1727184436"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 
+Mensagem 107 de 107 
+Importando Mensagem: {
+  "key": {
+    "remoteJid": "554184848989@s.whatsapp.net",
+    "fromMe": true,
+    "id": "3EB0962F97113188FB33F4"
+  },
+  "message": {
+    "conversation": ".",
+    "messageContextInfo": {
+      "messageSecret": "TKDxScdR1LODJdUVo2uREAb8J/slM8EchBZNMsgtjOU="
+    }
+  },
+  "messageTimestamp": "1727184427",
+  "status": "READ",
+  "userReceipt": [
+    {
+      "userJid": "554184848989@s.whatsapp.net",
+      "receiptTimestamp": "1727184427",
+      "readTimestamp": "1727184427",
+      "playedTimestamp": "1727184427"
+    }
+  ],
+  "originalSelfAuthorUserJidString": "554184848989@s.whatsapp.net"
+}>>>>>>>>>>>>>>>>>>> 

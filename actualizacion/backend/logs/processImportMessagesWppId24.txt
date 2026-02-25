@@ -1,0 +1,7 @@
+Aguardando conexão para iniciar a importação de mensagens:
+    Whatsapp nome: ZapMultTeste
+    Whatsapp Id: 24
+    Criação do arquivo de logs: 04/11/2024 11:49:47
+    Selecionado Data de inicio de importação: 11/07/2024 16:24:00 
+    Selecionado Data final da importação: 11/07/2024 16:25:00 
+     

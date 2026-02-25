@@ -1,0 +1,151 @@
+'use strict';
+function _0x3e6b() {
+    const _0x4c38ed = [
+        '../qozlhq_',
+        '1650082UpTrXS',
+        ':\x20Processi',
+        'Ffmpeg\x20wit',
+        '253977ikvpxs',
+        '1367892KCgGvW',
+        'peg',
+        'defineProp',
+        'VznAp',
+        'fWFEc',
+        '702374yfdYKD',
+        '%\x20done',
+        'ng\x20',
+        ':::\x20WHATITAN\x20',
+        'pQlrq',
+        'anscoding\x20',
+        'progress',
+        'default',
+        '\x20does\x20not\x20',
+        '_zpro',
+        '__importDe',
+        'erty',
+        'mpeg',
+        'value',
+        'error',
+        ':\x20Encoding',
+        'convertMpe',
+        'existsSync',
+        'inputForma',
+        'mp4',
+        'succeeded\x20',
+        'staller/ff',
+        'gToMp4',
+        '1242270UhpWoH',
+        '397465aKMZuP',
+        'zpro/fxiui',
+        'ng:\x20',
+        'gtzrd',
+        'end',
+        'run',
+        'start',
+        'message',
+        'Input\x20file',
+        'fault',
+        'output',
+        'MnBig',
+        'percent',
+        ':\x20Spawned\x20',
+        'info',
+        'exist:\x20',
+        'ath',
+        'h\x20command:',
+        'bQYun',
+        ':::\x20WHATITAN\x20::',
+        '\x20to\x20',
+        ':\x20Converti',
+        'aYmLc',
+        ':\x20Video\x20Tr',
+        '__esModule',
+        'Oyjiz',
+        '588658RxNENr',
+        '32ctShuU',
+        'rBVWs',
+        'NYpQG',
+        'fluent-ffm',
+        '@ffmpeg-in',
+        '\x20Error:\x20',
+        'outputForm',
+        'setFfmpegP',
+        'path',
+        'logger'
+    ];
+    _0x3e6b = function () {
+        return _0x4c38ed;
+    };
+    return _0x3e6b();
+}
+const _0x12055d = _0x150a;
+(function (_0x1637be, _0x1704e1) {
+    const _0x48c350 = _0x150a, _0x5e88a3 = _0x1637be();
+    while (!![]) {
+        try {
+            const _0x293f4d = parseInt(_0x48c350(0x1ec)) / (-0x2525 + -0xc2c + 0x3152) + parseInt(_0x48c350(0x201)) / (-0x1309 + 0x12b * -0xb + 0x274 * 0xd) + -parseInt(_0x48c350(0x1fb)) / (-0x1 * -0x739 + -0x1 * -0x1a51 + -0x2187) + parseInt(_0x48c350(0x1fc)) / (0x469 + -0x1be * -0x1 + -0x623 * 0x1) + -parseInt(_0x48c350(0x219)) / (0x109 + 0x18a6 + -0x19aa) + parseInt(_0x48c350(0x218)) / (0x1cbb + 0x1e09 + -0x3abe) + -parseInt(_0x48c350(0x1f8)) / (-0x1 * 0x2275 + -0x213 * -0x1 + -0x2069 * -0x1) * (parseInt(_0x48c350(0x1ed)) / (-0x59 * -0x4c + 0x2394 + -0x4 * 0xf7e));
+            if (_0x293f4d === _0x1704e1)
+                break;
+            else
+                _0x5e88a3['push'](_0x5e88a3['shift']());
+        } catch (_0x5ecd79) {
+            _0x5e88a3['push'](_0x5e88a3['shift']());
+        }
+    }
+}(_0x3e6b, -0x9175a + 0x10ad8 * 0x3 + -0x13 * -0x9edb));
+var __importDefault = this && this[_0x12055d(0x20b) + _0x12055d(0x222)] || function (_0x219886) {
+    const _0x1a0750 = _0x12055d;
+    return _0x219886 && _0x219886[_0x1a0750(0x1ea)] ? _0x219886 : { 'default': _0x219886 };
+};
+const _0x184181 = {};
+_0x184181[_0x12055d(0x20e)] = !![], Object[_0x12055d(0x1fe) + _0x12055d(0x20c)](exports, _0x12055d(0x1ea), _0x184181), exports[_0x12055d(0x211) + _0x12055d(0x217)] = void (-0x2d0 * -0x9 + 0x19d8 + -0x3328);
+const fluent_ffmpeg_1 = __importDefault(require(_0x12055d(0x1f0) + _0x12055d(0x1fd))), ffmpeg_1 = require(_0x12055d(0x1f1) + _0x12055d(0x216) + _0x12055d(0x20d)), fs_1 = __importDefault(require('fs')), fxiui_zpro_1 = require(_0x12055d(0x1f7) + _0x12055d(0x21a) + _0x12055d(0x20a)), convertMpegToMp4 = (_0x169739, _0x4dda94) => {
+        const _0x22de91 = _0x12055d, _0x565aa6 = {
+                'pQlrq': function (_0x56e645, _0x7d7c57) {
+                    return _0x56e645(_0x7d7c57);
+                },
+                'gtzrd': _0x22de91(0x204) + _0x22de91(0x1e5) + _0x22de91(0x1e9) + _0x22de91(0x206) + _0x22de91(0x215) + '!',
+                'Oyjiz': function (_0xe9dcf8) {
+                    return _0xe9dcf8();
+                },
+                'NYpQG': function (_0x252b0a, _0x465551) {
+                    return _0x252b0a(_0x465551);
+                },
+                'VznAp': _0x22de91(0x20d),
+                'fWFEc': _0x22de91(0x214),
+                'MnBig': _0x22de91(0x21f),
+                'rBVWs': _0x22de91(0x20f),
+                'aYmLc': _0x22de91(0x207),
+                'bQYun': _0x22de91(0x21d)
+            };
+        return new Promise((_0x11422b, _0x133c9) => {
+            const _0x48c586 = _0x22de91;
+            fluent_ffmpeg_1[_0x48c586(0x208)][_0x48c586(0x1f4) + _0x48c586(0x229)](ffmpeg_1[_0x48c586(0x1f5)]), fxiui_zpro_1[_0x48c586(0x1f6)][_0x48c586(0x227)](_0x48c586(0x204) + _0x48c586(0x1e5) + _0x48c586(0x1e7) + _0x48c586(0x203) + _0x169739 + _0x48c586(0x1e6) + _0x4dda94);
+            if (!fs_1[_0x48c586(0x208)][_0x48c586(0x212)](_0x169739)) {
+                const _0x543904 = _0x48c586(0x221) + _0x48c586(0x209) + _0x48c586(0x228) + _0x169739;
+                return fxiui_zpro_1[_0x48c586(0x1f6)][_0x48c586(0x20f)](_0x543904), _0x565aa6[_0x48c586(0x1ef)](_0x133c9, new Error(_0x543904));
+            }
+            (0xb88 + 0x2d1 + -0xe59, fluent_ffmpeg_1[_0x48c586(0x208)])(_0x169739)[_0x48c586(0x213) + 't'](_0x565aa6[_0x48c586(0x1ff)])[_0x48c586(0x223)](_0x4dda94)[_0x48c586(0x1f3) + 'at'](_0x565aa6[_0x48c586(0x200)])['on'](_0x565aa6[_0x48c586(0x224)], _0x3d551e => {
+                const _0x597281 = _0x48c586;
+                fxiui_zpro_1[_0x597281(0x1f6)][_0x597281(0x227)](_0x597281(0x204) + _0x597281(0x1e5) + _0x597281(0x226) + _0x597281(0x1fa) + _0x597281(0x1e3) + '\x20' + _0x3d551e);
+            })['on'](_0x565aa6[_0x48c586(0x1ee)], _0x2c93f8 => {
+                const _0x537802 = _0x48c586;
+                fxiui_zpro_1[_0x537802(0x1f6)][_0x537802(0x227)](_0x537802(0x204) + _0x537802(0x1e5) + _0x537802(0x210) + _0x537802(0x1f2) + _0x2c93f8[_0x537802(0x220)]), _0x565aa6[_0x537802(0x205)](_0x133c9, _0x2c93f8);
+            })['on'](_0x565aa6[_0x48c586(0x1e8)], _0x3f7a3e => {
+                const _0x16cc19 = _0x48c586;
+                fxiui_zpro_1[_0x16cc19(0x1f6)][_0x16cc19(0x227)](_0x16cc19(0x204) + _0x16cc19(0x1e5) + _0x16cc19(0x1f9) + _0x16cc19(0x21b) + _0x3f7a3e[_0x16cc19(0x225)] + _0x16cc19(0x202));
+            })['on'](_0x565aa6[_0x48c586(0x1e4)], () => {
+                const _0x3930fd = _0x48c586;
+                fxiui_zpro_1[_0x3930fd(0x1f6)][_0x3930fd(0x227)](_0x565aa6[_0x3930fd(0x21c)]), _0x565aa6[_0x3930fd(0x1eb)](_0x11422b);
+            })[_0x48c586(0x21e)]();
+        });
+    };
+function _0x150a(_0x39c769, _0x641ae4) {
+    const _0x3a3654 = _0x3e6b();
+    return _0x150a = function (_0x592038, _0x18ad4d) {
+        _0x592038 = _0x592038 - (-0x21fa + -0x19d4 + 0x3db1);
+        let _0x33a6bd = _0x3a3654[_0x592038];
+        return _0x33a6bd;
+    }, _0x150a(_0x39c769, _0x641ae4);
+}
+exports[_0x12055d(0x211) + _0x12055d(0x217)] = convertMpegToMp4;
