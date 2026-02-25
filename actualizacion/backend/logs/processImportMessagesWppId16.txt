@@ -1,7 +1,0 @@
-Aguardando conexão para iniciar a importação de mensagens:
-    Whatsapp nome: SUPORTE
-    Whatsapp Id: 16
-    Criação do arquivo de logs: 09/10/2024 12:12:14
-    Selecionado Data de inicio de importação: 11/07/2024 16:24:00 
-    Selecionado Data final da importação: 11/07/2024 16:25:00 
-     

@@ -1,7 +1,0 @@
-Aguardando conexão para iniciar a importação de mensagens:
-    Whatsapp nome: Financeiro
-    Whatsapp Id: 21
-    Criação do arquivo de logs: 01/11/2024 11:18:16
-    Selecionado Data de inicio de importação: 11/07/2024 16:24:00 
-    Selecionado Data final da importação: 11/07/2024 16:25:00 
-     

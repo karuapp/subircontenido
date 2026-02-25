@@ -1,7 +1,0 @@
-Aguardando conexão para iniciar a importação de mensagens:
-    Whatsapp nome: Monte Terceirização
-    Whatsapp Id: 42
-    Criação do arquivo de logs: 24/06/2025 16:30:15
-    Selecionado Data de inicio de importação: 11/07/2024 16:24:00 
-    Selecionado Data final da importação: 11/07/2024 16:25:00 
-     
